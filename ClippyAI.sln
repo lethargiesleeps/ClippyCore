@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyCore", "ClippyCore\ClippyCore.csproj", "{B40BBC37-8CBD-436D-9383-CC242AB035CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyDesktop", "ClippyDesktop\ClippyDesktop.csproj", "{D68C9232-1525-4F11-BAB6-C5A44E3D4411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyWord", "ClippyWord\ClippyWord.csproj", "{C35B61CD-614E-4832-B414-B0160BC4A362}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40BBC37-8CBD-436D-9383-CC242AB035CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40BBC37-8CBD-436D-9383-CC242AB035CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40BBC37-8CBD-436D-9383-CC242AB035CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40BBC37-8CBD-436D-9383-CC242AB035CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68C9232-1525-4F11-BAB6-C5A44E3D4411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68C9232-1525-4F11-BAB6-C5A44E3D4411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68C9232-1525-4F11-BAB6-C5A44E3D4411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68C9232-1525-4F11-BAB6-C5A44E3D4411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35B61CD-614E-4832-B414-B0160BC4A362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35B61CD-614E-4832-B414-B0160BC4A362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35B61CD-614E-4832-B414-B0160BC4A362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35B61CD-614E-4832-B414-B0160BC4A362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
