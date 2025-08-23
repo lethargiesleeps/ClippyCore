@@ -6,9 +6,13 @@ namespace ClippyCore.Global
 {
     /// <summary>
     /// Keys for the IAgent animation dictionary mapping.
+    /// Keys are always bytes.
     /// </summary>
     public static class Animations
     {
+        /// <summary>
+        /// All animation keys for the Bonzi agent.
+        /// </summary>
         public static class Bonzi
         {
             public const byte Acknowledge = 0;
@@ -161,6 +165,9 @@ namespace ClippyCore.Global
             public const byte WritingReturn = 147;
         }
 
+        /// <summary>
+        /// All animation keys for Shrek agent.
+        /// </summary>
         public static class Shrek
         {
             public const byte Back = 0;
@@ -234,6 +241,9 @@ namespace ClippyCore.Global
             public const byte YourFamilyLovesYou = 68;
         }
 
+        /// <summary>
+        /// All animation keys for Clippy agent.
+        /// </summary>
         public static class Clippy
         {
             public const byte Alert = 0;

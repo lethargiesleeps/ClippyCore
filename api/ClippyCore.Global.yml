@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Global
+  commentId: N:ClippyCore.Global
+  id: ClippyCore.Global
+  children:
+  - ClippyCore.Global.AgentNames
+  - ClippyCore.Global.Animations
+  - ClippyCore.Global.Animations.Bonzi
+  - ClippyCore.Global.Animations.Clippy
+  - ClippyCore.Global.Animations.Shrek
+  - ClippyCore.Global.Paths
+  - ClippyCore.Global.TtsIDs
+  langs:
+  - csharp
+  - vb
+  name: ClippyCore.Global
+  nameWithType: ClippyCore.Global
+  fullName: ClippyCore.Global
+  type: Namespace
+  assemblies:
+  - ClippyCore
+references:
+- uid: ClippyCore.Global.AgentNames
+  commentId: T:ClippyCore.Global.AgentNames
+  href: ClippyCore.Global.AgentNames.html
+  name: AgentNames
+  nameWithType: AgentNames
+  fullName: ClippyCore.Global.AgentNames
+- uid: ClippyCore.Global.Animations
+  commentId: T:ClippyCore.Global.Animations
+  href: ClippyCore.Global.Animations.html
+  name: Animations
+  nameWithType: Animations
+  fullName: ClippyCore.Global.Animations
+- uid: ClippyCore.Global.Animations.Bonzi
+  commentId: T:ClippyCore.Global.Animations.Bonzi
+  href: ClippyCore.Global.Animations.html
+  name: Animations.Bonzi
+  nameWithType: Animations.Bonzi
+  fullName: ClippyCore.Global.Animations.Bonzi
+  spec.csharp:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Bonzi
+    name: Bonzi
+    href: ClippyCore.Global.Animations.Bonzi.html
+  spec.vb:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Bonzi
+    name: Bonzi
+    href: ClippyCore.Global.Animations.Bonzi.html
+- uid: ClippyCore.Global.Animations.Shrek
+  commentId: T:ClippyCore.Global.Animations.Shrek
+  href: ClippyCore.Global.Animations.html
+  name: Animations.Shrek
+  nameWithType: Animations.Shrek
+  fullName: ClippyCore.Global.Animations.Shrek
+  spec.csharp:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Shrek
+    name: Shrek
+    href: ClippyCore.Global.Animations.Shrek.html
+  spec.vb:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Shrek
+    name: Shrek
+    href: ClippyCore.Global.Animations.Shrek.html
+- uid: ClippyCore.Global.Animations.Clippy
+  commentId: T:ClippyCore.Global.Animations.Clippy
+  href: ClippyCore.Global.Animations.html
+  name: Animations.Clippy
+  nameWithType: Animations.Clippy
+  fullName: ClippyCore.Global.Animations.Clippy
+  spec.csharp:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Clippy
+    name: Clippy
+    href: ClippyCore.Global.Animations.Clippy.html
+  spec.vb:
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    href: ClippyCore.Global.Animations.html
+  - name: .
+  - uid: ClippyCore.Global.Animations.Clippy
+    name: Clippy
+    href: ClippyCore.Global.Animations.Clippy.html
+- uid: ClippyCore.Global.Paths
+  commentId: T:ClippyCore.Global.Paths
+  href: ClippyCore.Global.Paths.html
+  name: Paths
+  nameWithType: Paths
+  fullName: ClippyCore.Global.Paths
+- uid: ClippyCore.Global.TtsIDs
+  commentId: T:ClippyCore.Global.TtsIDs
+  href: ClippyCore.Global.TtsIDs.html
+  name: TtsIDs
+  nameWithType: TtsIDs
+  fullName: ClippyCore.Global.TtsIDs

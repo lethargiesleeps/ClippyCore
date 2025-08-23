@@ -6,6 +6,12 @@ using System.Text;
 
 namespace ClippyCore.Interfaces
 {
+    /// <summary>
+    /// Interace contract for all Agents and derived classes.
+    /// Agent implements IAgent, and other derivites inherit from Agent
+    /// Base implementation is Agent.cs
+    /// </summary>
+    /// <see cref="Agent"/>
     public interface IAgent
     {
         void Speak(string phrase);

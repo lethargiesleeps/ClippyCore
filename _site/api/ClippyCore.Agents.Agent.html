@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Agent | ClippyCore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Agent | ClippyCore ">
+      
+      <meta name="description" content="Base implementation of IAgent. Abstracts the use of AxControl from other clients. To create and dispose of Agents, use public AgentManager.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/lethargiesleeps/ClippyAI/new/dev/apiSpec/new?filename=ClippyCore_Agents_Agent.md&amp;value=---%0Auid%3A%20ClippyCore.Agents.Agent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ClippyCore">
+            ClippyCore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ClippyCore.Agents.Agent">
+
+
+
+  <h1 id="ClippyCore_Agents_Agent" data-uid="ClippyCore.Agents.Agent" class="text-break">
+Class Agent  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ClippyCore.html">ClippyCore</a>.<a class="xref" href="ClippyCore.Agents.html">Agents</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ClippyCore.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Base implementation of IAgent.
+Abstracts the use of AxControl from other clients.
+To create and dispose of Agents, use public AgentManager.
+<a class="xref" href="ClippyCore.Agents.AgentManager.html">AgentManager</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">internal class Agent : IAgent</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Agent</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ClippyCore.Interfaces.IAgent.html">IAgent</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ClippyCore.Agents.TtsAgent.html">TtsAgent</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ClippyCore_Agents_Agent__ctor_" data-uid="ClippyCore.Agents.Agent.#ctor*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent__ctor_System_String_System_String_ClippyCore_Agents_AgentType_DoubleAgent_AxControl_AxControl_" data-uid="ClippyCore.Agents.Agent.#ctor(System.String,System.String,ClippyCore.Agents.AgentType,DoubleAgent.AxControl.AxControl)">
+  Agent(string, string, AgentType, AxControl)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agent(string acsPath, string agentName, AgentType agentType, AxControl axController)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>acsPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>agentName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>agentType</code> <a class="xref" href="ClippyCore.Agents.AgentType.html">AgentType</a></dt>
+    <dd></dd>
+    <dt><code>axController</code> <span class="xref">AxControl</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ClippyCore_Agents_Agent_AcsPath_" data-uid="ClippyCore.Agents.Agent.AcsPath*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_AcsPath" data-uid="ClippyCore.Agents.Agent.AcsPath">
+  AcsPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string AcsPath { get; private set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_AgentName_" data-uid="ClippyCore.Agents.Agent.AgentName*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_AgentName" data-uid="ClippyCore.Agents.Agent.AgentName">
+  AgentName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AgentName { get; private set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_AgentType_" data-uid="ClippyCore.Agents.Agent.AgentType*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_AgentType" data-uid="ClippyCore.Agents.Agent.AgentType">
+  AgentType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AgentType AgentType { get; private set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClippyCore.Agents.AgentType.html">AgentType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Animations_" data-uid="ClippyCore.Agents.Agent.Animations*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Animations" data-uid="ClippyCore.Agents.Agent.Animations">
+  Animations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;byte, Animation&gt; Animations { get; private set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>, <a class="xref" href="ClippyCore.Agents.Animation.html">Animation</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Controller_" data-uid="ClippyCore.Agents.Agent.Controller*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Controller" data-uid="ClippyCore.Agents.Agent.Controller">
+  Controller
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AxControl Controller { get; private set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AxControl</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ClippyCore_Agents_Agent_GetAnimation_" data-uid="ClippyCore.Agents.Agent.GetAnimation*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_GetAnimation_System_Byte_" data-uid="ClippyCore.Agents.Agent.GetAnimation(System.Byte)">
+  GetAnimation(byte)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns Animation Obj based on its Animations key.
+Example usage: GetAnimation(Animations.Bonzi.Aknowledge)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation GetAnimation(byte key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd><p>Key of animation in dictionary, as byte.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClippyCore.Agents.Animation.html">Animation</a></dt>
+    <dd><p>The Animation obj</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_GetAnimation_" data-uid="ClippyCore.Agents.Agent.GetAnimation*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_GetAnimation_System_String_" data-uid="ClippyCore.Agents.Agent.GetAnimation(System.String)">
+  GetAnimation(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns animation object based on its name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation GetAnimation(string animationName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animationName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the animation obj to return/</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClippyCore.Agents.Animation.html">Animation</a></dt>
+    <dd><p>Desired Animation obj</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception">KeyNotFoundException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="ClippyCore_Agents_Agent_GetAnimationNames_" data-uid="ClippyCore.Agents.Agent.GetAnimationNames*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_GetAnimationNames" data-uid="ClippyCore.Agents.Agent.GetAnimationNames">
+  GetAnimationNames()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a list of all available animations for the specific agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetAnimationNames()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Animation names as strings in an array.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_GetAnimations_" data-uid="ClippyCore.Agents.Agent.GetAnimations*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_GetAnimations_System_Boolean_" data-uid="ClippyCore.Agents.Agent.GetAnimations(System.Boolean)">
+  GetAnimations(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns all available Animations for agent as dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDictionary GetAnimations(bool useStringKey = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>useStringKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, returns the dictionary with string keys where the key is the animation name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a></dt>
+    <dd><p>Dictionary where values are all Animation objects.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Hide_" data-uid="ClippyCore.Agents.Agent.Hide*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Hide" data-uid="ClippyCore.Agents.Agent.Hide">
+  Hide()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hides the agent from the screen, but is still running in background.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_MoveTo_" data-uid="ClippyCore.Agents.Agent.MoveTo*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_MoveTo_System_Int16_System_Int16_System_Int32_" data-uid="ClippyCore.Agents.Agent.MoveTo(System.Int16,System.Int16,System.Int32)">
+  MoveTo(short, short, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves agent to specified position. Use this version if knowingly passing 'shorts'. AxControl uses shorts as X,Y arguments natively.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveTo(short x, short y, int speed = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd><p>X position relative to 0,0</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd><p>Y position relative to 0,0</p>
+</dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Speed at which agent moves in miliseconds. 0 is instant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_MoveTo_" data-uid="ClippyCore.Agents.Agent.MoveTo*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_MoveTo_System_Int32_System_Int32_System_Int32_" data-uid="ClippyCore.Agents.Agent.MoveTo(System.Int32,System.Int32,System.Int32)">
+  MoveTo(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves agent to specified position. Use this version if using int values, like would be the case when using Screen.PrimaryScreen.Bounds
+or Windows.Forms Controls or Rectangles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveTo(int x, int y, int speed = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>X position relative to 0,0</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Y position relative to 0,0</p>
+</dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Speed at which agent moves in miliseconds. 0 is instant.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Play_" data-uid="ClippyCore.Agents.Agent.Play*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Play_ClippyCore_Agents_Animation_" data-uid="ClippyCore.Agents.Agent.Play(ClippyCore.Agents.Animation)">
+  Play(Animation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plays an animation by passing an Animation instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(Animation animation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animation</code> <a class="xref" href="ClippyCore.Agents.Animation.html">Animation</a></dt>
+    <dd><p>The Animation</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Play_" data-uid="ClippyCore.Agents.Agent.Play*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Play_System_Byte_" data-uid="ClippyCore.Agents.Agent.Play(System.Byte)">
+  Play(byte)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Play an animation by passing a byte.
+Example usage: _bonzi.Play(Animations.Bonzi.Aknowledge)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(byte animationKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animationKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Play_" data-uid="ClippyCore.Agents.Agent.Play*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Play_System_String_" data-uid="ClippyCore.Agents.Agent.Play(System.String)">
+  Play(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plays an animation by passing a string (if you know it).
+You can call GetAnimationNames() to get a full list of available animations for each agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play(string animation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the animation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Show_" data-uid="ClippyCore.Agents.Agent.Show*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Show" data-uid="ClippyCore.Agents.Agent.Show">
+  Show()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shows the agent on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Speak_" data-uid="ClippyCore.Agents.Agent.Speak*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Speak_System_Collections_Generic_Dictionary_System_String_System_String__System_String_" data-uid="ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+  Speak(Dictionary&lt;string, string&gt;, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make agent speak specific phrase in a dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Speak(Dictionary&lt;string, string&gt; phrases, string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>phrases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Phrase dictionary.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of phrase value to speak</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Speak_" data-uid="ClippyCore.Agents.Agent.Speak*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Speak_System_Collections_Generic_Dictionary_System_UInt32_System_String__System_UInt32_" data-uid="ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)">
+  Speak(Dictionary&lt;uint, string&gt;, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make agent speak specific phrase in a dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Speak(Dictionary&lt;uint, string&gt; phrases, uint key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>phrases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Phrase dictionary.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Key of phrase value to speak</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Speak_" data-uid="ClippyCore.Agents.Agent.Speak*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Speak_System_Collections_Generic_List_System_String__" data-uid="ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List{System.String})">
+  Speak(List&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make the agent say multiple things in sequence.
+Can be used with Dictionaries of TKey,string by doing phrases.Values.ToList etc...</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Speak(List&lt;string&gt; phrases)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>phrases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>List of phrases for the agent to speak, one at a time.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Speak_" data-uid="ClippyCore.Agents.Agent.Speak*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Speak_System_String_" data-uid="ClippyCore.Agents.Agent.Speak(System.String)">
+  Speak(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Makes the agent speak (speech bubble).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Speak(string phrase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>phrase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>What the agent will say.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Speak_" data-uid="ClippyCore.Agents.Agent.Speak*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Speak_System_String___" data-uid="ClippyCore.Agents.Agent.Speak(System.String[])">
+  Speak(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make the agent say multiple things in sequence.
+Can be used with Dictionaries of TKey,string using phrases.Values.ToArray etc...</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Speak(string[] phrases)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>phrases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Array of string for the agent to speak.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClippyCore_Agents_Agent_Stop_" data-uid="ClippyCore.Agents.Agent.Stop*"></a>
+
+  <h3 id="ClippyCore_Agents_Agent_Stop" data-uid="ClippyCore.Agents.Agent.Stop">
+  Stop()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Force stop an Agent animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/lethargiesleeps/ClippyAI/blob/dev/ClippyCore/Agents/Agent.cs/#L21" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

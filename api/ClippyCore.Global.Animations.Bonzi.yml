@@ -1,0 +1,4455 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Global.Animations.Bonzi
+  commentId: T:ClippyCore.Global.Animations.Bonzi
+  id: Animations.Bonzi
+  parent: ClippyCore.Global
+  children:
+  - ClippyCore.Global.Animations.Bonzi.Acknowledge
+  - ClippyCore.Global.Animations.Bonzi.Alert
+  - ClippyCore.Global.Animations.Bonzi.Banana
+  - ClippyCore.Global.Animations.Bonzi.BananaMiss
+  - ClippyCore.Global.Animations.Bonzi.Blink
+  - ClippyCore.Global.Animations.Bonzi.BlowKiss
+  - ClippyCore.Global.Animations.Bonzi.Butternut
+  - ClippyCore.Global.Animations.Bonzi.Confused
+  - ClippyCore.Global.Animations.Bonzi.Congratulate
+  - ClippyCore.Global.Animations.Bonzi.Decline
+  - ClippyCore.Global.Animations.Bonzi.DoMagic1
+  - ClippyCore.Global.Animations.Bonzi.DoMagic2
+  - ClippyCore.Global.Animations.Bonzi.DontRecognize
+  - ClippyCore.Global.Animations.Bonzi.Explain
+  - ClippyCore.Global.Animations.Bonzi.Explain2
+  - ClippyCore.Global.Animations.Bonzi.Explain3
+  - ClippyCore.Global.Animations.Bonzi.Explain4
+  - ClippyCore.Global.Animations.Bonzi.GestureDown
+  - ClippyCore.Global.Animations.Bonzi.GestureLeft
+  - ClippyCore.Global.Animations.Bonzi.GestureRight
+  - ClippyCore.Global.Animations.Bonzi.GestureUp
+  - ClippyCore.Global.Animations.Bonzi.GetAttention
+  - ClippyCore.Global.Animations.Bonzi.GetAttention2
+  - ClippyCore.Global.Animations.Bonzi.GetAttentionContinued
+  - ClippyCore.Global.Animations.Bonzi.GetAttentionReturn
+  - ClippyCore.Global.Animations.Bonzi.Giggle
+  - ClippyCore.Global.Animations.Bonzi.Greet
+  - ClippyCore.Global.Animations.Bonzi.HandsBehind
+  - ClippyCore.Global.Animations.Bonzi.HeadphonesContinued
+  - ClippyCore.Global.Animations.Bonzi.HeadphonesReturn
+  - ClippyCore.Global.Animations.Bonzi.Hearing1
+  - ClippyCore.Global.Animations.Bonzi.Hearing2
+  - ClippyCore.Global.Animations.Bonzi.Hearing3
+  - ClippyCore.Global.Animations.Bonzi.Hide
+  - ClippyCore.Global.Animations.Bonzi.HideShow
+  - ClippyCore.Global.Animations.Bonzi.Hug
+  - ClippyCore.Global.Animations.Bonzi.Idle1_1
+  - ClippyCore.Global.Animations.Bonzi.Idle1_11
+  - ClippyCore.Global.Animations.Bonzi.Idle1_12
+  - ClippyCore.Global.Animations.Bonzi.Idle1_13
+  - ClippyCore.Global.Animations.Bonzi.Idle1_14
+  - ClippyCore.Global.Animations.Bonzi.Idle1_15
+  - ClippyCore.Global.Animations.Bonzi.Idle1_1_2
+  - ClippyCore.Global.Animations.Bonzi.Idle1_1_3
+  - ClippyCore.Global.Animations.Bonzi.Idle1_20
+  - ClippyCore.Global.Animations.Bonzi.Idle1_21
+  - ClippyCore.Global.Animations.Bonzi.Idle1_22
+  - ClippyCore.Global.Animations.Bonzi.Idle1_24
+  - ClippyCore.Global.Animations.Bonzi.Idle1_25
+  - ClippyCore.Global.Animations.Bonzi.Idle1_26
+  - ClippyCore.Global.Animations.Bonzi.Idle1_3
+  - ClippyCore.Global.Animations.Bonzi.Idle1_4
+  - ClippyCore.Global.Animations.Bonzi.Idle1_4_2
+  - ClippyCore.Global.Animations.Bonzi.Idle1_5
+  - ClippyCore.Global.Animations.Bonzi.Idle1_5_2
+  - ClippyCore.Global.Animations.Bonzi.Idle1_6
+  - ClippyCore.Global.Animations.Bonzi.Idle1_7
+  - ClippyCore.Global.Animations.Bonzi.Idle1_8
+  - ClippyCore.Global.Animations.Bonzi.Idle1_9
+  - ClippyCore.Global.Animations.Bonzi.Idle1_9_2
+  - ClippyCore.Global.Animations.Bonzi.Idle1_9_3
+  - ClippyCore.Global.Animations.Bonzi.Idle3_1
+  - ClippyCore.Global.Animations.Bonzi.Idle3_2
+  - ClippyCore.Global.Animations.Bonzi.Idle3_3
+  - ClippyCore.Global.Animations.Bonzi.Juggle
+  - ClippyCore.Global.Animations.Bonzi.LookDown
+  - ClippyCore.Global.Animations.Bonzi.LookDownBlink
+  - ClippyCore.Global.Animations.Bonzi.LookDownLeft
+  - ClippyCore.Global.Animations.Bonzi.LookDownLeftBlink
+  - ClippyCore.Global.Animations.Bonzi.LookDownLeftReturn
+  - ClippyCore.Global.Animations.Bonzi.LookDownReturn
+  - ClippyCore.Global.Animations.Bonzi.LookDownRight
+  - ClippyCore.Global.Animations.Bonzi.LookDownRightBlink
+  - ClippyCore.Global.Animations.Bonzi.LookDownRightReturn
+  - ClippyCore.Global.Animations.Bonzi.LookLeft
+  - ClippyCore.Global.Animations.Bonzi.LookLeftBlink
+  - ClippyCore.Global.Animations.Bonzi.LookLeftReturn
+  - ClippyCore.Global.Animations.Bonzi.LookRight
+  - ClippyCore.Global.Animations.Bonzi.LookRightBlink
+  - ClippyCore.Global.Animations.Bonzi.LookRightReturn
+  - ClippyCore.Global.Animations.Bonzi.LookUp
+  - ClippyCore.Global.Animations.Bonzi.LookUpBlink
+  - ClippyCore.Global.Animations.Bonzi.LookUpLeft
+  - ClippyCore.Global.Animations.Bonzi.LookUpLeftBlink
+  - ClippyCore.Global.Animations.Bonzi.LookUpLeftReturn
+  - ClippyCore.Global.Animations.Bonzi.LookUpReturn
+  - ClippyCore.Global.Animations.Bonzi.LookUpRight
+  - ClippyCore.Global.Animations.Bonzi.LookUpRightBlink
+  - ClippyCore.Global.Animations.Bonzi.LookUpRightReturn
+  - ClippyCore.Global.Animations.Bonzi.MailCheck
+  - ClippyCore.Global.Animations.Bonzi.MailCheckEmpty
+  - ClippyCore.Global.Animations.Bonzi.MailCheckFull
+  - ClippyCore.Global.Animations.Bonzi.MailNext
+  - ClippyCore.Global.Animations.Bonzi.MailRead
+  - ClippyCore.Global.Animations.Bonzi.MailReturn
+  - ClippyCore.Global.Animations.Bonzi.MoveDown
+  - ClippyCore.Global.Animations.Bonzi.MoveDownReturn
+  - ClippyCore.Global.Animations.Bonzi.MoveLeft
+  - ClippyCore.Global.Animations.Bonzi.MoveLeftReturn
+  - ClippyCore.Global.Animations.Bonzi.MoveRight
+  - ClippyCore.Global.Animations.Bonzi.MoveRightReturn
+  - ClippyCore.Global.Animations.Bonzi.MoveUp
+  - ClippyCore.Global.Animations.Bonzi.MoveUpReturn
+  - ClippyCore.Global.Animations.Bonzi.Pleased
+  - ClippyCore.Global.Animations.Bonzi.PleasedHard
+  - ClippyCore.Global.Animations.Bonzi.PleasedSoft
+  - ClippyCore.Global.Animations.Bonzi.Process
+  - ClippyCore.Global.Animations.Bonzi.Processing
+  - ClippyCore.Global.Animations.Bonzi.Read
+  - ClippyCore.Global.Animations.Bonzi.ReadContinued
+  - ClippyCore.Global.Animations.Bonzi.ReadLookUp
+  - ClippyCore.Global.Animations.Bonzi.ReadLookUpContinued
+  - ClippyCore.Global.Animations.Bonzi.ReadLookUpReturn
+  - ClippyCore.Global.Animations.Bonzi.ReadReturn
+  - ClippyCore.Global.Animations.Bonzi.Reading
+  - ClippyCore.Global.Animations.Bonzi.RestPose
+  - ClippyCore.Global.Animations.Bonzi.Sad
+  - ClippyCore.Global.Animations.Bonzi.Scout
+  - ClippyCore.Global.Animations.Bonzi.ScoutAlert
+  - ClippyCore.Global.Animations.Bonzi.ScoutLeft
+  - ClippyCore.Global.Animations.Bonzi.ScoutReturn
+  - ClippyCore.Global.Animations.Bonzi.ScoutRight
+  - ClippyCore.Global.Animations.Bonzi.Search
+  - ClippyCore.Global.Animations.Bonzi.Searching
+  - ClippyCore.Global.Animations.Bonzi.SearchingReturn
+  - ClippyCore.Global.Animations.Bonzi.Shoosh
+  - ClippyCore.Global.Animations.Bonzi.Show
+  - ClippyCore.Global.Animations.Bonzi.StartListening
+  - ClippyCore.Global.Animations.Bonzi.StopListening
+  - ClippyCore.Global.Animations.Bonzi.Suggest
+  - ClippyCore.Global.Animations.Bonzi.SunglassesContinued
+  - ClippyCore.Global.Animations.Bonzi.SunglassesReturn
+  - ClippyCore.Global.Animations.Bonzi.Surprised
+  - ClippyCore.Global.Animations.Bonzi.Think
+  - ClippyCore.Global.Animations.Bonzi.Thinking
+  - ClippyCore.Global.Animations.Bonzi.Unbelievable
+  - ClippyCore.Global.Animations.Bonzi.Uncertain
+  - ClippyCore.Global.Animations.Bonzi.Wave
+  - ClippyCore.Global.Animations.Bonzi.Wink
+  - ClippyCore.Global.Animations.Bonzi.Write
+  - ClippyCore.Global.Animations.Bonzi.WriteContinued
+  - ClippyCore.Global.Animations.Bonzi.WriteOnce
+  - ClippyCore.Global.Animations.Bonzi.WriteOnceAgain
+  - ClippyCore.Global.Animations.Bonzi.WritePause
+  - ClippyCore.Global.Animations.Bonzi.WritePre
+  - ClippyCore.Global.Animations.Bonzi.WriteReturn
+  - ClippyCore.Global.Animations.Bonzi.Writing
+  - ClippyCore.Global.Animations.Bonzi.WritingReturn
+  langs:
+  - csharp
+  - vb
+  name: Animations.Bonzi
+  nameWithType: Animations.Bonzi
+  fullName: ClippyCore.Global.Animations.Bonzi
+  type: Class
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Bonzi
+    path: ClippyCore/Global/Animations.cs
+    startLine: 15
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  summary: All animation keys for the Bonzi agent.
+  example: []
+  syntax:
+    content: public static class Animations.Bonzi
+    content.vb: Public Module Animations.Bonzi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ClippyCore.Global.Animations.Bonzi.Acknowledge
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Acknowledge
+  id: Acknowledge
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Acknowledge
+  nameWithType: Animations.Bonzi.Acknowledge
+  fullName: ClippyCore.Global.Animations.Bonzi.Acknowledge
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Acknowledge
+    path: ClippyCore/Global/Animations.cs
+    startLine: 17
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Acknowledge = 0
+    return:
+      type: System.Byte
+    content.vb: Public Const Acknowledge As Byte = 0
+- uid: ClippyCore.Global.Animations.Bonzi.Alert
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Alert
+  id: Alert
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Alert
+  nameWithType: Animations.Bonzi.Alert
+  fullName: ClippyCore.Global.Animations.Bonzi.Alert
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Alert
+    path: ClippyCore/Global/Animations.cs
+    startLine: 18
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Alert = 1
+    return:
+      type: System.Byte
+    content.vb: Public Const Alert As Byte = 1
+- uid: ClippyCore.Global.Animations.Bonzi.Banana
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Banana
+  id: Banana
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Banana
+  nameWithType: Animations.Bonzi.Banana
+  fullName: ClippyCore.Global.Animations.Bonzi.Banana
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Banana
+    path: ClippyCore/Global/Animations.cs
+    startLine: 19
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Banana = 2
+    return:
+      type: System.Byte
+    content.vb: Public Const Banana As Byte = 2
+- uid: ClippyCore.Global.Animations.Bonzi.BananaMiss
+  commentId: F:ClippyCore.Global.Animations.Bonzi.BananaMiss
+  id: BananaMiss
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: BananaMiss
+  nameWithType: Animations.Bonzi.BananaMiss
+  fullName: ClippyCore.Global.Animations.Bonzi.BananaMiss
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: BananaMiss
+    path: ClippyCore/Global/Animations.cs
+    startLine: 20
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte BananaMiss = 3
+    return:
+      type: System.Byte
+    content.vb: Public Const BananaMiss As Byte = 3
+- uid: ClippyCore.Global.Animations.Bonzi.Blink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Blink
+  id: Blink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Blink
+  nameWithType: Animations.Bonzi.Blink
+  fullName: ClippyCore.Global.Animations.Bonzi.Blink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Blink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 21
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Blink = 4
+    return:
+      type: System.Byte
+    content.vb: Public Const Blink As Byte = 4
+- uid: ClippyCore.Global.Animations.Bonzi.BlowKiss
+  commentId: F:ClippyCore.Global.Animations.Bonzi.BlowKiss
+  id: BlowKiss
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: BlowKiss
+  nameWithType: Animations.Bonzi.BlowKiss
+  fullName: ClippyCore.Global.Animations.Bonzi.BlowKiss
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: BlowKiss
+    path: ClippyCore/Global/Animations.cs
+    startLine: 22
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte BlowKiss = 5
+    return:
+      type: System.Byte
+    content.vb: Public Const BlowKiss As Byte = 5
+- uid: ClippyCore.Global.Animations.Bonzi.Butternut
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Butternut
+  id: Butternut
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Butternut
+  nameWithType: Animations.Bonzi.Butternut
+  fullName: ClippyCore.Global.Animations.Bonzi.Butternut
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Butternut
+    path: ClippyCore/Global/Animations.cs
+    startLine: 23
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Butternut = 6
+    return:
+      type: System.Byte
+    content.vb: Public Const Butternut As Byte = 6
+- uid: ClippyCore.Global.Animations.Bonzi.Confused
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Confused
+  id: Confused
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Confused
+  nameWithType: Animations.Bonzi.Confused
+  fullName: ClippyCore.Global.Animations.Bonzi.Confused
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Confused
+    path: ClippyCore/Global/Animations.cs
+    startLine: 24
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Confused = 7
+    return:
+      type: System.Byte
+    content.vb: Public Const Confused As Byte = 7
+- uid: ClippyCore.Global.Animations.Bonzi.Congratulate
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Congratulate
+  id: Congratulate
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Congratulate
+  nameWithType: Animations.Bonzi.Congratulate
+  fullName: ClippyCore.Global.Animations.Bonzi.Congratulate
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Congratulate
+    path: ClippyCore/Global/Animations.cs
+    startLine: 25
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Congratulate = 8
+    return:
+      type: System.Byte
+    content.vb: Public Const Congratulate As Byte = 8
+- uid: ClippyCore.Global.Animations.Bonzi.Decline
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Decline
+  id: Decline
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Decline
+  nameWithType: Animations.Bonzi.Decline
+  fullName: ClippyCore.Global.Animations.Bonzi.Decline
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Decline
+    path: ClippyCore/Global/Animations.cs
+    startLine: 26
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Decline = 9
+    return:
+      type: System.Byte
+    content.vb: Public Const Decline As Byte = 9
+- uid: ClippyCore.Global.Animations.Bonzi.DoMagic1
+  commentId: F:ClippyCore.Global.Animations.Bonzi.DoMagic1
+  id: DoMagic1
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: DoMagic1
+  nameWithType: Animations.Bonzi.DoMagic1
+  fullName: ClippyCore.Global.Animations.Bonzi.DoMagic1
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DoMagic1
+    path: ClippyCore/Global/Animations.cs
+    startLine: 27
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte DoMagic1 = 10
+    return:
+      type: System.Byte
+    content.vb: Public Const DoMagic1 As Byte = 10
+- uid: ClippyCore.Global.Animations.Bonzi.DoMagic2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.DoMagic2
+  id: DoMagic2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: DoMagic2
+  nameWithType: Animations.Bonzi.DoMagic2
+  fullName: ClippyCore.Global.Animations.Bonzi.DoMagic2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DoMagic2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 28
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte DoMagic2 = 11
+    return:
+      type: System.Byte
+    content.vb: Public Const DoMagic2 As Byte = 11
+- uid: ClippyCore.Global.Animations.Bonzi.DontRecognize
+  commentId: F:ClippyCore.Global.Animations.Bonzi.DontRecognize
+  id: DontRecognize
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: DontRecognize
+  nameWithType: Animations.Bonzi.DontRecognize
+  fullName: ClippyCore.Global.Animations.Bonzi.DontRecognize
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DontRecognize
+    path: ClippyCore/Global/Animations.cs
+    startLine: 29
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte DontRecognize = 12
+    return:
+      type: System.Byte
+    content.vb: Public Const DontRecognize As Byte = 12
+- uid: ClippyCore.Global.Animations.Bonzi.Explain
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Explain
+  id: Explain
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Explain
+  nameWithType: Animations.Bonzi.Explain
+  fullName: ClippyCore.Global.Animations.Bonzi.Explain
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Explain
+    path: ClippyCore/Global/Animations.cs
+    startLine: 30
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Explain = 13
+    return:
+      type: System.Byte
+    content.vb: Public Const Explain As Byte = 13
+- uid: ClippyCore.Global.Animations.Bonzi.Explain2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Explain2
+  id: Explain2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Explain2
+  nameWithType: Animations.Bonzi.Explain2
+  fullName: ClippyCore.Global.Animations.Bonzi.Explain2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Explain2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 31
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Explain2 = 14
+    return:
+      type: System.Byte
+    content.vb: Public Const Explain2 As Byte = 14
+- uid: ClippyCore.Global.Animations.Bonzi.Explain3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Explain3
+  id: Explain3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Explain3
+  nameWithType: Animations.Bonzi.Explain3
+  fullName: ClippyCore.Global.Animations.Bonzi.Explain3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Explain3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 32
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Explain3 = 15
+    return:
+      type: System.Byte
+    content.vb: Public Const Explain3 As Byte = 15
+- uid: ClippyCore.Global.Animations.Bonzi.Explain4
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Explain4
+  id: Explain4
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Explain4
+  nameWithType: Animations.Bonzi.Explain4
+  fullName: ClippyCore.Global.Animations.Bonzi.Explain4
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Explain4
+    path: ClippyCore/Global/Animations.cs
+    startLine: 33
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Explain4 = 16
+    return:
+      type: System.Byte
+    content.vb: Public Const Explain4 As Byte = 16
+- uid: ClippyCore.Global.Animations.Bonzi.GestureDown
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GestureDown
+  id: GestureDown
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GestureDown
+  nameWithType: Animations.Bonzi.GestureDown
+  fullName: ClippyCore.Global.Animations.Bonzi.GestureDown
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GestureDown
+    path: ClippyCore/Global/Animations.cs
+    startLine: 34
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GestureDown = 17
+    return:
+      type: System.Byte
+    content.vb: Public Const GestureDown As Byte = 17
+- uid: ClippyCore.Global.Animations.Bonzi.GestureLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GestureLeft
+  id: GestureLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GestureLeft
+  nameWithType: Animations.Bonzi.GestureLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.GestureLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GestureLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 35
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GestureLeft = 18
+    return:
+      type: System.Byte
+    content.vb: Public Const GestureLeft As Byte = 18
+- uid: ClippyCore.Global.Animations.Bonzi.GestureRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GestureRight
+  id: GestureRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GestureRight
+  nameWithType: Animations.Bonzi.GestureRight
+  fullName: ClippyCore.Global.Animations.Bonzi.GestureRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GestureRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 36
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GestureRight = 19
+    return:
+      type: System.Byte
+    content.vb: Public Const GestureRight As Byte = 19
+- uid: ClippyCore.Global.Animations.Bonzi.GestureUp
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GestureUp
+  id: GestureUp
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GestureUp
+  nameWithType: Animations.Bonzi.GestureUp
+  fullName: ClippyCore.Global.Animations.Bonzi.GestureUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GestureUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 37
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GestureUp = 20
+    return:
+      type: System.Byte
+    content.vb: Public Const GestureUp As Byte = 20
+- uid: ClippyCore.Global.Animations.Bonzi.GetAttention
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GetAttention
+  id: GetAttention
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GetAttention
+  nameWithType: Animations.Bonzi.GetAttention
+  fullName: ClippyCore.Global.Animations.Bonzi.GetAttention
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAttention
+    path: ClippyCore/Global/Animations.cs
+    startLine: 38
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GetAttention = 21
+    return:
+      type: System.Byte
+    content.vb: Public Const GetAttention As Byte = 21
+- uid: ClippyCore.Global.Animations.Bonzi.GetAttention2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GetAttention2
+  id: GetAttention2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GetAttention2
+  nameWithType: Animations.Bonzi.GetAttention2
+  fullName: ClippyCore.Global.Animations.Bonzi.GetAttention2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAttention2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 39
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GetAttention2 = 22
+    return:
+      type: System.Byte
+    content.vb: Public Const GetAttention2 As Byte = 22
+- uid: ClippyCore.Global.Animations.Bonzi.GetAttentionContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GetAttentionContinued
+  id: GetAttentionContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GetAttentionContinued
+  nameWithType: Animations.Bonzi.GetAttentionContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.GetAttentionContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAttentionContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 40
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GetAttentionContinued = 23
+    return:
+      type: System.Byte
+    content.vb: Public Const GetAttentionContinued As Byte = 23
+- uid: ClippyCore.Global.Animations.Bonzi.GetAttentionReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.GetAttentionReturn
+  id: GetAttentionReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: GetAttentionReturn
+  nameWithType: Animations.Bonzi.GetAttentionReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.GetAttentionReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAttentionReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 41
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GetAttentionReturn = 24
+    return:
+      type: System.Byte
+    content.vb: Public Const GetAttentionReturn As Byte = 24
+- uid: ClippyCore.Global.Animations.Bonzi.Giggle
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Giggle
+  id: Giggle
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Giggle
+  nameWithType: Animations.Bonzi.Giggle
+  fullName: ClippyCore.Global.Animations.Bonzi.Giggle
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Giggle
+    path: ClippyCore/Global/Animations.cs
+    startLine: 42
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Giggle = 25
+    return:
+      type: System.Byte
+    content.vb: Public Const Giggle As Byte = 25
+- uid: ClippyCore.Global.Animations.Bonzi.Greet
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Greet
+  id: Greet
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Greet
+  nameWithType: Animations.Bonzi.Greet
+  fullName: ClippyCore.Global.Animations.Bonzi.Greet
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Greet
+    path: ClippyCore/Global/Animations.cs
+    startLine: 43
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Greet = 26
+    return:
+      type: System.Byte
+    content.vb: Public Const Greet As Byte = 26
+- uid: ClippyCore.Global.Animations.Bonzi.HandsBehind
+  commentId: F:ClippyCore.Global.Animations.Bonzi.HandsBehind
+  id: HandsBehind
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: HandsBehind
+  nameWithType: Animations.Bonzi.HandsBehind
+  fullName: ClippyCore.Global.Animations.Bonzi.HandsBehind
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: HandsBehind
+    path: ClippyCore/Global/Animations.cs
+    startLine: 44
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte HandsBehind = 27
+    return:
+      type: System.Byte
+    content.vb: Public Const HandsBehind As Byte = 27
+- uid: ClippyCore.Global.Animations.Bonzi.HeadphonesContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.HeadphonesContinued
+  id: HeadphonesContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: HeadphonesContinued
+  nameWithType: Animations.Bonzi.HeadphonesContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.HeadphonesContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: HeadphonesContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 45
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte HeadphonesContinued = 28
+    return:
+      type: System.Byte
+    content.vb: Public Const HeadphonesContinued As Byte = 28
+- uid: ClippyCore.Global.Animations.Bonzi.HeadphonesReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.HeadphonesReturn
+  id: HeadphonesReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: HeadphonesReturn
+  nameWithType: Animations.Bonzi.HeadphonesReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.HeadphonesReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: HeadphonesReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 46
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte HeadphonesReturn = 29
+    return:
+      type: System.Byte
+    content.vb: Public Const HeadphonesReturn As Byte = 29
+- uid: ClippyCore.Global.Animations.Bonzi.Hearing1
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Hearing1
+  id: Hearing1
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Hearing1
+  nameWithType: Animations.Bonzi.Hearing1
+  fullName: ClippyCore.Global.Animations.Bonzi.Hearing1
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hearing1
+    path: ClippyCore/Global/Animations.cs
+    startLine: 47
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hearing1 = 30
+    return:
+      type: System.Byte
+    content.vb: Public Const Hearing1 As Byte = 30
+- uid: ClippyCore.Global.Animations.Bonzi.Hearing2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Hearing2
+  id: Hearing2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Hearing2
+  nameWithType: Animations.Bonzi.Hearing2
+  fullName: ClippyCore.Global.Animations.Bonzi.Hearing2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hearing2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 48
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hearing2 = 31
+    return:
+      type: System.Byte
+    content.vb: Public Const Hearing2 As Byte = 31
+- uid: ClippyCore.Global.Animations.Bonzi.Hearing3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Hearing3
+  id: Hearing3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Hearing3
+  nameWithType: Animations.Bonzi.Hearing3
+  fullName: ClippyCore.Global.Animations.Bonzi.Hearing3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hearing3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 49
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hearing3 = 32
+    return:
+      type: System.Byte
+    content.vb: Public Const Hearing3 As Byte = 32
+- uid: ClippyCore.Global.Animations.Bonzi.Hide
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Hide
+  id: Hide
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Hide
+  nameWithType: Animations.Bonzi.Hide
+  fullName: ClippyCore.Global.Animations.Bonzi.Hide
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hide
+    path: ClippyCore/Global/Animations.cs
+    startLine: 50
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hide = 33
+    return:
+      type: System.Byte
+    content.vb: Public Const Hide As Byte = 33
+- uid: ClippyCore.Global.Animations.Bonzi.HideShow
+  commentId: F:ClippyCore.Global.Animations.Bonzi.HideShow
+  id: HideShow
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: HideShow
+  nameWithType: Animations.Bonzi.HideShow
+  fullName: ClippyCore.Global.Animations.Bonzi.HideShow
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: HideShow
+    path: ClippyCore/Global/Animations.cs
+    startLine: 51
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte HideShow = 34
+    return:
+      type: System.Byte
+    content.vb: Public Const HideShow As Byte = 34
+- uid: ClippyCore.Global.Animations.Bonzi.Hug
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Hug
+  id: Hug
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Hug
+  nameWithType: Animations.Bonzi.Hug
+  fullName: ClippyCore.Global.Animations.Bonzi.Hug
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hug
+    path: ClippyCore/Global/Animations.cs
+    startLine: 52
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hug = 35
+    return:
+      type: System.Byte
+    content.vb: Public Const Hug As Byte = 35
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_1
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_1
+  id: Idle1_1
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_1
+  nameWithType: Animations.Bonzi.Idle1_1
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_1
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_1
+    path: ClippyCore/Global/Animations.cs
+    startLine: 53
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_1 = 36
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_1 As Byte = 36
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_1_2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_1_2
+  id: Idle1_1_2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_1_2
+  nameWithType: Animations.Bonzi.Idle1_1_2
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_1_2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_1_2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 54
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_1_2 = 37
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_1_2 As Byte = 37
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_1_3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_1_3
+  id: Idle1_1_3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_1_3
+  nameWithType: Animations.Bonzi.Idle1_1_3
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_1_3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_1_3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 55
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_1_3 = 38
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_1_3 As Byte = 38
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_11
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_11
+  id: Idle1_11
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_11
+  nameWithType: Animations.Bonzi.Idle1_11
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_11
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_11
+    path: ClippyCore/Global/Animations.cs
+    startLine: 56
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_11 = 39
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_11 As Byte = 39
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_12
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_12
+  id: Idle1_12
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_12
+  nameWithType: Animations.Bonzi.Idle1_12
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_12
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_12
+    path: ClippyCore/Global/Animations.cs
+    startLine: 57
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_12 = 40
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_12 As Byte = 40
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_13
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_13
+  id: Idle1_13
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_13
+  nameWithType: Animations.Bonzi.Idle1_13
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_13
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_13
+    path: ClippyCore/Global/Animations.cs
+    startLine: 58
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_13 = 41
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_13 As Byte = 41
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_14
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_14
+  id: Idle1_14
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_14
+  nameWithType: Animations.Bonzi.Idle1_14
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_14
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_14
+    path: ClippyCore/Global/Animations.cs
+    startLine: 59
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_14 = 42
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_14 As Byte = 42
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_15
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_15
+  id: Idle1_15
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_15
+  nameWithType: Animations.Bonzi.Idle1_15
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_15
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_15
+    path: ClippyCore/Global/Animations.cs
+    startLine: 60
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_15 = 43
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_15 As Byte = 43
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_20
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_20
+  id: Idle1_20
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_20
+  nameWithType: Animations.Bonzi.Idle1_20
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_20
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_20
+    path: ClippyCore/Global/Animations.cs
+    startLine: 61
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_20 = 44
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_20 As Byte = 44
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_21
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_21
+  id: Idle1_21
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_21
+  nameWithType: Animations.Bonzi.Idle1_21
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_21
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_21
+    path: ClippyCore/Global/Animations.cs
+    startLine: 62
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_21 = 45
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_21 As Byte = 45
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_22
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_22
+  id: Idle1_22
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_22
+  nameWithType: Animations.Bonzi.Idle1_22
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_22
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_22
+    path: ClippyCore/Global/Animations.cs
+    startLine: 63
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_22 = 46
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_22 As Byte = 46
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_24
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_24
+  id: Idle1_24
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_24
+  nameWithType: Animations.Bonzi.Idle1_24
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_24
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_24
+    path: ClippyCore/Global/Animations.cs
+    startLine: 64
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_24 = 47
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_24 As Byte = 47
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_25
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_25
+  id: Idle1_25
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_25
+  nameWithType: Animations.Bonzi.Idle1_25
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_25
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_25
+    path: ClippyCore/Global/Animations.cs
+    startLine: 65
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_25 = 48
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_25 As Byte = 48
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_26
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_26
+  id: Idle1_26
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_26
+  nameWithType: Animations.Bonzi.Idle1_26
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_26
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_26
+    path: ClippyCore/Global/Animations.cs
+    startLine: 66
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_26 = 49
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_26 As Byte = 49
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_3
+  id: Idle1_3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_3
+  nameWithType: Animations.Bonzi.Idle1_3
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 67
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_3 = 50
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_3 As Byte = 50
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_4
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_4
+  id: Idle1_4
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_4
+  nameWithType: Animations.Bonzi.Idle1_4
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_4
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_4
+    path: ClippyCore/Global/Animations.cs
+    startLine: 68
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_4 = 51
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_4 As Byte = 51
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_4_2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_4_2
+  id: Idle1_4_2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_4_2
+  nameWithType: Animations.Bonzi.Idle1_4_2
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_4_2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_4_2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 69
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_4_2 = 52
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_4_2 As Byte = 52
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_5
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_5
+  id: Idle1_5
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_5
+  nameWithType: Animations.Bonzi.Idle1_5
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_5
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_5
+    path: ClippyCore/Global/Animations.cs
+    startLine: 70
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_5 = 53
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_5 As Byte = 53
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_5_2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_5_2
+  id: Idle1_5_2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_5_2
+  nameWithType: Animations.Bonzi.Idle1_5_2
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_5_2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_5_2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 71
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_5_2 = 54
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_5_2 As Byte = 54
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_6
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_6
+  id: Idle1_6
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_6
+  nameWithType: Animations.Bonzi.Idle1_6
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_6
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_6
+    path: ClippyCore/Global/Animations.cs
+    startLine: 72
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_6 = 55
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_6 As Byte = 55
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_7
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_7
+  id: Idle1_7
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_7
+  nameWithType: Animations.Bonzi.Idle1_7
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_7
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_7
+    path: ClippyCore/Global/Animations.cs
+    startLine: 73
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_7 = 56
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_7 As Byte = 56
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_8
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_8
+  id: Idle1_8
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_8
+  nameWithType: Animations.Bonzi.Idle1_8
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_8
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_8
+    path: ClippyCore/Global/Animations.cs
+    startLine: 74
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_8 = 57
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_8 As Byte = 57
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_9
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_9
+  id: Idle1_9
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_9
+  nameWithType: Animations.Bonzi.Idle1_9
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_9
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_9
+    path: ClippyCore/Global/Animations.cs
+    startLine: 75
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_9 = 58
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_9 As Byte = 58
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_9_2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_9_2
+  id: Idle1_9_2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_9_2
+  nameWithType: Animations.Bonzi.Idle1_9_2
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_9_2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_9_2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 76
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_9_2 = 59
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_9_2 As Byte = 59
+- uid: ClippyCore.Global.Animations.Bonzi.Idle1_9_3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle1_9_3
+  id: Idle1_9_3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle1_9_3
+  nameWithType: Animations.Bonzi.Idle1_9_3
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle1_9_3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle1_9_3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 77
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle1_9_3 = 60
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle1_9_3 As Byte = 60
+- uid: ClippyCore.Global.Animations.Bonzi.Idle3_1
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle3_1
+  id: Idle3_1
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle3_1
+  nameWithType: Animations.Bonzi.Idle3_1
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle3_1
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle3_1
+    path: ClippyCore/Global/Animations.cs
+    startLine: 78
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle3_1 = 61
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle3_1 As Byte = 61
+- uid: ClippyCore.Global.Animations.Bonzi.Idle3_2
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle3_2
+  id: Idle3_2
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle3_2
+  nameWithType: Animations.Bonzi.Idle3_2
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle3_2
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle3_2
+    path: ClippyCore/Global/Animations.cs
+    startLine: 79
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle3_2 = 62
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle3_2 As Byte = 62
+- uid: ClippyCore.Global.Animations.Bonzi.Idle3_3
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Idle3_3
+  id: Idle3_3
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Idle3_3
+  nameWithType: Animations.Bonzi.Idle3_3
+  fullName: ClippyCore.Global.Animations.Bonzi.Idle3_3
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Idle3_3
+    path: ClippyCore/Global/Animations.cs
+    startLine: 80
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Idle3_3 = 63
+    return:
+      type: System.Byte
+    content.vb: Public Const Idle3_3 As Byte = 63
+- uid: ClippyCore.Global.Animations.Bonzi.Juggle
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Juggle
+  id: Juggle
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Juggle
+  nameWithType: Animations.Bonzi.Juggle
+  fullName: ClippyCore.Global.Animations.Bonzi.Juggle
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Juggle
+    path: ClippyCore/Global/Animations.cs
+    startLine: 81
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Juggle = 64
+    return:
+      type: System.Byte
+    content.vb: Public Const Juggle As Byte = 64
+- uid: ClippyCore.Global.Animations.Bonzi.LookDown
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDown
+  id: LookDown
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDown
+  nameWithType: Animations.Bonzi.LookDown
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDown
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDown
+    path: ClippyCore/Global/Animations.cs
+    startLine: 82
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDown = 65
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDown As Byte = 65
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownBlink
+  id: LookDownBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownBlink
+  nameWithType: Animations.Bonzi.LookDownBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 83
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownBlink = 66
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownBlink As Byte = 66
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownLeft
+  id: LookDownLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownLeft
+  nameWithType: Animations.Bonzi.LookDownLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 84
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownLeft = 67
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownLeft As Byte = 67
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownLeftBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownLeftBlink
+  id: LookDownLeftBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownLeftBlink
+  nameWithType: Animations.Bonzi.LookDownLeftBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownLeftBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownLeftBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 85
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownLeftBlink = 68
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownLeftBlink As Byte = 68
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownLeftReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownLeftReturn
+  id: LookDownLeftReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownLeftReturn
+  nameWithType: Animations.Bonzi.LookDownLeftReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownLeftReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownLeftReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 86
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownLeftReturn = 69
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownLeftReturn As Byte = 69
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownReturn
+  id: LookDownReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownReturn
+  nameWithType: Animations.Bonzi.LookDownReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 87
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownReturn = 70
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownReturn As Byte = 70
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownRight
+  id: LookDownRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownRight
+  nameWithType: Animations.Bonzi.LookDownRight
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 88
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownRight = 71
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownRight As Byte = 71
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownRightBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownRightBlink
+  id: LookDownRightBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownRightBlink
+  nameWithType: Animations.Bonzi.LookDownRightBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownRightBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownRightBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 89
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownRightBlink = 72
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownRightBlink As Byte = 72
+- uid: ClippyCore.Global.Animations.Bonzi.LookDownRightReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookDownRightReturn
+  id: LookDownRightReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookDownRightReturn
+  nameWithType: Animations.Bonzi.LookDownRightReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookDownRightReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookDownRightReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 90
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookDownRightReturn = 73
+    return:
+      type: System.Byte
+    content.vb: Public Const LookDownRightReturn As Byte = 73
+- uid: ClippyCore.Global.Animations.Bonzi.LookLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookLeft
+  id: LookLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookLeft
+  nameWithType: Animations.Bonzi.LookLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.LookLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 91
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookLeft = 74
+    return:
+      type: System.Byte
+    content.vb: Public Const LookLeft As Byte = 74
+- uid: ClippyCore.Global.Animations.Bonzi.LookLeftBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookLeftBlink
+  id: LookLeftBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookLeftBlink
+  nameWithType: Animations.Bonzi.LookLeftBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookLeftBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookLeftBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 92
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookLeftBlink = 75
+    return:
+      type: System.Byte
+    content.vb: Public Const LookLeftBlink As Byte = 75
+- uid: ClippyCore.Global.Animations.Bonzi.LookLeftReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookLeftReturn
+  id: LookLeftReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookLeftReturn
+  nameWithType: Animations.Bonzi.LookLeftReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookLeftReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookLeftReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 93
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookLeftReturn = 76
+    return:
+      type: System.Byte
+    content.vb: Public Const LookLeftReturn As Byte = 76
+- uid: ClippyCore.Global.Animations.Bonzi.LookRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookRight
+  id: LookRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookRight
+  nameWithType: Animations.Bonzi.LookRight
+  fullName: ClippyCore.Global.Animations.Bonzi.LookRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 94
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookRight = 77
+    return:
+      type: System.Byte
+    content.vb: Public Const LookRight As Byte = 77
+- uid: ClippyCore.Global.Animations.Bonzi.LookRightBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookRightBlink
+  id: LookRightBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookRightBlink
+  nameWithType: Animations.Bonzi.LookRightBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookRightBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookRightBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 95
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookRightBlink = 78
+    return:
+      type: System.Byte
+    content.vb: Public Const LookRightBlink As Byte = 78
+- uid: ClippyCore.Global.Animations.Bonzi.LookRightReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookRightReturn
+  id: LookRightReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookRightReturn
+  nameWithType: Animations.Bonzi.LookRightReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookRightReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookRightReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 96
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookRightReturn = 79
+    return:
+      type: System.Byte
+    content.vb: Public Const LookRightReturn As Byte = 79
+- uid: ClippyCore.Global.Animations.Bonzi.LookUp
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUp
+  id: LookUp
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUp
+  nameWithType: Animations.Bonzi.LookUp
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 97
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUp = 80
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUp As Byte = 80
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpBlink
+  id: LookUpBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpBlink
+  nameWithType: Animations.Bonzi.LookUpBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 98
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpBlink = 81
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpBlink As Byte = 81
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpLeft
+  id: LookUpLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpLeft
+  nameWithType: Animations.Bonzi.LookUpLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 99
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpLeft = 82
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpLeft As Byte = 82
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpLeftBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpLeftBlink
+  id: LookUpLeftBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpLeftBlink
+  nameWithType: Animations.Bonzi.LookUpLeftBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpLeftBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpLeftBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 100
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpLeftBlink = 83
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpLeftBlink As Byte = 83
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpLeftReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpLeftReturn
+  id: LookUpLeftReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpLeftReturn
+  nameWithType: Animations.Bonzi.LookUpLeftReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpLeftReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpLeftReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 101
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpLeftReturn = 84
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpLeftReturn As Byte = 84
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpReturn
+  id: LookUpReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpReturn
+  nameWithType: Animations.Bonzi.LookUpReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 102
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpReturn = 85
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpReturn As Byte = 85
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpRight
+  id: LookUpRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpRight
+  nameWithType: Animations.Bonzi.LookUpRight
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 103
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpRight = 86
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpRight As Byte = 86
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpRightBlink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpRightBlink
+  id: LookUpRightBlink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpRightBlink
+  nameWithType: Animations.Bonzi.LookUpRightBlink
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpRightBlink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpRightBlink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 104
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpRightBlink = 87
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpRightBlink As Byte = 87
+- uid: ClippyCore.Global.Animations.Bonzi.LookUpRightReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.LookUpRightReturn
+  id: LookUpRightReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: LookUpRightReturn
+  nameWithType: Animations.Bonzi.LookUpRightReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.LookUpRightReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LookUpRightReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 105
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LookUpRightReturn = 88
+    return:
+      type: System.Byte
+    content.vb: Public Const LookUpRightReturn As Byte = 88
+- uid: ClippyCore.Global.Animations.Bonzi.MailCheck
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailCheck
+  id: MailCheck
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailCheck
+  nameWithType: Animations.Bonzi.MailCheck
+  fullName: ClippyCore.Global.Animations.Bonzi.MailCheck
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailCheck
+    path: ClippyCore/Global/Animations.cs
+    startLine: 106
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailCheck = 89
+    return:
+      type: System.Byte
+    content.vb: Public Const MailCheck As Byte = 89
+- uid: ClippyCore.Global.Animations.Bonzi.MailCheckEmpty
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailCheckEmpty
+  id: MailCheckEmpty
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailCheckEmpty
+  nameWithType: Animations.Bonzi.MailCheckEmpty
+  fullName: ClippyCore.Global.Animations.Bonzi.MailCheckEmpty
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailCheckEmpty
+    path: ClippyCore/Global/Animations.cs
+    startLine: 107
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailCheckEmpty = 90
+    return:
+      type: System.Byte
+    content.vb: Public Const MailCheckEmpty As Byte = 90
+- uid: ClippyCore.Global.Animations.Bonzi.MailCheckFull
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailCheckFull
+  id: MailCheckFull
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailCheckFull
+  nameWithType: Animations.Bonzi.MailCheckFull
+  fullName: ClippyCore.Global.Animations.Bonzi.MailCheckFull
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailCheckFull
+    path: ClippyCore/Global/Animations.cs
+    startLine: 108
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailCheckFull = 91
+    return:
+      type: System.Byte
+    content.vb: Public Const MailCheckFull As Byte = 91
+- uid: ClippyCore.Global.Animations.Bonzi.MailNext
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailNext
+  id: MailNext
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailNext
+  nameWithType: Animations.Bonzi.MailNext
+  fullName: ClippyCore.Global.Animations.Bonzi.MailNext
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailNext
+    path: ClippyCore/Global/Animations.cs
+    startLine: 109
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailNext = 92
+    return:
+      type: System.Byte
+    content.vb: Public Const MailNext As Byte = 92
+- uid: ClippyCore.Global.Animations.Bonzi.MailRead
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailRead
+  id: MailRead
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailRead
+  nameWithType: Animations.Bonzi.MailRead
+  fullName: ClippyCore.Global.Animations.Bonzi.MailRead
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailRead
+    path: ClippyCore/Global/Animations.cs
+    startLine: 110
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailRead = 93
+    return:
+      type: System.Byte
+    content.vb: Public Const MailRead As Byte = 93
+- uid: ClippyCore.Global.Animations.Bonzi.MailReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MailReturn
+  id: MailReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MailReturn
+  nameWithType: Animations.Bonzi.MailReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.MailReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MailReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 111
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MailReturn = 94
+    return:
+      type: System.Byte
+    content.vb: Public Const MailReturn As Byte = 94
+- uid: ClippyCore.Global.Animations.Bonzi.MoveDown
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveDown
+  id: MoveDown
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveDown
+  nameWithType: Animations.Bonzi.MoveDown
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveDown
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveDown
+    path: ClippyCore/Global/Animations.cs
+    startLine: 112
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveDown = 95
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveDown As Byte = 95
+- uid: ClippyCore.Global.Animations.Bonzi.MoveDownReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveDownReturn
+  id: MoveDownReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveDownReturn
+  nameWithType: Animations.Bonzi.MoveDownReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveDownReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveDownReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 113
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveDownReturn = 96
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveDownReturn As Byte = 96
+- uid: ClippyCore.Global.Animations.Bonzi.MoveLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveLeft
+  id: MoveLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveLeft
+  nameWithType: Animations.Bonzi.MoveLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 114
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveLeft = 97
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveLeft As Byte = 97
+- uid: ClippyCore.Global.Animations.Bonzi.MoveLeftReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveLeftReturn
+  id: MoveLeftReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveLeftReturn
+  nameWithType: Animations.Bonzi.MoveLeftReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveLeftReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveLeftReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 115
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveLeftReturn = 98
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveLeftReturn As Byte = 98
+- uid: ClippyCore.Global.Animations.Bonzi.MoveRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveRight
+  id: MoveRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveRight
+  nameWithType: Animations.Bonzi.MoveRight
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 116
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveRight = 99
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveRight As Byte = 99
+- uid: ClippyCore.Global.Animations.Bonzi.MoveRightReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveRightReturn
+  id: MoveRightReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveRightReturn
+  nameWithType: Animations.Bonzi.MoveRightReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveRightReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveRightReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 117
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveRightReturn = 100
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveRightReturn As Byte = 100
+- uid: ClippyCore.Global.Animations.Bonzi.MoveUp
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveUp
+  id: MoveUp
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveUp
+  nameWithType: Animations.Bonzi.MoveUp
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 118
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveUp = 101
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveUp As Byte = 101
+- uid: ClippyCore.Global.Animations.Bonzi.MoveUpReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.MoveUpReturn
+  id: MoveUpReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: MoveUpReturn
+  nameWithType: Animations.Bonzi.MoveUpReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.MoveUpReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveUpReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 119
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MoveUpReturn = 102
+    return:
+      type: System.Byte
+    content.vb: Public Const MoveUpReturn As Byte = 102
+- uid: ClippyCore.Global.Animations.Bonzi.Pleased
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Pleased
+  id: Pleased
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Pleased
+  nameWithType: Animations.Bonzi.Pleased
+  fullName: ClippyCore.Global.Animations.Bonzi.Pleased
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Pleased
+    path: ClippyCore/Global/Animations.cs
+    startLine: 120
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Pleased = 103
+    return:
+      type: System.Byte
+    content.vb: Public Const Pleased As Byte = 103
+- uid: ClippyCore.Global.Animations.Bonzi.PleasedHard
+  commentId: F:ClippyCore.Global.Animations.Bonzi.PleasedHard
+  id: PleasedHard
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: PleasedHard
+  nameWithType: Animations.Bonzi.PleasedHard
+  fullName: ClippyCore.Global.Animations.Bonzi.PleasedHard
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: PleasedHard
+    path: ClippyCore/Global/Animations.cs
+    startLine: 121
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte PleasedHard = 104
+    return:
+      type: System.Byte
+    content.vb: Public Const PleasedHard As Byte = 104
+- uid: ClippyCore.Global.Animations.Bonzi.PleasedSoft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.PleasedSoft
+  id: PleasedSoft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: PleasedSoft
+  nameWithType: Animations.Bonzi.PleasedSoft
+  fullName: ClippyCore.Global.Animations.Bonzi.PleasedSoft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: PleasedSoft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 122
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte PleasedSoft = 105
+    return:
+      type: System.Byte
+    content.vb: Public Const PleasedSoft As Byte = 105
+- uid: ClippyCore.Global.Animations.Bonzi.Process
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Process
+  id: Process
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Process
+  nameWithType: Animations.Bonzi.Process
+  fullName: ClippyCore.Global.Animations.Bonzi.Process
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Process
+    path: ClippyCore/Global/Animations.cs
+    startLine: 123
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Process = 106
+    return:
+      type: System.Byte
+    content.vb: Public Const Process As Byte = 106
+- uid: ClippyCore.Global.Animations.Bonzi.Processing
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Processing
+  id: Processing
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Processing
+  nameWithType: Animations.Bonzi.Processing
+  fullName: ClippyCore.Global.Animations.Bonzi.Processing
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Processing
+    path: ClippyCore/Global/Animations.cs
+    startLine: 124
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Processing = 107
+    return:
+      type: System.Byte
+    content.vb: Public Const Processing As Byte = 107
+- uid: ClippyCore.Global.Animations.Bonzi.Read
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Read
+  id: Read
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: Animations.Bonzi.Read
+  fullName: ClippyCore.Global.Animations.Bonzi.Read
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Read
+    path: ClippyCore/Global/Animations.cs
+    startLine: 125
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Read = 108
+    return:
+      type: System.Byte
+    content.vb: Public Const Read As Byte = 108
+- uid: ClippyCore.Global.Animations.Bonzi.ReadContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ReadContinued
+  id: ReadContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ReadContinued
+  nameWithType: Animations.Bonzi.ReadContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.ReadContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReadContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 126
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReadContinued = 109
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadContinued As Byte = 109
+- uid: ClippyCore.Global.Animations.Bonzi.Reading
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Reading
+  id: Reading
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Reading
+  nameWithType: Animations.Bonzi.Reading
+  fullName: ClippyCore.Global.Animations.Bonzi.Reading
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Reading
+    path: ClippyCore/Global/Animations.cs
+    startLine: 127
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Reading = 110
+    return:
+      type: System.Byte
+    content.vb: Public Const Reading As Byte = 110
+- uid: ClippyCore.Global.Animations.Bonzi.ReadLookUp
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ReadLookUp
+  id: ReadLookUp
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ReadLookUp
+  nameWithType: Animations.Bonzi.ReadLookUp
+  fullName: ClippyCore.Global.Animations.Bonzi.ReadLookUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReadLookUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 128
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReadLookUp = 111
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadLookUp As Byte = 111
+- uid: ClippyCore.Global.Animations.Bonzi.ReadLookUpContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ReadLookUpContinued
+  id: ReadLookUpContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ReadLookUpContinued
+  nameWithType: Animations.Bonzi.ReadLookUpContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.ReadLookUpContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReadLookUpContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 129
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReadLookUpContinued = 112
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadLookUpContinued As Byte = 112
+- uid: ClippyCore.Global.Animations.Bonzi.ReadLookUpReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ReadLookUpReturn
+  id: ReadLookUpReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ReadLookUpReturn
+  nameWithType: Animations.Bonzi.ReadLookUpReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.ReadLookUpReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReadLookUpReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 130
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReadLookUpReturn = 113
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadLookUpReturn As Byte = 113
+- uid: ClippyCore.Global.Animations.Bonzi.ReadReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ReadReturn
+  id: ReadReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ReadReturn
+  nameWithType: Animations.Bonzi.ReadReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.ReadReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReadReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 131
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReadReturn = 114
+    return:
+      type: System.Byte
+    content.vb: Public Const ReadReturn As Byte = 114
+- uid: ClippyCore.Global.Animations.Bonzi.RestPose
+  commentId: F:ClippyCore.Global.Animations.Bonzi.RestPose
+  id: RestPose
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: RestPose
+  nameWithType: Animations.Bonzi.RestPose
+  fullName: ClippyCore.Global.Animations.Bonzi.RestPose
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RestPose
+    path: ClippyCore/Global/Animations.cs
+    startLine: 132
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RestPose = 115
+    return:
+      type: System.Byte
+    content.vb: Public Const RestPose As Byte = 115
+- uid: ClippyCore.Global.Animations.Bonzi.Sad
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Sad
+  id: Sad
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Sad
+  nameWithType: Animations.Bonzi.Sad
+  fullName: ClippyCore.Global.Animations.Bonzi.Sad
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Sad
+    path: ClippyCore/Global/Animations.cs
+    startLine: 133
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Sad = 116
+    return:
+      type: System.Byte
+    content.vb: Public Const Sad As Byte = 116
+- uid: ClippyCore.Global.Animations.Bonzi.Scout
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Scout
+  id: Scout
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Scout
+  nameWithType: Animations.Bonzi.Scout
+  fullName: ClippyCore.Global.Animations.Bonzi.Scout
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Scout
+    path: ClippyCore/Global/Animations.cs
+    startLine: 134
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Scout = 117
+    return:
+      type: System.Byte
+    content.vb: Public Const Scout As Byte = 117
+- uid: ClippyCore.Global.Animations.Bonzi.ScoutAlert
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ScoutAlert
+  id: ScoutAlert
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ScoutAlert
+  nameWithType: Animations.Bonzi.ScoutAlert
+  fullName: ClippyCore.Global.Animations.Bonzi.ScoutAlert
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ScoutAlert
+    path: ClippyCore/Global/Animations.cs
+    startLine: 135
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ScoutAlert = 118
+    return:
+      type: System.Byte
+    content.vb: Public Const ScoutAlert As Byte = 118
+- uid: ClippyCore.Global.Animations.Bonzi.ScoutLeft
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ScoutLeft
+  id: ScoutLeft
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ScoutLeft
+  nameWithType: Animations.Bonzi.ScoutLeft
+  fullName: ClippyCore.Global.Animations.Bonzi.ScoutLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ScoutLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 136
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ScoutLeft = 119
+    return:
+      type: System.Byte
+    content.vb: Public Const ScoutLeft As Byte = 119
+- uid: ClippyCore.Global.Animations.Bonzi.ScoutReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ScoutReturn
+  id: ScoutReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ScoutReturn
+  nameWithType: Animations.Bonzi.ScoutReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.ScoutReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ScoutReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 137
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ScoutReturn = 120
+    return:
+      type: System.Byte
+    content.vb: Public Const ScoutReturn As Byte = 120
+- uid: ClippyCore.Global.Animations.Bonzi.ScoutRight
+  commentId: F:ClippyCore.Global.Animations.Bonzi.ScoutRight
+  id: ScoutRight
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: ScoutRight
+  nameWithType: Animations.Bonzi.ScoutRight
+  fullName: ClippyCore.Global.Animations.Bonzi.ScoutRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ScoutRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 138
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ScoutRight = 121
+    return:
+      type: System.Byte
+    content.vb: Public Const ScoutRight As Byte = 121
+- uid: ClippyCore.Global.Animations.Bonzi.Search
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Search
+  id: Search
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: Animations.Bonzi.Search
+  fullName: ClippyCore.Global.Animations.Bonzi.Search
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Search
+    path: ClippyCore/Global/Animations.cs
+    startLine: 139
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Search = 122
+    return:
+      type: System.Byte
+    content.vb: Public Const Search As Byte = 122
+- uid: ClippyCore.Global.Animations.Bonzi.Searching
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Searching
+  id: Searching
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Searching
+  nameWithType: Animations.Bonzi.Searching
+  fullName: ClippyCore.Global.Animations.Bonzi.Searching
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Searching
+    path: ClippyCore/Global/Animations.cs
+    startLine: 140
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Searching = 123
+    return:
+      type: System.Byte
+    content.vb: Public Const Searching As Byte = 123
+- uid: ClippyCore.Global.Animations.Bonzi.SearchingReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.SearchingReturn
+  id: SearchingReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: SearchingReturn
+  nameWithType: Animations.Bonzi.SearchingReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.SearchingReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: SearchingReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 141
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte SearchingReturn = 124
+    return:
+      type: System.Byte
+    content.vb: Public Const SearchingReturn As Byte = 124
+- uid: ClippyCore.Global.Animations.Bonzi.Shoosh
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Shoosh
+  id: Shoosh
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Shoosh
+  nameWithType: Animations.Bonzi.Shoosh
+  fullName: ClippyCore.Global.Animations.Bonzi.Shoosh
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Shoosh
+    path: ClippyCore/Global/Animations.cs
+    startLine: 142
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Shoosh = 125
+    return:
+      type: System.Byte
+    content.vb: Public Const Shoosh As Byte = 125
+- uid: ClippyCore.Global.Animations.Bonzi.Show
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Show
+  id: Show
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Show
+  nameWithType: Animations.Bonzi.Show
+  fullName: ClippyCore.Global.Animations.Bonzi.Show
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Show
+    path: ClippyCore/Global/Animations.cs
+    startLine: 143
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Show = 126
+    return:
+      type: System.Byte
+    content.vb: Public Const Show As Byte = 126
+- uid: ClippyCore.Global.Animations.Bonzi.StartListening
+  commentId: F:ClippyCore.Global.Animations.Bonzi.StartListening
+  id: StartListening
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: StartListening
+  nameWithType: Animations.Bonzi.StartListening
+  fullName: ClippyCore.Global.Animations.Bonzi.StartListening
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: StartListening
+    path: ClippyCore/Global/Animations.cs
+    startLine: 144
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte StartListening = 127
+    return:
+      type: System.Byte
+    content.vb: Public Const StartListening As Byte = 127
+- uid: ClippyCore.Global.Animations.Bonzi.StopListening
+  commentId: F:ClippyCore.Global.Animations.Bonzi.StopListening
+  id: StopListening
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: StopListening
+  nameWithType: Animations.Bonzi.StopListening
+  fullName: ClippyCore.Global.Animations.Bonzi.StopListening
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: StopListening
+    path: ClippyCore/Global/Animations.cs
+    startLine: 145
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte StopListening = 128
+    return:
+      type: System.Byte
+    content.vb: Public Const StopListening As Byte = 128
+- uid: ClippyCore.Global.Animations.Bonzi.Suggest
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Suggest
+  id: Suggest
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Suggest
+  nameWithType: Animations.Bonzi.Suggest
+  fullName: ClippyCore.Global.Animations.Bonzi.Suggest
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Suggest
+    path: ClippyCore/Global/Animations.cs
+    startLine: 146
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Suggest = 129
+    return:
+      type: System.Byte
+    content.vb: Public Const Suggest As Byte = 129
+- uid: ClippyCore.Global.Animations.Bonzi.SunglassesContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.SunglassesContinued
+  id: SunglassesContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: SunglassesContinued
+  nameWithType: Animations.Bonzi.SunglassesContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.SunglassesContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: SunglassesContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 147
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte SunglassesContinued = 130
+    return:
+      type: System.Byte
+    content.vb: Public Const SunglassesContinued As Byte = 130
+- uid: ClippyCore.Global.Animations.Bonzi.SunglassesReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.SunglassesReturn
+  id: SunglassesReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: SunglassesReturn
+  nameWithType: Animations.Bonzi.SunglassesReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.SunglassesReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: SunglassesReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 148
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte SunglassesReturn = 131
+    return:
+      type: System.Byte
+    content.vb: Public Const SunglassesReturn As Byte = 131
+- uid: ClippyCore.Global.Animations.Bonzi.Surprised
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Surprised
+  id: Surprised
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Surprised
+  nameWithType: Animations.Bonzi.Surprised
+  fullName: ClippyCore.Global.Animations.Bonzi.Surprised
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Surprised
+    path: ClippyCore/Global/Animations.cs
+    startLine: 149
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Surprised = 132
+    return:
+      type: System.Byte
+    content.vb: Public Const Surprised As Byte = 132
+- uid: ClippyCore.Global.Animations.Bonzi.Think
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Think
+  id: Think
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Think
+  nameWithType: Animations.Bonzi.Think
+  fullName: ClippyCore.Global.Animations.Bonzi.Think
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Think
+    path: ClippyCore/Global/Animations.cs
+    startLine: 150
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Think = 133
+    return:
+      type: System.Byte
+    content.vb: Public Const Think As Byte = 133
+- uid: ClippyCore.Global.Animations.Bonzi.Thinking
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Thinking
+  id: Thinking
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Thinking
+  nameWithType: Animations.Bonzi.Thinking
+  fullName: ClippyCore.Global.Animations.Bonzi.Thinking
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Thinking
+    path: ClippyCore/Global/Animations.cs
+    startLine: 151
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Thinking = 134
+    return:
+      type: System.Byte
+    content.vb: Public Const Thinking As Byte = 134
+- uid: ClippyCore.Global.Animations.Bonzi.Unbelievable
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Unbelievable
+  id: Unbelievable
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Unbelievable
+  nameWithType: Animations.Bonzi.Unbelievable
+  fullName: ClippyCore.Global.Animations.Bonzi.Unbelievable
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Unbelievable
+    path: ClippyCore/Global/Animations.cs
+    startLine: 152
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Unbelievable = 135
+    return:
+      type: System.Byte
+    content.vb: Public Const Unbelievable As Byte = 135
+- uid: ClippyCore.Global.Animations.Bonzi.Uncertain
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Uncertain
+  id: Uncertain
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Uncertain
+  nameWithType: Animations.Bonzi.Uncertain
+  fullName: ClippyCore.Global.Animations.Bonzi.Uncertain
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Uncertain
+    path: ClippyCore/Global/Animations.cs
+    startLine: 153
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Uncertain = 136
+    return:
+      type: System.Byte
+    content.vb: Public Const Uncertain As Byte = 136
+- uid: ClippyCore.Global.Animations.Bonzi.Wave
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Wave
+  id: Wave
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Wave
+  nameWithType: Animations.Bonzi.Wave
+  fullName: ClippyCore.Global.Animations.Bonzi.Wave
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Wave
+    path: ClippyCore/Global/Animations.cs
+    startLine: 154
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Wave = 137
+    return:
+      type: System.Byte
+    content.vb: Public Const Wave As Byte = 137
+- uid: ClippyCore.Global.Animations.Bonzi.Wink
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Wink
+  id: Wink
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Wink
+  nameWithType: Animations.Bonzi.Wink
+  fullName: ClippyCore.Global.Animations.Bonzi.Wink
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Wink
+    path: ClippyCore/Global/Animations.cs
+    startLine: 155
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Wink = 138
+    return:
+      type: System.Byte
+    content.vb: Public Const Wink As Byte = 138
+- uid: ClippyCore.Global.Animations.Bonzi.Write
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Write
+  id: Write
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Write
+  nameWithType: Animations.Bonzi.Write
+  fullName: ClippyCore.Global.Animations.Bonzi.Write
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Write
+    path: ClippyCore/Global/Animations.cs
+    startLine: 156
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Write = 139
+    return:
+      type: System.Byte
+    content.vb: Public Const Write As Byte = 139
+- uid: ClippyCore.Global.Animations.Bonzi.WriteContinued
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WriteContinued
+  id: WriteContinued
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WriteContinued
+  nameWithType: Animations.Bonzi.WriteContinued
+  fullName: ClippyCore.Global.Animations.Bonzi.WriteContinued
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WriteContinued
+    path: ClippyCore/Global/Animations.cs
+    startLine: 157
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WriteContinued = 140
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteContinued As Byte = 140
+- uid: ClippyCore.Global.Animations.Bonzi.WriteOnce
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WriteOnce
+  id: WriteOnce
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WriteOnce
+  nameWithType: Animations.Bonzi.WriteOnce
+  fullName: ClippyCore.Global.Animations.Bonzi.WriteOnce
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WriteOnce
+    path: ClippyCore/Global/Animations.cs
+    startLine: 158
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WriteOnce = 141
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteOnce As Byte = 141
+- uid: ClippyCore.Global.Animations.Bonzi.WriteOnceAgain
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WriteOnceAgain
+  id: WriteOnceAgain
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WriteOnceAgain
+  nameWithType: Animations.Bonzi.WriteOnceAgain
+  fullName: ClippyCore.Global.Animations.Bonzi.WriteOnceAgain
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WriteOnceAgain
+    path: ClippyCore/Global/Animations.cs
+    startLine: 159
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WriteOnceAgain = 142
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteOnceAgain As Byte = 142
+- uid: ClippyCore.Global.Animations.Bonzi.WritePause
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WritePause
+  id: WritePause
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WritePause
+  nameWithType: Animations.Bonzi.WritePause
+  fullName: ClippyCore.Global.Animations.Bonzi.WritePause
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WritePause
+    path: ClippyCore/Global/Animations.cs
+    startLine: 160
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WritePause = 143
+    return:
+      type: System.Byte
+    content.vb: Public Const WritePause As Byte = 143
+- uid: ClippyCore.Global.Animations.Bonzi.WritePre
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WritePre
+  id: WritePre
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WritePre
+  nameWithType: Animations.Bonzi.WritePre
+  fullName: ClippyCore.Global.Animations.Bonzi.WritePre
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WritePre
+    path: ClippyCore/Global/Animations.cs
+    startLine: 161
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WritePre = 144
+    return:
+      type: System.Byte
+    content.vb: Public Const WritePre As Byte = 144
+- uid: ClippyCore.Global.Animations.Bonzi.WriteReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WriteReturn
+  id: WriteReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WriteReturn
+  nameWithType: Animations.Bonzi.WriteReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.WriteReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WriteReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 162
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WriteReturn = 145
+    return:
+      type: System.Byte
+    content.vb: Public Const WriteReturn As Byte = 145
+- uid: ClippyCore.Global.Animations.Bonzi.Writing
+  commentId: F:ClippyCore.Global.Animations.Bonzi.Writing
+  id: Writing
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: Writing
+  nameWithType: Animations.Bonzi.Writing
+  fullName: ClippyCore.Global.Animations.Bonzi.Writing
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Writing
+    path: ClippyCore/Global/Animations.cs
+    startLine: 163
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Writing = 146
+    return:
+      type: System.Byte
+    content.vb: Public Const Writing As Byte = 146
+- uid: ClippyCore.Global.Animations.Bonzi.WritingReturn
+  commentId: F:ClippyCore.Global.Animations.Bonzi.WritingReturn
+  id: WritingReturn
+  parent: ClippyCore.Global.Animations.Bonzi
+  langs:
+  - csharp
+  - vb
+  name: WritingReturn
+  nameWithType: Animations.Bonzi.WritingReturn
+  fullName: ClippyCore.Global.Animations.Bonzi.WritingReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WritingReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 164
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WritingReturn = 147
+    return:
+      type: System.Byte
+    content.vb: Public Const WritingReturn As Byte = 147
+references:
+- uid: ClippyCore.Global
+  commentId: N:ClippyCore.Global
+  href: ClippyCore.html
+  name: ClippyCore.Global
+  nameWithType: ClippyCore.Global
+  fullName: ClippyCore.Global
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Global
+    name: Global
+    href: ClippyCore.Global.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Global
+    name: Global
+    href: ClippyCore.Global.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

@@ -1,0 +1,2373 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Agents.Agent
+  commentId: T:ClippyCore.Agents.Agent
+  id: Agent
+  parent: ClippyCore.Agents
+  children:
+  - ClippyCore.Agents.Agent.#ctor(System.String,System.String,ClippyCore.Agents.AgentType,DoubleAgent.AxControl.AxControl)
+  - ClippyCore.Agents.Agent.AcsPath
+  - ClippyCore.Agents.Agent.AgentName
+  - ClippyCore.Agents.Agent.AgentType
+  - ClippyCore.Agents.Agent.Animations
+  - ClippyCore.Agents.Agent.Controller
+  - ClippyCore.Agents.Agent.GetAnimation(System.Byte)
+  - ClippyCore.Agents.Agent.GetAnimation(System.String)
+  - ClippyCore.Agents.Agent.GetAnimationNames
+  - ClippyCore.Agents.Agent.GetAnimations(System.Boolean)
+  - ClippyCore.Agents.Agent.Hide
+  - ClippyCore.Agents.Agent.MoveTo(System.Int16,System.Int16,System.Int32)
+  - ClippyCore.Agents.Agent.MoveTo(System.Int32,System.Int32,System.Int32)
+  - ClippyCore.Agents.Agent.Play(ClippyCore.Agents.Animation)
+  - ClippyCore.Agents.Agent.Play(System.Byte)
+  - ClippyCore.Agents.Agent.Play(System.String)
+  - ClippyCore.Agents.Agent.Show
+  - ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  - ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  - ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List{System.String})
+  - ClippyCore.Agents.Agent.Speak(System.String)
+  - ClippyCore.Agents.Agent.Speak(System.String[])
+  - ClippyCore.Agents.Agent.Stop
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: Agent
+  fullName: ClippyCore.Agents.Agent
+  type: Class
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Agent
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 20
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Base implementation of IAgent.
+
+    Abstracts the use of AxControl from other clients.
+
+    To create and dispose of Agents, use public AgentManager.
+
+    <xref href="ClippyCore.Agents.AgentManager" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'internal class Agent : IAgent'
+    content.vb: Friend Class Agent Implements IAgent
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - ClippyCore.Agents.TtsAgent
+  implements:
+  - ClippyCore.Interfaces.IAgent
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ClippyCore.Agents.Agent.AgentName
+  commentId: P:ClippyCore.Agents.Agent.AgentName
+  id: AgentName
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: Agent.AgentName
+  fullName: ClippyCore.Agents.Agent.AgentName
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: AgentName
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 22
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public string AgentName { get; private set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentName As String
+  overload: ClippyCore.Agents.Agent.AgentName*
+- uid: ClippyCore.Agents.Agent.AgentType
+  commentId: P:ClippyCore.Agents.Agent.AgentType
+  id: AgentType
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: AgentType
+  nameWithType: Agent.AgentType
+  fullName: ClippyCore.Agents.Agent.AgentType
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: AgentType
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 23
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public AgentType AgentType { get; private set; }
+    parameters: []
+    return:
+      type: ClippyCore.Agents.AgentType
+    content.vb: Public Property AgentType As AgentType
+  overload: ClippyCore.Agents.Agent.AgentType*
+- uid: ClippyCore.Agents.Agent.Animations
+  commentId: P:ClippyCore.Agents.Agent.Animations
+  id: Animations
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Animations
+  nameWithType: Agent.Animations
+  fullName: ClippyCore.Agents.Agent.Animations
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Animations
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 24
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public Dictionary<byte, Animation> Animations { get; private set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.Byte,ClippyCore.Agents.Animation}
+    content.vb: Public Property Animations As Dictionary(Of Byte, Animation)
+  overload: ClippyCore.Agents.Agent.Animations*
+- uid: ClippyCore.Agents.Agent.AcsPath
+  commentId: P:ClippyCore.Agents.Agent.AcsPath
+  id: AcsPath
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: AcsPath
+  nameWithType: Agent.AcsPath
+  fullName: ClippyCore.Agents.Agent.AcsPath
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: AcsPath
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 25
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: protected string AcsPath { get; private set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property AcsPath As String
+  overload: ClippyCore.Agents.Agent.AcsPath*
+- uid: ClippyCore.Agents.Agent.Controller
+  commentId: P:ClippyCore.Agents.Agent.Controller
+  id: Controller
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: Agent.Controller
+  fullName: ClippyCore.Agents.Agent.Controller
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Controller
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 26
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: protected AxControl Controller { get; private set; }
+    parameters: []
+    return:
+      type: DoubleAgent.AxControl.AxControl
+    content.vb: Protected Property Controller As AxControl
+  overload: ClippyCore.Agents.Agent.Controller*
+- uid: ClippyCore.Agents.Agent.#ctor(System.String,System.String,ClippyCore.Agents.AgentType,DoubleAgent.AxControl.AxControl)
+  commentId: M:ClippyCore.Agents.Agent.#ctor(System.String,System.String,ClippyCore.Agents.AgentType,DoubleAgent.AxControl.AxControl)
+  id: '#ctor(System.String,System.String,ClippyCore.Agents.AgentType,DoubleAgent.AxControl.AxControl)'
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Agent(string, string, AgentType, AxControl)
+  nameWithType: Agent.Agent(string, string, AgentType, AxControl)
+  fullName: ClippyCore.Agents.Agent.Agent(string, string, ClippyCore.Agents.AgentType, DoubleAgent.AxControl.AxControl)
+  type: Constructor
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: .ctor
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 28
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public Agent(string acsPath, string agentName, AgentType agentType, AxControl axController)
+    parameters:
+    - id: acsPath
+      type: System.String
+    - id: agentName
+      type: System.String
+    - id: agentType
+      type: ClippyCore.Agents.AgentType
+    - id: axController
+      type: DoubleAgent.AxControl.AxControl
+    content.vb: Public Sub New(acsPath As String, agentName As String, agentType As AgentType, axController As AxControl)
+  overload: ClippyCore.Agents.Agent.#ctor*
+  nameWithType.vb: Agent.New(String, String, AgentType, AxControl)
+  fullName.vb: ClippyCore.Agents.Agent.New(String, String, ClippyCore.Agents.AgentType, DoubleAgent.AxControl.AxControl)
+  name.vb: New(String, String, AgentType, AxControl)
+- uid: ClippyCore.Agents.Agent.Hide
+  commentId: M:ClippyCore.Agents.Agent.Hide
+  id: Hide
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: Agent.Hide()
+  fullName: ClippyCore.Agents.Agent.Hide()
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hide
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 55
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Hides the agent from the screen, but is still running in background.
+  example: []
+  syntax:
+    content: public void Hide()
+    content.vb: Public Sub Hide()
+  overload: ClippyCore.Agents.Agent.Hide*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Hide
+- uid: ClippyCore.Agents.Agent.MoveTo(System.Int32,System.Int32,System.Int32)
+  commentId: M:ClippyCore.Agents.Agent.MoveTo(System.Int32,System.Int32,System.Int32)
+  id: MoveTo(System.Int32,System.Int32,System.Int32)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(int, int, int)
+  nameWithType: Agent.MoveTo(int, int, int)
+  fullName: ClippyCore.Agents.Agent.MoveTo(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveTo
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 67
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Moves agent to specified position. Use this version if using int values, like would be the case when using Screen.PrimaryScreen.Bounds
+
+    or Windows.Forms Controls or Rectangles
+  example: []
+  syntax:
+    content: public void MoveTo(int x, int y, int speed = 0)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: X position relative to 0,0
+    - id: y
+      type: System.Int32
+      description: Y position relative to 0,0
+    - id: speed
+      type: System.Int32
+      description: Speed at which agent moves in miliseconds. 0 is instant.
+    content.vb: Public Sub MoveTo(x As Integer, y As Integer, speed As Integer = 0)
+  overload: ClippyCore.Agents.Agent.MoveTo*
+  implements:
+  - ClippyCore.Interfaces.IAgent.MoveTo(System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: Agent.MoveTo(Integer, Integer, Integer)
+  fullName.vb: ClippyCore.Agents.Agent.MoveTo(Integer, Integer, Integer)
+  name.vb: MoveTo(Integer, Integer, Integer)
+- uid: ClippyCore.Agents.Agent.MoveTo(System.Int16,System.Int16,System.Int32)
+  commentId: M:ClippyCore.Agents.Agent.MoveTo(System.Int16,System.Int16,System.Int32)
+  id: MoveTo(System.Int16,System.Int16,System.Int32)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(short, short, int)
+  nameWithType: Agent.MoveTo(short, short, int)
+  fullName: ClippyCore.Agents.Agent.MoveTo(short, short, int)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MoveTo
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 78
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Moves agent to specified position. Use this version if knowingly passing 'shorts'. AxControl uses shorts as X,Y arguments natively.
+  example: []
+  syntax:
+    content: public void MoveTo(short x, short y, int speed = 0)
+    parameters:
+    - id: x
+      type: System.Int16
+      description: X position relative to 0,0
+    - id: y
+      type: System.Int16
+      description: Y position relative to 0,0
+    - id: speed
+      type: System.Int32
+      description: Speed at which agent moves in miliseconds. 0 is instant.
+    content.vb: Public Sub MoveTo(x As Short, y As Short, speed As Integer = 0)
+  overload: ClippyCore.Agents.Agent.MoveTo*
+  implements:
+  - ClippyCore.Interfaces.IAgent.MoveTo(System.Int16,System.Int16,System.Int32)
+  nameWithType.vb: Agent.MoveTo(Short, Short, Integer)
+  fullName.vb: ClippyCore.Agents.Agent.MoveTo(Short, Short, Integer)
+  name.vb: MoveTo(Short, Short, Integer)
+- uid: ClippyCore.Agents.Agent.Play(System.String)
+  commentId: M:ClippyCore.Agents.Agent.Play(System.String)
+  id: Play(System.String)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Play(string)
+  nameWithType: Agent.Play(string)
+  fullName: ClippyCore.Agents.Agent.Play(string)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Play
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 88
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Plays an animation by passing a string (if you know it).
+
+    You can call GetAnimationNames() to get a full list of available animations for each agent.
+  example: []
+  syntax:
+    content: public void Play(string animation)
+    parameters:
+    - id: animation
+      type: System.String
+      description: Name of the animation.
+    content.vb: Public Sub Play(animation As String)
+  overload: ClippyCore.Agents.Agent.Play*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Play(System.String)
+  nameWithType.vb: Agent.Play(String)
+  fullName.vb: ClippyCore.Agents.Agent.Play(String)
+  name.vb: Play(String)
+- uid: ClippyCore.Agents.Agent.Play(ClippyCore.Agents.Animation)
+  commentId: M:ClippyCore.Agents.Agent.Play(ClippyCore.Agents.Animation)
+  id: Play(ClippyCore.Agents.Animation)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Play(Animation)
+  nameWithType: Agent.Play(Animation)
+  fullName: ClippyCore.Agents.Agent.Play(ClippyCore.Agents.Animation)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Play
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 104
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Plays an animation by passing an Animation instance.
+  example: []
+  syntax:
+    content: public void Play(Animation animation)
+    parameters:
+    - id: animation
+      type: ClippyCore.Agents.Animation
+      description: The Animation
+    content.vb: Public Sub Play(animation As Animation)
+  overload: ClippyCore.Agents.Agent.Play*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+- uid: ClippyCore.Agents.Agent.Play(System.Byte)
+  commentId: M:ClippyCore.Agents.Agent.Play(System.Byte)
+  id: Play(System.Byte)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Play(byte)
+  nameWithType: Agent.Play(byte)
+  fullName: ClippyCore.Agents.Agent.Play(byte)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Play
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 123
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Play an animation by passing a byte.
+
+    Example usage: _bonzi.Play(Animations.Bonzi.Aknowledge)
+  example: []
+  syntax:
+    content: public void Play(byte animationKey)
+    parameters:
+    - id: animationKey
+      type: System.Byte
+      description: ''
+    content.vb: Public Sub Play(animationKey As Byte)
+  overload: ClippyCore.Agents.Agent.Play*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Play(System.Byte)
+  nameWithType.vb: Agent.Play(Byte)
+  fullName.vb: ClippyCore.Agents.Agent.Play(Byte)
+  name.vb: Play(Byte)
+- uid: ClippyCore.Agents.Agent.Show
+  commentId: M:ClippyCore.Agents.Agent.Show
+  id: Show
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: Agent.Show()
+  fullName: ClippyCore.Agents.Agent.Show()
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Show
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 139
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Shows the agent on the screen.
+  example: []
+  syntax:
+    content: public void Show()
+    content.vb: Public Sub Show()
+  overload: ClippyCore.Agents.Agent.Show*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Show
+- uid: ClippyCore.Agents.Agent.Speak(System.String)
+  commentId: M:ClippyCore.Agents.Agent.Speak(System.String)
+  id: Speak(System.String)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Speak(string)
+  nameWithType: Agent.Speak(string)
+  fullName: ClippyCore.Agents.Agent.Speak(string)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Speak
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 148
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Makes the agent speak (speech bubble).
+  example: []
+  syntax:
+    content: public void Speak(string phrase)
+    parameters:
+    - id: phrase
+      type: System.String
+      description: What the agent will say.
+    content.vb: Public Sub Speak(phrase As String)
+  overload: ClippyCore.Agents.Agent.Speak*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Speak(System.String)
+  nameWithType.vb: Agent.Speak(String)
+  fullName.vb: ClippyCore.Agents.Agent.Speak(String)
+  name.vb: Speak(String)
+- uid: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List{System.String})
+  commentId: M:ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List{System.String})
+  id: Speak(System.Collections.Generic.List{System.String})
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Speak(List<string>)
+  nameWithType: Agent.Speak(List<string>)
+  fullName: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List<string>)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Speak
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 158
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Make the agent say multiple things in sequence.
+
+    Can be used with Dictionaries of TKey,string by doing phrases.Values.ToList etc...
+  example: []
+  syntax:
+    content: public void Speak(List<string> phrases)
+    parameters:
+    - id: phrases
+      type: System.Collections.Generic.List{System.String}
+      description: List of phrases for the agent to speak, one at a time.
+    content.vb: Public Sub Speak(phrases As List(Of String))
+  overload: ClippyCore.Agents.Agent.Speak*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List{System.String})
+  nameWithType.vb: Agent.Speak(List(Of String))
+  fullName.vb: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.List(Of String))
+  name.vb: Speak(List(Of String))
+- uid: ClippyCore.Agents.Agent.Speak(System.String[])
+  commentId: M:ClippyCore.Agents.Agent.Speak(System.String[])
+  id: Speak(System.String[])
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Speak(string[])
+  nameWithType: Agent.Speak(string[])
+  fullName: ClippyCore.Agents.Agent.Speak(string[])
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Speak
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 172
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Make the agent say multiple things in sequence.
+
+    Can be used with Dictionaries of TKey,string using phrases.Values.ToArray etc...
+  example: []
+  syntax:
+    content: public void Speak(string[] phrases)
+    parameters:
+    - id: phrases
+      type: System.String[]
+      description: Array of string for the agent to speak.
+    content.vb: Public Sub Speak(phrases As String())
+  overload: ClippyCore.Agents.Agent.Speak*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Speak(System.String[])
+  nameWithType.vb: Agent.Speak(String())
+  fullName.vb: ClippyCore.Agents.Agent.Speak(String())
+  name.vb: Speak(String())
+- uid: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  commentId: M:ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  id: Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Speak(Dictionary<string, string>, string)
+  nameWithType: Agent.Speak(Dictionary<string, string>, string)
+  fullName: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary<string, string>, string)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Speak
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 186
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Make agent speak specific phrase in a dictionary.
+  example: []
+  syntax:
+    content: public void Speak(Dictionary<string, string> phrases, string key)
+    parameters:
+    - id: phrases
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Phrase dictionary.
+    - id: key
+      type: System.String
+      description: Key of phrase value to speak
+    content.vb: Public Sub Speak(phrases As Dictionary(Of String, String), key As String)
+  overload: ClippyCore.Agents.Agent.Speak*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  nameWithType.vb: Agent.Speak(Dictionary(Of String, String), String)
+  fullName.vb: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary(Of String, String), String)
+  name.vb: Speak(Dictionary(Of String, String), String)
+- uid: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  commentId: M:ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  id: Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Speak(Dictionary<uint, string>, uint)
+  nameWithType: Agent.Speak(Dictionary<uint, string>, uint)
+  fullName: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary<uint, string>, uint)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Speak
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 197
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Make agent speak specific phrase in a dictionary.
+  example: []
+  syntax:
+    content: public void Speak(Dictionary<uint, string> phrases, uint key)
+    parameters:
+    - id: phrases
+      type: System.Collections.Generic.Dictionary{System.UInt32,System.String}
+      description: Phrase dictionary.
+    - id: key
+      type: System.UInt32
+      description: Key of phrase value to speak
+    content.vb: Public Sub Speak(phrases As Dictionary(Of UInteger, String), key As UInteger)
+  overload: ClippyCore.Agents.Agent.Speak*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  nameWithType.vb: Agent.Speak(Dictionary(Of UInteger, String), UInteger)
+  fullName.vb: ClippyCore.Agents.Agent.Speak(System.Collections.Generic.Dictionary(Of UInteger, String), UInteger)
+  name.vb: Speak(Dictionary(Of UInteger, String), UInteger)
+- uid: ClippyCore.Agents.Agent.Stop
+  commentId: M:ClippyCore.Agents.Agent.Stop
+  id: Stop
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: Agent.Stop()
+  fullName: ClippyCore.Agents.Agent.Stop()
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Stop
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 206
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Force stop an Agent animation.
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: ClippyCore.Agents.Agent.Stop*
+  implements:
+  - ClippyCore.Interfaces.IAgent.Stop
+- uid: ClippyCore.Agents.Agent.GetAnimationNames
+  commentId: M:ClippyCore.Agents.Agent.GetAnimationNames
+  id: GetAnimationNames
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: GetAnimationNames()
+  nameWithType: Agent.GetAnimationNames()
+  fullName: ClippyCore.Agents.Agent.GetAnimationNames()
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAnimationNames
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 215
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Get a list of all available animations for the specific agent.
+  example: []
+  syntax:
+    content: public string[] GetAnimationNames()
+    return:
+      type: System.String[]
+      description: Animation names as strings in an array.
+    content.vb: Public Function GetAnimationNames() As String()
+  overload: ClippyCore.Agents.Agent.GetAnimationNames*
+  implements:
+  - ClippyCore.Interfaces.IAgent.GetAnimationNames
+- uid: ClippyCore.Agents.Agent.GetAnimations(System.Boolean)
+  commentId: M:ClippyCore.Agents.Agent.GetAnimations(System.Boolean)
+  id: GetAnimations(System.Boolean)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: GetAnimations(bool)
+  nameWithType: Agent.GetAnimations(bool)
+  fullName: ClippyCore.Agents.Agent.GetAnimations(bool)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAnimations
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 222
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Returns all available Animations for agent as dictionary.
+  example: []
+  syntax:
+    content: public IDictionary GetAnimations(bool useStringKey = false)
+    parameters:
+    - id: useStringKey
+      type: System.Boolean
+      description: If true, returns the dictionary with string keys where the key is the animation name.
+    return:
+      type: System.Collections.IDictionary
+      description: Dictionary where values are all Animation objects.
+    content.vb: Public Function GetAnimations(useStringKey As Boolean = False) As IDictionary
+  overload: ClippyCore.Agents.Agent.GetAnimations*
+  implements:
+  - ClippyCore.Interfaces.IAgent.GetAnimations(System.Boolean)
+  nameWithType.vb: Agent.GetAnimations(Boolean)
+  fullName.vb: ClippyCore.Agents.Agent.GetAnimations(Boolean)
+  name.vb: GetAnimations(Boolean)
+- uid: ClippyCore.Agents.Agent.GetAnimation(System.String)
+  commentId: M:ClippyCore.Agents.Agent.GetAnimation(System.String)
+  id: GetAnimation(System.String)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: GetAnimation(string)
+  nameWithType: Agent.GetAnimation(string)
+  fullName: ClippyCore.Agents.Agent.GetAnimation(string)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAnimation
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 243
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Returns animation object based on its name.
+  example: []
+  syntax:
+    content: public Animation GetAnimation(string animationName)
+    parameters:
+    - id: animationName
+      type: System.String
+      description: Name of the animation obj to return/
+    return:
+      type: ClippyCore.Agents.Animation
+      description: Desired Animation obj
+    content.vb: Public Function GetAnimation(animationName As String) As Animation
+  overload: ClippyCore.Agents.Agent.GetAnimation*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: ''
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: ''
+  implements:
+  - ClippyCore.Interfaces.IAgent.GetAnimation(System.String)
+  nameWithType.vb: Agent.GetAnimation(String)
+  fullName.vb: ClippyCore.Agents.Agent.GetAnimation(String)
+  name.vb: GetAnimation(String)
+- uid: ClippyCore.Agents.Agent.GetAnimation(System.Byte)
+  commentId: M:ClippyCore.Agents.Agent.GetAnimation(System.Byte)
+  id: GetAnimation(System.Byte)
+  parent: ClippyCore.Agents.Agent
+  langs:
+  - csharp
+  - vb
+  name: GetAnimation(byte)
+  nameWithType: Agent.GetAnimation(byte)
+  fullName: ClippyCore.Agents.Agent.GetAnimation(byte)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Agent.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetAnimation
+    path: ClippyCore/Agents/Agent.cs
+    startLine: 259
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Returns Animation Obj based on its Animations key.
+
+    Example usage: GetAnimation(Animations.Bonzi.Aknowledge)
+  example: []
+  syntax:
+    content: public Animation GetAnimation(byte key)
+    parameters:
+    - id: key
+      type: System.Byte
+      description: Key of animation in dictionary, as byte.
+    return:
+      type: ClippyCore.Agents.Animation
+      description: The Animation obj
+    content.vb: Public Function GetAnimation(key As Byte) As Animation
+  overload: ClippyCore.Agents.Agent.GetAnimation*
+  implements:
+  - ClippyCore.Interfaces.IAgent.GetAnimation(System.Byte)
+  nameWithType.vb: Agent.GetAnimation(Byte)
+  fullName.vb: ClippyCore.Agents.Agent.GetAnimation(Byte)
+  name.vb: GetAnimation(Byte)
+references:
+- uid: ClippyCore.Agents.AgentManager
+  commentId: T:ClippyCore.Agents.AgentManager
+  href: ClippyCore.Agents.AgentManager.html
+  name: AgentManager
+  nameWithType: AgentManager
+  fullName: ClippyCore.Agents.AgentManager
+- uid: ClippyCore.Agents
+  commentId: N:ClippyCore.Agents
+  href: ClippyCore.html
+  name: ClippyCore.Agents
+  nameWithType: ClippyCore.Agents
+  fullName: ClippyCore.Agents
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ClippyCore.Interfaces.IAgent
+  commentId: T:ClippyCore.Interfaces.IAgent
+  parent: ClippyCore.Interfaces
+  href: ClippyCore.Interfaces.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: ClippyCore.Interfaces.IAgent
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClippyCore.Interfaces
+  commentId: N:ClippyCore.Interfaces
+  href: ClippyCore.html
+  name: ClippyCore.Interfaces
+  nameWithType: ClippyCore.Interfaces
+  fullName: ClippyCore.Interfaces
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html
+- uid: ClippyCore.Agents.Agent.AgentName*
+  commentId: Overload:ClippyCore.Agents.Agent.AgentName
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_AgentName
+  name: AgentName
+  nameWithType: Agent.AgentName
+  fullName: ClippyCore.Agents.Agent.AgentName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ClippyCore.Agents.Agent.AgentType*
+  commentId: Overload:ClippyCore.Agents.Agent.AgentType
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_AgentType
+  name: AgentType
+  nameWithType: Agent.AgentType
+  fullName: ClippyCore.Agents.Agent.AgentType
+- uid: ClippyCore.Agents.AgentType
+  commentId: T:ClippyCore.Agents.AgentType
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.AgentType.html
+  name: AgentType
+  nameWithType: AgentType
+  fullName: ClippyCore.Agents.AgentType
+- uid: ClippyCore.Agents.Agent.Animations*
+  commentId: Overload:ClippyCore.Agents.Agent.Animations
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Animations
+  name: Animations
+  nameWithType: Agent.Animations
+  fullName: ClippyCore.Agents.Agent.Animations
+- uid: System.Collections.Generic.Dictionary{System.Byte,ClippyCore.Agents.Animation}
+  commentId: T:System.Collections.Generic.Dictionary{System.Byte,ClippyCore.Agents.Animation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<byte, Animation>
+  nameWithType: Dictionary<byte, Animation>
+  fullName: System.Collections.Generic.Dictionary<byte, ClippyCore.Agents.Animation>
+  nameWithType.vb: Dictionary(Of Byte, Animation)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Byte, ClippyCore.Agents.Animation)
+  name.vb: Dictionary(Of Byte, Animation)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: ','
+  - name: " "
+  - uid: ClippyCore.Agents.Animation
+    name: Animation
+    href: ClippyCore.Agents.Animation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: ','
+  - name: " "
+  - uid: ClippyCore.Agents.Animation
+    name: Animation
+    href: ClippyCore.Agents.Animation.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: ClippyCore.Agents.Agent.AcsPath*
+  commentId: Overload:ClippyCore.Agents.Agent.AcsPath
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_AcsPath
+  name: AcsPath
+  nameWithType: Agent.AcsPath
+  fullName: ClippyCore.Agents.Agent.AcsPath
+- uid: ClippyCore.Agents.Agent.Controller*
+  commentId: Overload:ClippyCore.Agents.Agent.Controller
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Controller
+  name: Controller
+  nameWithType: Agent.Controller
+  fullName: ClippyCore.Agents.Agent.Controller
+- uid: DoubleAgent.AxControl.AxControl
+  commentId: T:DoubleAgent.AxControl.AxControl
+  parent: DoubleAgent.AxControl
+  isExternal: true
+  name: AxControl
+  nameWithType: AxControl
+  fullName: DoubleAgent.AxControl.AxControl
+- uid: DoubleAgent.AxControl
+  commentId: N:DoubleAgent.AxControl
+  isExternal: true
+  name: DoubleAgent.AxControl
+  nameWithType: DoubleAgent.AxControl
+  fullName: DoubleAgent.AxControl
+  spec.csharp:
+  - uid: DoubleAgent
+    name: DoubleAgent
+    isExternal: true
+  - name: .
+  - uid: DoubleAgent.AxControl
+    name: AxControl
+    isExternal: true
+  spec.vb:
+  - uid: DoubleAgent
+    name: DoubleAgent
+    isExternal: true
+  - name: .
+  - uid: DoubleAgent.AxControl
+    name: AxControl
+    isExternal: true
+- uid: ClippyCore.Agents.Agent.#ctor*
+  commentId: Overload:ClippyCore.Agents.Agent.#ctor
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent__ctor_System_String_System_String_ClippyCore_Agents_AgentType_DoubleAgent_AxControl_AxControl_
+  name: Agent
+  nameWithType: Agent.Agent
+  fullName: ClippyCore.Agents.Agent.Agent
+  nameWithType.vb: Agent.New
+  fullName.vb: ClippyCore.Agents.Agent.New
+  name.vb: New
+- uid: ClippyCore.Agents.Agent.Hide*
+  commentId: Overload:ClippyCore.Agents.Agent.Hide
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Hide
+  name: Hide
+  nameWithType: Agent.Hide
+  fullName: ClippyCore.Agents.Agent.Hide
+- uid: ClippyCore.Interfaces.IAgent.Hide
+  commentId: M:ClippyCore.Interfaces.IAgent.Hide
+  parent: ClippyCore.Interfaces.IAgent
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Hide
+  name: Hide()
+  nameWithType: IAgent.Hide()
+  fullName: ClippyCore.Interfaces.IAgent.Hide()
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Hide
+    name: Hide
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Hide
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Hide
+    name: Hide
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Hide
+  - name: (
+  - name: )
+- uid: ClippyCore.Agents.Agent.MoveTo*
+  commentId: Overload:ClippyCore.Agents.Agent.MoveTo
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_MoveTo_System_Int32_System_Int32_System_Int32_
+  name: MoveTo
+  nameWithType: Agent.MoveTo
+  fullName: ClippyCore.Agents.Agent.MoveTo
+- uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int32,System.Int32,System.Int32)
+  commentId: M:ClippyCore.Interfaces.IAgent.MoveTo(System.Int32,System.Int32,System.Int32)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int32_System_Int32_System_Int32_
+  name: MoveTo(int, int, int)
+  nameWithType: IAgent.MoveTo(int, int, int)
+  fullName: ClippyCore.Interfaces.IAgent.MoveTo(int, int, int)
+  nameWithType.vb: IAgent.MoveTo(Integer, Integer, Integer)
+  fullName.vb: ClippyCore.Interfaces.IAgent.MoveTo(Integer, Integer, Integer)
+  name.vb: MoveTo(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int32,System.Int32,System.Int32)
+    name: MoveTo
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int32,System.Int32,System.Int32)
+    name: MoveTo
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int16,System.Int16,System.Int32)
+  commentId: M:ClippyCore.Interfaces.IAgent.MoveTo(System.Int16,System.Int16,System.Int32)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int16_System_Int16_System_Int32_
+  name: MoveTo(short, short, int)
+  nameWithType: IAgent.MoveTo(short, short, int)
+  fullName: ClippyCore.Interfaces.IAgent.MoveTo(short, short, int)
+  nameWithType.vb: IAgent.MoveTo(Short, Short, Integer)
+  fullName.vb: ClippyCore.Interfaces.IAgent.MoveTo(Short, Short, Integer)
+  name.vb: MoveTo(Short, Short, Integer)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int16,System.Int16,System.Int32)
+    name: MoveTo
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int16_System_Int16_System_Int32_
+  - name: (
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.MoveTo(System.Int16,System.Int16,System.Int32)
+    name: MoveTo
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_MoveTo_System_Int16_System_Int16_System_Int32_
+  - name: (
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: ','
+  - name: " "
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: ClippyCore.Agents.Agent.Play*
+  commentId: Overload:ClippyCore.Agents.Agent.Play
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Play_System_String_
+  name: Play
+  nameWithType: Agent.Play
+  fullName: ClippyCore.Agents.Agent.Play
+- uid: ClippyCore.Interfaces.IAgent.Play(System.String)
+  commentId: M:ClippyCore.Interfaces.IAgent.Play(System.String)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_String_
+  name: Play(string)
+  nameWithType: IAgent.Play(string)
+  fullName: ClippyCore.Interfaces.IAgent.Play(string)
+  nameWithType.vb: IAgent.Play(String)
+  fullName.vb: ClippyCore.Interfaces.IAgent.Play(String)
+  name.vb: Play(String)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Play(System.String)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Play(System.String)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+  commentId: M:ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+  parent: ClippyCore.Interfaces.IAgent
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_ClippyCore_Agents_Animation_
+  name: Play(Animation)
+  nameWithType: IAgent.Play(Animation)
+  fullName: ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_ClippyCore_Agents_Animation_
+  - name: (
+  - uid: ClippyCore.Agents.Animation
+    name: Animation
+    href: ClippyCore.Agents.Animation.html
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Play(ClippyCore.Agents.Animation)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_ClippyCore_Agents_Animation_
+  - name: (
+  - uid: ClippyCore.Agents.Animation
+    name: Animation
+    href: ClippyCore.Agents.Animation.html
+  - name: )
+- uid: ClippyCore.Agents.Animation
+  commentId: T:ClippyCore.Agents.Animation
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.Animation.html
+  name: Animation
+  nameWithType: Animation
+  fullName: ClippyCore.Agents.Animation
+- uid: ClippyCore.Global.Animations
+  commentId: T:ClippyCore.Global.Animations
+  href: ClippyCore.Global.Animations.html
+  name: Animations
+  nameWithType: Animations
+  fullName: ClippyCore.Global.Animations
+- uid: ClippyCore.Interfaces.IAgent.Play(System.Byte)
+  commentId: M:ClippyCore.Interfaces.IAgent.Play(System.Byte)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_Byte_
+  name: Play(byte)
+  nameWithType: IAgent.Play(byte)
+  fullName: ClippyCore.Interfaces.IAgent.Play(byte)
+  nameWithType.vb: IAgent.Play(Byte)
+  fullName.vb: ClippyCore.Interfaces.IAgent.Play(Byte)
+  name.vb: Play(Byte)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Play(System.Byte)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Play(System.Byte)
+    name: Play
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Play_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: ClippyCore.Agents.Agent.Show*
+  commentId: Overload:ClippyCore.Agents.Agent.Show
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Show
+  name: Show
+  nameWithType: Agent.Show
+  fullName: ClippyCore.Agents.Agent.Show
+- uid: ClippyCore.Interfaces.IAgent.Show
+  commentId: M:ClippyCore.Interfaces.IAgent.Show
+  parent: ClippyCore.Interfaces.IAgent
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Show
+  name: Show()
+  nameWithType: IAgent.Show()
+  fullName: ClippyCore.Interfaces.IAgent.Show()
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Show
+    name: Show
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Show
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Show
+    name: Show
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Show
+  - name: (
+  - name: )
+- uid: ClippyCore.Agents.Agent.Speak*
+  commentId: Overload:ClippyCore.Agents.Agent.Speak
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Speak_System_String_
+  name: Speak
+  nameWithType: Agent.Speak
+  fullName: ClippyCore.Agents.Agent.Speak
+- uid: ClippyCore.Interfaces.IAgent.Speak(System.String)
+  commentId: M:ClippyCore.Interfaces.IAgent.Speak(System.String)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String_
+  name: Speak(string)
+  nameWithType: IAgent.Speak(string)
+  fullName: ClippyCore.Interfaces.IAgent.Speak(string)
+  nameWithType.vb: IAgent.Speak(String)
+  fullName.vb: ClippyCore.Interfaces.IAgent.Speak(String)
+  name.vb: Speak(String)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.String)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.String)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List{System.String})
+  commentId: M:ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List{System.String})
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_List_System_String__
+  name: Speak(List<string>)
+  nameWithType: IAgent.Speak(List<string>)
+  fullName: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List<string>)
+  nameWithType.vb: IAgent.Speak(List(Of String))
+  fullName.vb: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List(Of String))
+  name.vb: Speak(List(Of String))
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List{System.String})
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_List_System_String__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.List{System.String})
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_List_System_String__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.Speak(System.String[])
+  commentId: M:ClippyCore.Interfaces.IAgent.Speak(System.String[])
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String___
+  name: Speak(string[])
+  nameWithType: IAgent.Speak(string[])
+  fullName: ClippyCore.Interfaces.IAgent.Speak(string[])
+  nameWithType.vb: IAgent.Speak(String())
+  fullName.vb: ClippyCore.Interfaces.IAgent.Speak(String())
+  name.vb: Speak(String())
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.String[])
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.String[])
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  commentId: M:ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_String_System_String__System_String_
+  name: Speak(Dictionary<string, string>, string)
+  nameWithType: IAgent.Speak(Dictionary<string, string>, string)
+  fullName: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary<string, string>, string)
+  nameWithType.vb: IAgent.Speak(Dictionary(Of String, String), String)
+  fullName.vb: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary(Of String, String), String)
+  name.vb: Speak(Dictionary(Of String, String), String)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_String_System_String__System_String_
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.String,System.String},System.String)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_String_System_String__System_String_
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  commentId: M:ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_UInt32_System_String__System_UInt32_
+  name: Speak(Dictionary<uint, string>, uint)
+  nameWithType: IAgent.Speak(Dictionary<uint, string>, uint)
+  fullName: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary<uint, string>, uint)
+  nameWithType.vb: IAgent.Speak(Dictionary(Of UInteger, String), UInteger)
+  fullName.vb: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary(Of UInteger, String), UInteger)
+  name.vb: Speak(Dictionary(Of UInteger, String), UInteger)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_UInt32_System_String__System_UInt32_
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Speak(System.Collections.Generic.Dictionary{System.UInt32,System.String},System.UInt32)
+    name: Speak
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Speak_System_Collections_Generic_Dictionary_System_UInt32_System_String__System_UInt32_
+  - name: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.UInt32,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.UInt32,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<uint, string>
+  nameWithType: Dictionary<uint, string>
+  fullName: System.Collections.Generic.Dictionary<uint, string>
+  nameWithType.vb: Dictionary(Of UInteger, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of UInteger, String)
+  name.vb: Dictionary(Of UInteger, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ClippyCore.Agents.Agent.Stop*
+  commentId: Overload:ClippyCore.Agents.Agent.Stop
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_Stop
+  name: Stop
+  nameWithType: Agent.Stop
+  fullName: ClippyCore.Agents.Agent.Stop
+- uid: ClippyCore.Interfaces.IAgent.Stop
+  commentId: M:ClippyCore.Interfaces.IAgent.Stop
+  parent: ClippyCore.Interfaces.IAgent
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Stop
+  name: Stop()
+  nameWithType: IAgent.Stop()
+  fullName: ClippyCore.Interfaces.IAgent.Stop()
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.Stop
+    name: Stop
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.Stop
+    name: Stop
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_Stop
+  - name: (
+  - name: )
+- uid: ClippyCore.Agents.Agent.GetAnimationNames*
+  commentId: Overload:ClippyCore.Agents.Agent.GetAnimationNames
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_GetAnimationNames
+  name: GetAnimationNames
+  nameWithType: Agent.GetAnimationNames
+  fullName: ClippyCore.Agents.Agent.GetAnimationNames
+- uid: ClippyCore.Interfaces.IAgent.GetAnimationNames
+  commentId: M:ClippyCore.Interfaces.IAgent.GetAnimationNames
+  parent: ClippyCore.Interfaces.IAgent
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimationNames
+  name: GetAnimationNames()
+  nameWithType: IAgent.GetAnimationNames()
+  fullName: ClippyCore.Interfaces.IAgent.GetAnimationNames()
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimationNames
+    name: GetAnimationNames
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimationNames
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimationNames
+    name: GetAnimationNames
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimationNames
+  - name: (
+  - name: )
+- uid: ClippyCore.Agents.Agent.GetAnimations*
+  commentId: Overload:ClippyCore.Agents.Agent.GetAnimations
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_GetAnimations_System_Boolean_
+  name: GetAnimations
+  nameWithType: Agent.GetAnimations
+  fullName: ClippyCore.Agents.Agent.GetAnimations
+- uid: ClippyCore.Interfaces.IAgent.GetAnimations(System.Boolean)
+  commentId: M:ClippyCore.Interfaces.IAgent.GetAnimations(System.Boolean)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimations_System_Boolean_
+  name: GetAnimations(bool)
+  nameWithType: IAgent.GetAnimations(bool)
+  fullName: ClippyCore.Interfaces.IAgent.GetAnimations(bool)
+  nameWithType.vb: IAgent.GetAnimations(Boolean)
+  fullName.vb: ClippyCore.Interfaces.IAgent.GetAnimations(Boolean)
+  name.vb: GetAnimations(Boolean)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimations(System.Boolean)
+    name: GetAnimations
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimations_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimations(System.Boolean)
+    name: GetAnimations
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimations_System_Boolean_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.IDictionary
+  commentId: T:System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: System.Collections.IDictionary
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception
+  name: KeyNotFoundException
+  nameWithType: KeyNotFoundException
+  fullName: System.Collections.Generic.KeyNotFoundException
+- uid: ClippyCore.Agents.Agent.GetAnimation*
+  commentId: Overload:ClippyCore.Agents.Agent.GetAnimation
+  href: ClippyCore.Agents.Agent.html#ClippyCore_Agents_Agent_GetAnimation_System_String_
+  name: GetAnimation
+  nameWithType: Agent.GetAnimation
+  fullName: ClippyCore.Agents.Agent.GetAnimation
+- uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.String)
+  commentId: M:ClippyCore.Interfaces.IAgent.GetAnimation(System.String)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_String_
+  name: GetAnimation(string)
+  nameWithType: IAgent.GetAnimation(string)
+  fullName: ClippyCore.Interfaces.IAgent.GetAnimation(string)
+  nameWithType.vb: IAgent.GetAnimation(String)
+  fullName.vb: ClippyCore.Interfaces.IAgent.GetAnimation(String)
+  name.vb: GetAnimation(String)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.String)
+    name: GetAnimation
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.String)
+    name: GetAnimation
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.Byte)
+  commentId: M:ClippyCore.Interfaces.IAgent.GetAnimation(System.Byte)
+  parent: ClippyCore.Interfaces.IAgent
+  isExternal: true
+  href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_Byte_
+  name: GetAnimation(byte)
+  nameWithType: IAgent.GetAnimation(byte)
+  fullName: ClippyCore.Interfaces.IAgent.GetAnimation(byte)
+  nameWithType.vb: IAgent.GetAnimation(Byte)
+  fullName.vb: ClippyCore.Interfaces.IAgent.GetAnimation(Byte)
+  name.vb: GetAnimation(Byte)
+  spec.csharp:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.Byte)
+    name: GetAnimation
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  spec.vb:
+  - uid: ClippyCore.Interfaces.IAgent.GetAnimation(System.Byte)
+    name: GetAnimation
+    href: ClippyCore.Interfaces.IAgent.html#ClippyCore_Interfaces_IAgent_GetAnimation_System_Byte_
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
