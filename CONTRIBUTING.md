@@ -8,7 +8,7 @@ Our goal is to make this project a great space for seasoned and new contributors
 ## How to Contribute
 
 ### Reporting Bugs and Requesting Features
-- Please use the provided GitHub Issue templates (template_xxxx.md).
+- Please use the provided GitHub Issue or Pull Request templates (./.github/template_xxxx.md).
 - Before submitting a bug, please search existing issues to see if it has already been reported.
 - Please label your GitHub Issue appropriately (bug, feature-request, etc...)
 - Please also label your GitHub Issue with the related Project label it targets (clippy-core, clippy-desktop, clippy-word)
