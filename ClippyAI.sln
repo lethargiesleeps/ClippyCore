@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyDesktop", "ClippyDesk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyWord", "ClippyWord\ClippyWord.csproj", "{C35B61CD-614E-4832-B414-B0160BC4A362}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClippyTesting", "ClippyTesting\ClippyTesting.csproj", "{6C27D228-A122-433F-AE91-B5829CB42EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C35B61CD-614E-4832-B414-B0160BC4A362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35B61CD-614E-4832-B414-B0160BC4A362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35B61CD-614E-4832-B414-B0160BC4A362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C27D228-A122-433F-AE91-B5829CB42EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C27D228-A122-433F-AE91-B5829CB42EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C27D228-A122-433F-AE91-B5829CB42EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C27D228-A122-433F-AE91-B5829CB42EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

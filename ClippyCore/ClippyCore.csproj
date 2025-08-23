@@ -2,110 +2,115 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	  
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Data\data.json" />
+    <None Remove="Data\logs.txt" />
     <None Remove="Data\settings.json" />
-    <None Remove="Dependencies\Agents\1819_dot.acs" />
-    <None Remove="Dependencies\Agents\1819_f1.acs" />
-    <None Remove="Dependencies\Agents\1819_genius.acs" />
-    <None Remove="Dependencies\Agents\1819_logo.acs" />
-    <None Remove="Dependencies\Agents\1819_mnature.acs" />
-    <None Remove="Dependencies\Agents\1819_rocky.acs" />
-    <None Remove="Dependencies\Agents\1819_stillogo.acs" />
-    <None Remove="Dependencies\Agents\bonzi vine.acs" />
-    <None Remove="Dependencies\Agents\Bonzi.acs" />
-    <None Remove="Dependencies\Agents\CLIPPIT.ACS" />
-    <None Remove="Dependencies\Agents\DOLPHIN.ACS" />
-    <None Remove="Dependencies\Agents\DOT.ACS" />
-    <None Remove="Dependencies\Agents\F1.ACS" />
-    <None Remove="Dependencies\Agents\GENIUS.ACS" />
-    <None Remove="Dependencies\Agents\LOGO.ACS" />
-    <None Remove="Dependencies\Agents\manma.acs" />
-    <None Remove="Dependencies\Agents\MNATURE.ACS" />
-    <None Remove="Dependencies\Agents\Monkey King.ACS" />
-    <None Remove="Dependencies\Agents\OFFCAT.ACS" />
-    <None Remove="Dependencies\Agents\ROCKY.ACS" />
-    <None Remove="Dependencies\Agents\SAEKO.ACS" />
-    <None Remove="Dependencies\Agents\Shrek.acs" />
-    <None Remove="Dependencies\DoubleAgent_x64x86.msi" />
+    <None Remove="Resources\Agents\1819_dot.acs" />
+    <None Remove="Resources\Agents\1819_f1.acs" />
+    <None Remove="Resources\Agents\1819_genius.acs" />
+    <None Remove="Resources\Agents\1819_logo.acs" />
+    <None Remove="Resources\Agents\1819_mnature.acs" />
+    <None Remove="Resources\Agents\1819_rocky.acs" />
+    <None Remove="Resources\Agents\1819_stillogo.acs" />
+    <None Remove="Resources\Agents\bonzi vine.acs" />
+    <None Remove="Resources\Agents\Bonzi.acs" />
+    <None Remove="Resources\Agents\CLIPPIT.ACS" />
+    <None Remove="Resources\Agents\DOLPHIN.ACS" />
+    <None Remove="Resources\Agents\DOT.ACS" />
+    <None Remove="Resources\Agents\F1.ACS" />
+    <None Remove="Resources\Agents\GENIUS.ACS" />
+    <None Remove="Resources\Agents\LOGO.ACS" />
+    <None Remove="Resources\Agents\manma.acs" />
+    <None Remove="Resources\Agents\MNATURE.ACS" />
+    <None Remove="Resources\Agents\Monkey King.ACS" />
+    <None Remove="Resources\Agents\OFFCAT.ACS" />
+    <None Remove="Resources\Agents\ROCKY.ACS" />
+    <None Remove="Resources\Agents\SAEKO.ACS" />
+    <None Remove="Resources\Agents\Shrek.acs" />
+    <None Remove="Resources\DoubleAgent_x64x86.msi" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Data\data.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\logs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\settings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_dot.acs">
+    <Content Include="Resources\Agents\1819_dot.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_f1.acs">
+    <Content Include="Resources\Agents\1819_f1.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_genius.acs">
+    <Content Include="Resources\Agents\1819_genius.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_logo.acs">
+    <Content Include="Resources\Agents\1819_logo.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_mnature.acs">
+    <Content Include="Resources\Agents\1819_mnature.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_rocky.acs">
+    <Content Include="Resources\Agents\1819_rocky.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\1819_stillogo.acs">
+    <Content Include="Resources\Agents\1819_stillogo.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\bonzi vine.acs">
+    <Content Include="Resources\Agents\bonzi vine.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\Bonzi.acs">
+    <Content Include="Resources\Agents\Bonzi.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\CLIPPIT.ACS">
+    <Content Include="Resources\Agents\CLIPPIT.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\DOLPHIN.ACS">
+    <Content Include="Resources\Agents\DOLPHIN.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\DOT.ACS">
+    <Content Include="Resources\Agents\DOT.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\F1.ACS">
+    <Content Include="Resources\Agents\F1.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\GENIUS.ACS">
+    <Content Include="Resources\Agents\GENIUS.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\LOGO.ACS">
+    <Content Include="Resources\Agents\LOGO.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\manma.acs">
+    <Content Include="Resources\Agents\manma.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\MNATURE.ACS">
+    <Content Include="Resources\Agents\MNATURE.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\Monkey King.ACS">
+    <Content Include="Resources\Agents\Monkey King.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\OFFCAT.ACS">
+    <Content Include="Resources\Agents\OFFCAT.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\ROCKY.ACS">
+    <Content Include="Resources\Agents\ROCKY.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\SAEKO.ACS">
+    <Content Include="Resources\Agents\SAEKO.ACS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\Agents\Shrek.acs">
+    <Content Include="Resources\Agents\Shrek.acs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\DoubleAgent_x64x86.msi">
+    <Content Include="Resources\DoubleAgent_x64x86.msi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
