@@ -8,7 +8,7 @@
 
 A library + deployable programs to use multiple Microsoft Agents on modern Windows systems (7 and newer) that keeps some of the old functionality and has AI capabilities. Comes with a .exe WinForms and a Microsoft Word add-in as well. Based on a previous implementation I made of [Bonzi Buddy](https://github.com/lethargiesleeps/BonziBuddy) using the DoubleAgent SDK. Comes with 3 Agents so far with more to be added :)
 
-
+Doc site coming soon
 
 Will eventually release as an installable program bundled with the required dependencies, but the ClippyCore project can still be used for anyone's own personal development (which I will eventually release as it's own DLL in this repo).
 
