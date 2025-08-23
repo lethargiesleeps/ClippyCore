@@ -418,3 +418,8 @@ FodyWeavers.xsd
 *.msp
 
 Keys.cs
+
+# DocFX
+api/
+_site/
+docs/
