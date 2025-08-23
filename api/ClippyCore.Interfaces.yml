@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Interfaces
+  commentId: N:ClippyCore.Interfaces
+  id: ClippyCore.Interfaces
+  children:
+  - ClippyCore.Interfaces.IAgent
+  langs:
+  - csharp
+  - vb
+  name: ClippyCore.Interfaces
+  nameWithType: ClippyCore.Interfaces
+  fullName: ClippyCore.Interfaces
+  type: Namespace
+  assemblies:
+  - ClippyCore
+references:
+- uid: ClippyCore.Interfaces.IAgent
+  commentId: T:ClippyCore.Interfaces.IAgent
+  parent: ClippyCore.Interfaces
+  href: ClippyCore.Interfaces.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: ClippyCore.Interfaces.IAgent
+- uid: ClippyCore.Interfaces
+  commentId: N:ClippyCore.Interfaces
+  href: ClippyCore.html
+  name: ClippyCore.Interfaces
+  nameWithType: ClippyCore.Interfaces
+  fullName: ClippyCore.Interfaces
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html

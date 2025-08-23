@@ -1,0 +1,68 @@
+### YamlMime:TableOfContent
+items:
+- uid: ClippyCore.Agents
+  name: ClippyCore.Agents
+  type: Namespace
+  items:
+  - uid: ClippyCore.Agents.Agent
+    name: Agent
+    type: Class
+  - uid: ClippyCore.Agents.AgentManager
+    name: AgentManager
+    type: Class
+  - uid: ClippyCore.Agents.AgentType
+    name: AgentType
+    type: Enum
+  - uid: ClippyCore.Agents.Animation
+    name: Animation
+    type: Class
+  - uid: ClippyCore.Agents.TtsAgent
+    name: TtsAgent
+    type: Class
+- uid: ClippyCore.Data
+  name: ClippyCore.Data
+  type: Namespace
+  items:
+  - uid: ClippyCore.Data.Keys
+    name: Keys
+    type: Class
+- uid: ClippyCore.Global
+  name: ClippyCore.Global
+  type: Namespace
+  items:
+  - uid: ClippyCore.Global.AgentNames
+    name: AgentNames
+    type: Class
+  - uid: ClippyCore.Global.Animations
+    name: Animations
+    type: Class
+  - uid: ClippyCore.Global.Animations.Bonzi
+    name: Animations.Bonzi
+    type: Class
+  - uid: ClippyCore.Global.Animations.Clippy
+    name: Animations.Clippy
+    type: Class
+  - uid: ClippyCore.Global.Animations.Shrek
+    name: Animations.Shrek
+    type: Class
+  - uid: ClippyCore.Global.Paths
+    name: Paths
+    type: Class
+  - uid: ClippyCore.Global.TtsIDs
+    name: TtsIDs
+    type: Class
+- uid: ClippyCore.Helpers
+  name: ClippyCore.Helpers
+  type: Namespace
+  items:
+  - uid: ClippyCore.Helpers.Logger
+    name: Logger
+    type: Class
+- uid: ClippyCore.Interfaces
+  name: ClippyCore.Interfaces
+  type: Namespace
+  items:
+  - uid: ClippyCore.Interfaces.IAgent
+    name: IAgent
+    type: Interface
+memberLayout: SamePage

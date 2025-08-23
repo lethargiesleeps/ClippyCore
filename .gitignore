@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+Keys.cs
+
+# DocFX
+api/
+_site/
+docs/

@@ -8,8 +8,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClippyCore\ClippyCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DoubleAgent.AxControl">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Double Agent\Dev\v4.0\DoubleAgent.AxControl.dll</HintPath>
+    </Reference>
+    <Reference Include="DoubleAgent.Control">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Double Agent\Dev\v4.0\DoubleAgent.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="DoubleAgent.Server">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Double Agent\Dev\v4.0\DoubleAgent.Server.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

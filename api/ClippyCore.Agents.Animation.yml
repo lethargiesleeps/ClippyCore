@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Agents.Animation
+  commentId: T:ClippyCore.Agents.Animation
+  id: Animation
+  parent: ClippyCore.Agents
+  children:
+  - ClippyCore.Agents.Animation.#ctor(System.String,System.String)
+  - ClippyCore.Agents.Animation.Create(System.String,ClippyCore.Interfaces.IAgent,System.String)
+  - ClippyCore.Agents.Animation.DisplayName
+  - ClippyCore.Agents.Animation.Name
+  - ClippyCore.Agents.Animation.Play(ClippyCore.Interfaces.IAgent)
+  langs:
+  - csharp
+  - vb
+  name: Animation
+  nameWithType: Animation
+  fullName: ClippyCore.Agents.Animation
+  type: Class
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Animation
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 12
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Class with basic data about an Agent's available animations
+  example: []
+  syntax:
+    content: public class Animation
+    content.vb: Public Class Animation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ClippyCore.Agents.Animation.Name
+  commentId: P:ClippyCore.Agents.Animation.Name
+  id: Name
+  parent: ClippyCore.Agents.Animation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Animation.Name
+  fullName: ClippyCore.Agents.Animation.Name
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Name
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 14
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: ClippyCore.Agents.Animation.Name*
+- uid: ClippyCore.Agents.Animation.DisplayName
+  commentId: P:ClippyCore.Agents.Animation.DisplayName
+  id: DisplayName
+  parent: ClippyCore.Agents.Animation
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: Animation.DisplayName
+  fullName: ClippyCore.Agents.Animation.DisplayName
+  type: Property
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DisplayName
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 15
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: public string DisplayName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayName As String
+  overload: ClippyCore.Agents.Animation.DisplayName*
+- uid: ClippyCore.Agents.Animation.#ctor(System.String,System.String)
+  commentId: M:ClippyCore.Agents.Animation.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: ClippyCore.Agents.Animation
+  langs:
+  - csharp
+  - vb
+  name: Animation(string, string)
+  nameWithType: Animation.Animation(string, string)
+  fullName: ClippyCore.Agents.Animation.Animation(string, string)
+  type: Constructor
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: .ctor
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 17
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  syntax:
+    content: private Animation(string name, string displayName = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: displayName
+      type: System.String
+    content.vb: Private Sub New(name As String, displayName As String = Nothing)
+  overload: ClippyCore.Agents.Animation.#ctor*
+  nameWithType.vb: Animation.New(String, String)
+  fullName.vb: ClippyCore.Agents.Animation.New(String, String)
+  name.vb: New(String, String)
+- uid: ClippyCore.Agents.Animation.Create(System.String,ClippyCore.Interfaces.IAgent,System.String)
+  commentId: M:ClippyCore.Agents.Animation.Create(System.String,ClippyCore.Interfaces.IAgent,System.String)
+  id: Create(System.String,ClippyCore.Interfaces.IAgent,System.String)
+  parent: ClippyCore.Agents.Animation
+  langs:
+  - csharp
+  - vb
+  name: Create(string, IAgent, string)
+  nameWithType: Animation.Create(string, IAgent, string)
+  fullName: ClippyCore.Agents.Animation.Create(string, ClippyCore.Interfaces.IAgent, string)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Create
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 29
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: Factory to create new Animations.
+  example: []
+  syntax:
+    content: public static Animation Create(string name, IAgent agent, string displayName = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the animation
+    - id: agent
+      type: ClippyCore.Interfaces.IAgent
+      description: Instance of Agent to attach animations to.
+    - id: displayName
+      type: System.String
+    return:
+      type: ClippyCore.Agents.Animation
+      description: The newly instantiated Animation
+    content.vb: Public Shared Function Create(name As String, agent As IAgent, displayName As String = Nothing) As Animation
+  overload: ClippyCore.Agents.Animation.Create*
+  nameWithType.vb: Animation.Create(String, IAgent, String)
+  fullName.vb: ClippyCore.Agents.Animation.Create(String, ClippyCore.Interfaces.IAgent, String)
+  name.vb: Create(String, IAgent, String)
+- uid: ClippyCore.Agents.Animation.Play(ClippyCore.Interfaces.IAgent)
+  commentId: M:ClippyCore.Agents.Animation.Play(ClippyCore.Interfaces.IAgent)
+  id: Play(ClippyCore.Interfaces.IAgent)
+  parent: ClippyCore.Agents.Animation
+  langs:
+  - csharp
+  - vb
+  name: Play(IAgent)
+  nameWithType: Animation.Play(IAgent)
+  fullName: ClippyCore.Agents.Animation.Play(ClippyCore.Interfaces.IAgent)
+  type: Method
+  source:
+    remote:
+      path: ClippyCore/Agents/Animation.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Play
+    path: ClippyCore/Agents/Animation.cs
+    startLine: 46
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Agents
+  summary: >-
+    Extra way to play an animation. Not super useful but there anyways if needed.
+
+    Could be used if you're crafty and have multiple Agents interacting with each other or if some Agents share common animations...
+
+    Ex: var myAnim = Animation.Create("Aknowledge", _bonzi); myAnim.Play(_bonzi);
+  example: []
+  syntax:
+    content: public void Play(IAgent agent)
+    parameters:
+    - id: agent
+      type: ClippyCore.Interfaces.IAgent
+      description: Agent to perform the animation.
+    content.vb: Public Sub Play(agent As IAgent)
+  overload: ClippyCore.Agents.Animation.Play*
+references:
+- uid: ClippyCore.Agents
+  commentId: N:ClippyCore.Agents
+  href: ClippyCore.html
+  name: ClippyCore.Agents
+  nameWithType: ClippyCore.Agents
+  fullName: ClippyCore.Agents
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClippyCore.Agents.Animation.Name*
+  commentId: Overload:ClippyCore.Agents.Animation.Name
+  href: ClippyCore.Agents.Animation.html#ClippyCore_Agents_Animation_Name
+  name: Name
+  nameWithType: Animation.Name
+  fullName: ClippyCore.Agents.Animation.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ClippyCore.Agents.Animation.DisplayName*
+  commentId: Overload:ClippyCore.Agents.Animation.DisplayName
+  href: ClippyCore.Agents.Animation.html#ClippyCore_Agents_Animation_DisplayName
+  name: DisplayName
+  nameWithType: Animation.DisplayName
+  fullName: ClippyCore.Agents.Animation.DisplayName
+- uid: ClippyCore.Agents.Animation.#ctor*
+  commentId: Overload:ClippyCore.Agents.Animation.#ctor
+  href: ClippyCore.Agents.Animation.html#ClippyCore_Agents_Animation__ctor_System_String_System_String_
+  name: Animation
+  nameWithType: Animation.Animation
+  fullName: ClippyCore.Agents.Animation.Animation
+  nameWithType.vb: Animation.New
+  fullName.vb: ClippyCore.Agents.Animation.New
+  name.vb: New
+- uid: ClippyCore.Agents.Animation.Create*
+  commentId: Overload:ClippyCore.Agents.Animation.Create
+  href: ClippyCore.Agents.Animation.html#ClippyCore_Agents_Animation_Create_System_String_ClippyCore_Interfaces_IAgent_System_String_
+  name: Create
+  nameWithType: Animation.Create
+  fullName: ClippyCore.Agents.Animation.Create
+- uid: ClippyCore.Interfaces.IAgent
+  commentId: T:ClippyCore.Interfaces.IAgent
+  parent: ClippyCore.Interfaces
+  href: ClippyCore.Interfaces.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: ClippyCore.Interfaces.IAgent
+- uid: ClippyCore.Agents.Animation
+  commentId: T:ClippyCore.Agents.Animation
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.Animation.html
+  name: Animation
+  nameWithType: Animation
+  fullName: ClippyCore.Agents.Animation
+- uid: ClippyCore.Interfaces
+  commentId: N:ClippyCore.Interfaces
+  href: ClippyCore.html
+  name: ClippyCore.Interfaces
+  nameWithType: ClippyCore.Interfaces
+  fullName: ClippyCore.Interfaces
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Interfaces
+    name: Interfaces
+    href: ClippyCore.Interfaces.html
+- uid: ClippyCore.Agents.Animation.Play*
+  commentId: Overload:ClippyCore.Agents.Animation.Play
+  href: ClippyCore.Agents.Animation.html#ClippyCore_Agents_Animation_Play_ClippyCore_Interfaces_IAgent_
+  name: Play
+  nameWithType: Animation.Play
+  fullName: ClippyCore.Agents.Animation.Play

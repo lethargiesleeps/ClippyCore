@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Agents
+  commentId: N:ClippyCore.Agents
+  id: ClippyCore.Agents
+  children:
+  - ClippyCore.Agents.Agent
+  - ClippyCore.Agents.AgentManager
+  - ClippyCore.Agents.AgentType
+  - ClippyCore.Agents.Animation
+  - ClippyCore.Agents.TtsAgent
+  langs:
+  - csharp
+  - vb
+  name: ClippyCore.Agents
+  nameWithType: ClippyCore.Agents
+  fullName: ClippyCore.Agents
+  type: Namespace
+  assemblies:
+  - ClippyCore
+references:
+- uid: ClippyCore.Agents.Agent
+  commentId: T:ClippyCore.Agents.Agent
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.Agent.html
+  name: Agent
+  nameWithType: Agent
+  fullName: ClippyCore.Agents.Agent
+- uid: ClippyCore.Agents.AgentManager
+  commentId: T:ClippyCore.Agents.AgentManager
+  href: ClippyCore.Agents.AgentManager.html
+  name: AgentManager
+  nameWithType: AgentManager
+  fullName: ClippyCore.Agents.AgentManager
+- uid: ClippyCore.Agents.AgentType
+  commentId: T:ClippyCore.Agents.AgentType
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.AgentType.html
+  name: AgentType
+  nameWithType: AgentType
+  fullName: ClippyCore.Agents.AgentType
+- uid: ClippyCore.Agents.Animation
+  commentId: T:ClippyCore.Agents.Animation
+  parent: ClippyCore.Agents
+  href: ClippyCore.Agents.Animation.html
+  name: Animation
+  nameWithType: Animation
+  fullName: ClippyCore.Agents.Animation
+- uid: ClippyCore.Agents.TtsAgent
+  commentId: T:ClippyCore.Agents.TtsAgent
+  href: ClippyCore.Agents.TtsAgent.html
+  name: TtsAgent
+  nameWithType: TtsAgent
+  fullName: ClippyCore.Agents.TtsAgent
+- uid: ClippyCore.Agents
+  commentId: N:ClippyCore.Agents
+  href: ClippyCore.html
+  name: ClippyCore.Agents
+  nameWithType: ClippyCore.Agents
+  fullName: ClippyCore.Agents
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Agents
+    name: Agents
+    href: ClippyCore.Agents.html

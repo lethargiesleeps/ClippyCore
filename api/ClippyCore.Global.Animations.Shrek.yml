@@ -1,0 +1,2243 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClippyCore.Global.Animations.Shrek
+  commentId: T:ClippyCore.Global.Animations.Shrek
+  id: Animations.Shrek
+  parent: ClippyCore.Global
+  children:
+  - ClippyCore.Global.Animations.Shrek.Back
+  - ClippyCore.Global.Animations.Shrek.BeAGoodFriend
+  - ClippyCore.Global.Animations.Shrek.BookRead
+  - ClippyCore.Global.Animations.Shrek.Burp
+  - ClippyCore.Global.Animations.Shrek.BuyTwoAndThird
+  - ClippyCore.Global.Animations.Shrek.ByeByeSeeYouNextTime
+  - ClippyCore.Global.Animations.Shrek.ChangeYourSettings
+  - ClippyCore.Global.Animations.Shrek.CheckYourTukiMail
+  - ClippyCore.Global.Animations.Shrek.CleanYourRoom
+  - ClippyCore.Global.Animations.Shrek.ClubTuki
+  - ClippyCore.Global.Animations.Shrek.DontForgetToEmailYourParents
+  - ClippyCore.Global.Animations.Shrek.DownloadMoreThemes
+  - ClippyCore.Global.Animations.Shrek.EnterWebAddress
+  - ClippyCore.Global.Animations.Shrek.Exit
+  - ClippyCore.Global.Animations.Shrek.Farting
+  - ClippyCore.Global.Animations.Shrek.FeedYourPet
+  - ClippyCore.Global.Animations.Shrek.Forward
+  - ClippyCore.Global.Animations.Shrek.GesturingDown
+  - ClippyCore.Global.Animations.Shrek.GesturingDownReturn
+  - ClippyCore.Global.Animations.Shrek.GesturingLeft
+  - ClippyCore.Global.Animations.Shrek.GesturingLeftReturn
+  - ClippyCore.Global.Animations.Shrek.GesturingRight
+  - ClippyCore.Global.Animations.Shrek.GesturingRightReturn
+  - ClippyCore.Global.Animations.Shrek.GesturingUp
+  - ClippyCore.Global.Animations.Shrek.GesturingUpReturn
+  - ClippyCore.Global.Animations.Shrek.GetSomeHelp
+  - ClippyCore.Global.Animations.Shrek.GoodAfternoon
+  - ClippyCore.Global.Animations.Shrek.GreatToSeeYouMorning
+  - ClippyCore.Global.Animations.Shrek.Hiding
+  - ClippyCore.Global.Animations.Shrek.Home
+  - ClippyCore.Global.Animations.Shrek.IHopeYouAteBreakfast
+  - ClippyCore.Global.Animations.Shrek.ILoveGettingEmailRats
+  - ClippyCore.Global.Animations.Shrek.ILovegettingEmailDonkey
+  - ClippyCore.Global.Animations.Shrek.IfYouReallyWantToVisit
+  - ClippyCore.Global.Animations.Shrek.IfYouWantToBuyCD
+  - ClippyCore.Global.Animations.Shrek.LaunchNewWindow
+  - ClippyCore.Global.Animations.Shrek.LearnEarnWIn
+  - ClippyCore.Global.Animations.Shrek.MovingDown
+  - ClippyCore.Global.Animations.Shrek.MovingLeft
+  - ClippyCore.Global.Animations.Shrek.MovingReturn
+  - ClippyCore.Global.Animations.Shrek.MovingRight
+  - ClippyCore.Global.Animations.Shrek.MovingUp
+  - ClippyCore.Global.Animations.Shrek.OhYourAWinner
+  - ClippyCore.Global.Animations.Shrek.PrintThisPage
+  - ClippyCore.Global.Animations.Shrek.ReferAFriend
+  - ClippyCore.Global.Animations.Shrek.Refresh
+  - ClippyCore.Global.Animations.Shrek.RememberIAmHereToHelp
+  - ClippyCore.Global.Animations.Shrek.RememberToBrushYourTeeth
+  - ClippyCore.Global.Animations.Shrek.RememberToGiveDadHug
+  - ClippyCore.Global.Animations.Shrek.RememberToGiveMomHug
+  - ClippyCore.Global.Animations.Shrek.RememberToPickUpToys
+  - ClippyCore.Global.Animations.Shrek.RememberToShare
+  - ClippyCore.Global.Animations.Shrek.RememberYourParents
+  - ClippyCore.Global.Animations.Shrek.Showing
+  - ClippyCore.Global.Animations.Shrek.Stop
+  - ClippyCore.Global.Animations.Shrek.ToiletFlush
+  - ClippyCore.Global.Animations.Shrek.TriviaBathTub
+  - ClippyCore.Global.Animations.Shrek.TriviaFairyTale
+  - ClippyCore.Global.Animations.Shrek.TriviaMikeMyers
+  - ClippyCore.Global.Animations.Shrek.TriviaPeanutButter
+  - ClippyCore.Global.Animations.Shrek.TriviaShrekManHours
+  - ClippyCore.Global.Animations.Shrek.TriviaWashHair
+  - ClippyCore.Global.Animations.Shrek.Tuki
+  - ClippyCore.Global.Animations.Shrek.TukiMoola
+  - ClippyCore.Global.Animations.Shrek.TukiTukiTuki
+  - ClippyCore.Global.Animations.Shrek.TuuuuKiiii
+  - ClippyCore.Global.Animations.Shrek.WhatAWonderfulAfternoon
+  - ClippyCore.Global.Animations.Shrek.WhatAWonderfulEvening
+  - ClippyCore.Global.Animations.Shrek.YourFamilyLovesYou
+  langs:
+  - csharp
+  - vb
+  name: Animations.Shrek
+  nameWithType: Animations.Shrek
+  fullName: ClippyCore.Global.Animations.Shrek
+  type: Class
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Shrek
+    path: ClippyCore/Global/Animations.cs
+    startLine: 170
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  summary: All animation keys for Shrek agent.
+  example: []
+  syntax:
+    content: public static class Animations.Shrek
+    content.vb: Public Module Animations.Shrek
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ClippyCore.Global.Animations.Shrek.Back
+  commentId: F:ClippyCore.Global.Animations.Shrek.Back
+  id: Back
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: Animations.Shrek.Back
+  fullName: ClippyCore.Global.Animations.Shrek.Back
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Back
+    path: ClippyCore/Global/Animations.cs
+    startLine: 172
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Back = 0
+    return:
+      type: System.Byte
+    content.vb: Public Const Back As Byte = 0
+- uid: ClippyCore.Global.Animations.Shrek.BeAGoodFriend
+  commentId: F:ClippyCore.Global.Animations.Shrek.BeAGoodFriend
+  id: BeAGoodFriend
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: BeAGoodFriend
+  nameWithType: Animations.Shrek.BeAGoodFriend
+  fullName: ClippyCore.Global.Animations.Shrek.BeAGoodFriend
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: BeAGoodFriend
+    path: ClippyCore/Global/Animations.cs
+    startLine: 173
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte BeAGoodFriend = 1
+    return:
+      type: System.Byte
+    content.vb: Public Const BeAGoodFriend As Byte = 1
+- uid: ClippyCore.Global.Animations.Shrek.BookRead
+  commentId: F:ClippyCore.Global.Animations.Shrek.BookRead
+  id: BookRead
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: BookRead
+  nameWithType: Animations.Shrek.BookRead
+  fullName: ClippyCore.Global.Animations.Shrek.BookRead
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: BookRead
+    path: ClippyCore/Global/Animations.cs
+    startLine: 174
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte BookRead = 2
+    return:
+      type: System.Byte
+    content.vb: Public Const BookRead As Byte = 2
+- uid: ClippyCore.Global.Animations.Shrek.Burp
+  commentId: F:ClippyCore.Global.Animations.Shrek.Burp
+  id: Burp
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Burp
+  nameWithType: Animations.Shrek.Burp
+  fullName: ClippyCore.Global.Animations.Shrek.Burp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Burp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 175
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Burp = 3
+    return:
+      type: System.Byte
+    content.vb: Public Const Burp As Byte = 3
+- uid: ClippyCore.Global.Animations.Shrek.BuyTwoAndThird
+  commentId: F:ClippyCore.Global.Animations.Shrek.BuyTwoAndThird
+  id: BuyTwoAndThird
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: BuyTwoAndThird
+  nameWithType: Animations.Shrek.BuyTwoAndThird
+  fullName: ClippyCore.Global.Animations.Shrek.BuyTwoAndThird
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: BuyTwoAndThird
+    path: ClippyCore/Global/Animations.cs
+    startLine: 176
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte BuyTwoAndThird = 4
+    return:
+      type: System.Byte
+    content.vb: Public Const BuyTwoAndThird As Byte = 4
+- uid: ClippyCore.Global.Animations.Shrek.ByeByeSeeYouNextTime
+  commentId: F:ClippyCore.Global.Animations.Shrek.ByeByeSeeYouNextTime
+  id: ByeByeSeeYouNextTime
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ByeByeSeeYouNextTime
+  nameWithType: Animations.Shrek.ByeByeSeeYouNextTime
+  fullName: ClippyCore.Global.Animations.Shrek.ByeByeSeeYouNextTime
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ByeByeSeeYouNextTime
+    path: ClippyCore/Global/Animations.cs
+    startLine: 177
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ByeByeSeeYouNextTime = 5
+    return:
+      type: System.Byte
+    content.vb: Public Const ByeByeSeeYouNextTime As Byte = 5
+- uid: ClippyCore.Global.Animations.Shrek.ChangeYourSettings
+  commentId: F:ClippyCore.Global.Animations.Shrek.ChangeYourSettings
+  id: ChangeYourSettings
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ChangeYourSettings
+  nameWithType: Animations.Shrek.ChangeYourSettings
+  fullName: ClippyCore.Global.Animations.Shrek.ChangeYourSettings
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ChangeYourSettings
+    path: ClippyCore/Global/Animations.cs
+    startLine: 178
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ChangeYourSettings = 6
+    return:
+      type: System.Byte
+    content.vb: Public Const ChangeYourSettings As Byte = 6
+- uid: ClippyCore.Global.Animations.Shrek.CheckYourTukiMail
+  commentId: F:ClippyCore.Global.Animations.Shrek.CheckYourTukiMail
+  id: CheckYourTukiMail
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: CheckYourTukiMail
+  nameWithType: Animations.Shrek.CheckYourTukiMail
+  fullName: ClippyCore.Global.Animations.Shrek.CheckYourTukiMail
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: CheckYourTukiMail
+    path: ClippyCore/Global/Animations.cs
+    startLine: 179
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte CheckYourTukiMail = 7
+    return:
+      type: System.Byte
+    content.vb: Public Const CheckYourTukiMail As Byte = 7
+- uid: ClippyCore.Global.Animations.Shrek.CleanYourRoom
+  commentId: F:ClippyCore.Global.Animations.Shrek.CleanYourRoom
+  id: CleanYourRoom
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: CleanYourRoom
+  nameWithType: Animations.Shrek.CleanYourRoom
+  fullName: ClippyCore.Global.Animations.Shrek.CleanYourRoom
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: CleanYourRoom
+    path: ClippyCore/Global/Animations.cs
+    startLine: 180
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte CleanYourRoom = 8
+    return:
+      type: System.Byte
+    content.vb: Public Const CleanYourRoom As Byte = 8
+- uid: ClippyCore.Global.Animations.Shrek.ClubTuki
+  commentId: F:ClippyCore.Global.Animations.Shrek.ClubTuki
+  id: ClubTuki
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ClubTuki
+  nameWithType: Animations.Shrek.ClubTuki
+  fullName: ClippyCore.Global.Animations.Shrek.ClubTuki
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ClubTuki
+    path: ClippyCore/Global/Animations.cs
+    startLine: 181
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ClubTuki = 9
+    return:
+      type: System.Byte
+    content.vb: Public Const ClubTuki As Byte = 9
+- uid: ClippyCore.Global.Animations.Shrek.DontForgetToEmailYourParents
+  commentId: F:ClippyCore.Global.Animations.Shrek.DontForgetToEmailYourParents
+  id: DontForgetToEmailYourParents
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: DontForgetToEmailYourParents
+  nameWithType: Animations.Shrek.DontForgetToEmailYourParents
+  fullName: ClippyCore.Global.Animations.Shrek.DontForgetToEmailYourParents
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DontForgetToEmailYourParents
+    path: ClippyCore/Global/Animations.cs
+    startLine: 182
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte DontForgetToEmailYourParents = 10
+    return:
+      type: System.Byte
+    content.vb: Public Const DontForgetToEmailYourParents As Byte = 10
+- uid: ClippyCore.Global.Animations.Shrek.DownloadMoreThemes
+  commentId: F:ClippyCore.Global.Animations.Shrek.DownloadMoreThemes
+  id: DownloadMoreThemes
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: DownloadMoreThemes
+  nameWithType: Animations.Shrek.DownloadMoreThemes
+  fullName: ClippyCore.Global.Animations.Shrek.DownloadMoreThemes
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: DownloadMoreThemes
+    path: ClippyCore/Global/Animations.cs
+    startLine: 183
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte DownloadMoreThemes = 11
+    return:
+      type: System.Byte
+    content.vb: Public Const DownloadMoreThemes As Byte = 11
+- uid: ClippyCore.Global.Animations.Shrek.EnterWebAddress
+  commentId: F:ClippyCore.Global.Animations.Shrek.EnterWebAddress
+  id: EnterWebAddress
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: EnterWebAddress
+  nameWithType: Animations.Shrek.EnterWebAddress
+  fullName: ClippyCore.Global.Animations.Shrek.EnterWebAddress
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: EnterWebAddress
+    path: ClippyCore/Global/Animations.cs
+    startLine: 184
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte EnterWebAddress = 12
+    return:
+      type: System.Byte
+    content.vb: Public Const EnterWebAddress As Byte = 12
+- uid: ClippyCore.Global.Animations.Shrek.Exit
+  commentId: F:ClippyCore.Global.Animations.Shrek.Exit
+  id: Exit
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Exit
+  nameWithType: Animations.Shrek.Exit
+  fullName: ClippyCore.Global.Animations.Shrek.Exit
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Exit
+    path: ClippyCore/Global/Animations.cs
+    startLine: 185
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Exit = 13
+    return:
+      type: System.Byte
+    content.vb: Public Const Exit As Byte = 13
+- uid: ClippyCore.Global.Animations.Shrek.Farting
+  commentId: F:ClippyCore.Global.Animations.Shrek.Farting
+  id: Farting
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Farting
+  nameWithType: Animations.Shrek.Farting
+  fullName: ClippyCore.Global.Animations.Shrek.Farting
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Farting
+    path: ClippyCore/Global/Animations.cs
+    startLine: 186
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Farting = 14
+    return:
+      type: System.Byte
+    content.vb: Public Const Farting As Byte = 14
+- uid: ClippyCore.Global.Animations.Shrek.FeedYourPet
+  commentId: F:ClippyCore.Global.Animations.Shrek.FeedYourPet
+  id: FeedYourPet
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: FeedYourPet
+  nameWithType: Animations.Shrek.FeedYourPet
+  fullName: ClippyCore.Global.Animations.Shrek.FeedYourPet
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: FeedYourPet
+    path: ClippyCore/Global/Animations.cs
+    startLine: 187
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte FeedYourPet = 15
+    return:
+      type: System.Byte
+    content.vb: Public Const FeedYourPet As Byte = 15
+- uid: ClippyCore.Global.Animations.Shrek.Forward
+  commentId: F:ClippyCore.Global.Animations.Shrek.Forward
+  id: Forward
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: Animations.Shrek.Forward
+  fullName: ClippyCore.Global.Animations.Shrek.Forward
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Forward
+    path: ClippyCore/Global/Animations.cs
+    startLine: 188
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Forward = 16
+    return:
+      type: System.Byte
+    content.vb: Public Const Forward As Byte = 16
+- uid: ClippyCore.Global.Animations.Shrek.GesturingDown
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingDown
+  id: GesturingDown
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingDown
+  nameWithType: Animations.Shrek.GesturingDown
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingDown
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingDown
+    path: ClippyCore/Global/Animations.cs
+    startLine: 189
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingDown = 17
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingDown As Byte = 17
+- uid: ClippyCore.Global.Animations.Shrek.GesturingDownReturn
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingDownReturn
+  id: GesturingDownReturn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingDownReturn
+  nameWithType: Animations.Shrek.GesturingDownReturn
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingDownReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingDownReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 190
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingDownReturn = 18
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingDownReturn As Byte = 18
+- uid: ClippyCore.Global.Animations.Shrek.GesturingLeft
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingLeft
+  id: GesturingLeft
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingLeft
+  nameWithType: Animations.Shrek.GesturingLeft
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 191
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingLeft = 19
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingLeft As Byte = 19
+- uid: ClippyCore.Global.Animations.Shrek.GesturingLeftReturn
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingLeftReturn
+  id: GesturingLeftReturn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingLeftReturn
+  nameWithType: Animations.Shrek.GesturingLeftReturn
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingLeftReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingLeftReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 192
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingLeftReturn = 20
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingLeftReturn As Byte = 20
+- uid: ClippyCore.Global.Animations.Shrek.GesturingRight
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingRight
+  id: GesturingRight
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingRight
+  nameWithType: Animations.Shrek.GesturingRight
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 193
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingRight = 21
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingRight As Byte = 21
+- uid: ClippyCore.Global.Animations.Shrek.GesturingRightReturn
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingRightReturn
+  id: GesturingRightReturn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingRightReturn
+  nameWithType: Animations.Shrek.GesturingRightReturn
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingRightReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingRightReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 194
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingRightReturn = 22
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingRightReturn As Byte = 22
+- uid: ClippyCore.Global.Animations.Shrek.GesturingUp
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingUp
+  id: GesturingUp
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingUp
+  nameWithType: Animations.Shrek.GesturingUp
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 195
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingUp = 23
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingUp As Byte = 23
+- uid: ClippyCore.Global.Animations.Shrek.GesturingUpReturn
+  commentId: F:ClippyCore.Global.Animations.Shrek.GesturingUpReturn
+  id: GesturingUpReturn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GesturingUpReturn
+  nameWithType: Animations.Shrek.GesturingUpReturn
+  fullName: ClippyCore.Global.Animations.Shrek.GesturingUpReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GesturingUpReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 196
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GesturingUpReturn = 24
+    return:
+      type: System.Byte
+    content.vb: Public Const GesturingUpReturn As Byte = 24
+- uid: ClippyCore.Global.Animations.Shrek.GetSomeHelp
+  commentId: F:ClippyCore.Global.Animations.Shrek.GetSomeHelp
+  id: GetSomeHelp
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GetSomeHelp
+  nameWithType: Animations.Shrek.GetSomeHelp
+  fullName: ClippyCore.Global.Animations.Shrek.GetSomeHelp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GetSomeHelp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 197
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GetSomeHelp = 25
+    return:
+      type: System.Byte
+    content.vb: Public Const GetSomeHelp As Byte = 25
+- uid: ClippyCore.Global.Animations.Shrek.GoodAfternoon
+  commentId: F:ClippyCore.Global.Animations.Shrek.GoodAfternoon
+  id: GoodAfternoon
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GoodAfternoon
+  nameWithType: Animations.Shrek.GoodAfternoon
+  fullName: ClippyCore.Global.Animations.Shrek.GoodAfternoon
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GoodAfternoon
+    path: ClippyCore/Global/Animations.cs
+    startLine: 198
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GoodAfternoon = 26
+    return:
+      type: System.Byte
+    content.vb: Public Const GoodAfternoon As Byte = 26
+- uid: ClippyCore.Global.Animations.Shrek.GreatToSeeYouMorning
+  commentId: F:ClippyCore.Global.Animations.Shrek.GreatToSeeYouMorning
+  id: GreatToSeeYouMorning
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: GreatToSeeYouMorning
+  nameWithType: Animations.Shrek.GreatToSeeYouMorning
+  fullName: ClippyCore.Global.Animations.Shrek.GreatToSeeYouMorning
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: GreatToSeeYouMorning
+    path: ClippyCore/Global/Animations.cs
+    startLine: 199
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte GreatToSeeYouMorning = 27
+    return:
+      type: System.Byte
+    content.vb: Public Const GreatToSeeYouMorning As Byte = 27
+- uid: ClippyCore.Global.Animations.Shrek.Hiding
+  commentId: F:ClippyCore.Global.Animations.Shrek.Hiding
+  id: Hiding
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Hiding
+  nameWithType: Animations.Shrek.Hiding
+  fullName: ClippyCore.Global.Animations.Shrek.Hiding
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Hiding
+    path: ClippyCore/Global/Animations.cs
+    startLine: 200
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Hiding = 28
+    return:
+      type: System.Byte
+    content.vb: Public Const Hiding As Byte = 28
+- uid: ClippyCore.Global.Animations.Shrek.Home
+  commentId: F:ClippyCore.Global.Animations.Shrek.Home
+  id: Home
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Home
+  nameWithType: Animations.Shrek.Home
+  fullName: ClippyCore.Global.Animations.Shrek.Home
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Home
+    path: ClippyCore/Global/Animations.cs
+    startLine: 201
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Home = 29
+    return:
+      type: System.Byte
+    content.vb: Public Const Home As Byte = 29
+- uid: ClippyCore.Global.Animations.Shrek.IfYouReallyWantToVisit
+  commentId: F:ClippyCore.Global.Animations.Shrek.IfYouReallyWantToVisit
+  id: IfYouReallyWantToVisit
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: IfYouReallyWantToVisit
+  nameWithType: Animations.Shrek.IfYouReallyWantToVisit
+  fullName: ClippyCore.Global.Animations.Shrek.IfYouReallyWantToVisit
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: IfYouReallyWantToVisit
+    path: ClippyCore/Global/Animations.cs
+    startLine: 202
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte IfYouReallyWantToVisit = 30
+    return:
+      type: System.Byte
+    content.vb: Public Const IfYouReallyWantToVisit As Byte = 30
+- uid: ClippyCore.Global.Animations.Shrek.IfYouWantToBuyCD
+  commentId: F:ClippyCore.Global.Animations.Shrek.IfYouWantToBuyCD
+  id: IfYouWantToBuyCD
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: IfYouWantToBuyCD
+  nameWithType: Animations.Shrek.IfYouWantToBuyCD
+  fullName: ClippyCore.Global.Animations.Shrek.IfYouWantToBuyCD
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: IfYouWantToBuyCD
+    path: ClippyCore/Global/Animations.cs
+    startLine: 203
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte IfYouWantToBuyCD = 31
+    return:
+      type: System.Byte
+    content.vb: Public Const IfYouWantToBuyCD As Byte = 31
+- uid: ClippyCore.Global.Animations.Shrek.IHopeYouAteBreakfast
+  commentId: F:ClippyCore.Global.Animations.Shrek.IHopeYouAteBreakfast
+  id: IHopeYouAteBreakfast
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: IHopeYouAteBreakfast
+  nameWithType: Animations.Shrek.IHopeYouAteBreakfast
+  fullName: ClippyCore.Global.Animations.Shrek.IHopeYouAteBreakfast
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: IHopeYouAteBreakfast
+    path: ClippyCore/Global/Animations.cs
+    startLine: 204
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte IHopeYouAteBreakfast = 32
+    return:
+      type: System.Byte
+    content.vb: Public Const IHopeYouAteBreakfast As Byte = 32
+- uid: ClippyCore.Global.Animations.Shrek.ILovegettingEmailDonkey
+  commentId: F:ClippyCore.Global.Animations.Shrek.ILovegettingEmailDonkey
+  id: ILovegettingEmailDonkey
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ILovegettingEmailDonkey
+  nameWithType: Animations.Shrek.ILovegettingEmailDonkey
+  fullName: ClippyCore.Global.Animations.Shrek.ILovegettingEmailDonkey
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ILovegettingEmailDonkey
+    path: ClippyCore/Global/Animations.cs
+    startLine: 205
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ILovegettingEmailDonkey = 33
+    return:
+      type: System.Byte
+    content.vb: Public Const ILovegettingEmailDonkey As Byte = 33
+- uid: ClippyCore.Global.Animations.Shrek.ILoveGettingEmailRats
+  commentId: F:ClippyCore.Global.Animations.Shrek.ILoveGettingEmailRats
+  id: ILoveGettingEmailRats
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ILoveGettingEmailRats
+  nameWithType: Animations.Shrek.ILoveGettingEmailRats
+  fullName: ClippyCore.Global.Animations.Shrek.ILoveGettingEmailRats
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ILoveGettingEmailRats
+    path: ClippyCore/Global/Animations.cs
+    startLine: 206
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ILoveGettingEmailRats = 34
+    return:
+      type: System.Byte
+    content.vb: Public Const ILoveGettingEmailRats As Byte = 34
+- uid: ClippyCore.Global.Animations.Shrek.LaunchNewWindow
+  commentId: F:ClippyCore.Global.Animations.Shrek.LaunchNewWindow
+  id: LaunchNewWindow
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: LaunchNewWindow
+  nameWithType: Animations.Shrek.LaunchNewWindow
+  fullName: ClippyCore.Global.Animations.Shrek.LaunchNewWindow
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LaunchNewWindow
+    path: ClippyCore/Global/Animations.cs
+    startLine: 207
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LaunchNewWindow = 35
+    return:
+      type: System.Byte
+    content.vb: Public Const LaunchNewWindow As Byte = 35
+- uid: ClippyCore.Global.Animations.Shrek.LearnEarnWIn
+  commentId: F:ClippyCore.Global.Animations.Shrek.LearnEarnWIn
+  id: LearnEarnWIn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: LearnEarnWIn
+  nameWithType: Animations.Shrek.LearnEarnWIn
+  fullName: ClippyCore.Global.Animations.Shrek.LearnEarnWIn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: LearnEarnWIn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 208
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte LearnEarnWIn = 36
+    return:
+      type: System.Byte
+    content.vb: Public Const LearnEarnWIn As Byte = 36
+- uid: ClippyCore.Global.Animations.Shrek.MovingDown
+  commentId: F:ClippyCore.Global.Animations.Shrek.MovingDown
+  id: MovingDown
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: MovingDown
+  nameWithType: Animations.Shrek.MovingDown
+  fullName: ClippyCore.Global.Animations.Shrek.MovingDown
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MovingDown
+    path: ClippyCore/Global/Animations.cs
+    startLine: 209
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MovingDown = 37
+    return:
+      type: System.Byte
+    content.vb: Public Const MovingDown As Byte = 37
+- uid: ClippyCore.Global.Animations.Shrek.MovingLeft
+  commentId: F:ClippyCore.Global.Animations.Shrek.MovingLeft
+  id: MovingLeft
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: MovingLeft
+  nameWithType: Animations.Shrek.MovingLeft
+  fullName: ClippyCore.Global.Animations.Shrek.MovingLeft
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MovingLeft
+    path: ClippyCore/Global/Animations.cs
+    startLine: 210
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MovingLeft = 38
+    return:
+      type: System.Byte
+    content.vb: Public Const MovingLeft As Byte = 38
+- uid: ClippyCore.Global.Animations.Shrek.MovingReturn
+  commentId: F:ClippyCore.Global.Animations.Shrek.MovingReturn
+  id: MovingReturn
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: MovingReturn
+  nameWithType: Animations.Shrek.MovingReturn
+  fullName: ClippyCore.Global.Animations.Shrek.MovingReturn
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MovingReturn
+    path: ClippyCore/Global/Animations.cs
+    startLine: 211
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MovingReturn = 39
+    return:
+      type: System.Byte
+    content.vb: Public Const MovingReturn As Byte = 39
+- uid: ClippyCore.Global.Animations.Shrek.MovingRight
+  commentId: F:ClippyCore.Global.Animations.Shrek.MovingRight
+  id: MovingRight
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: MovingRight
+  nameWithType: Animations.Shrek.MovingRight
+  fullName: ClippyCore.Global.Animations.Shrek.MovingRight
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MovingRight
+    path: ClippyCore/Global/Animations.cs
+    startLine: 212
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MovingRight = 40
+    return:
+      type: System.Byte
+    content.vb: Public Const MovingRight As Byte = 40
+- uid: ClippyCore.Global.Animations.Shrek.MovingUp
+  commentId: F:ClippyCore.Global.Animations.Shrek.MovingUp
+  id: MovingUp
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: MovingUp
+  nameWithType: Animations.Shrek.MovingUp
+  fullName: ClippyCore.Global.Animations.Shrek.MovingUp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: MovingUp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 213
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte MovingUp = 41
+    return:
+      type: System.Byte
+    content.vb: Public Const MovingUp As Byte = 41
+- uid: ClippyCore.Global.Animations.Shrek.OhYourAWinner
+  commentId: F:ClippyCore.Global.Animations.Shrek.OhYourAWinner
+  id: OhYourAWinner
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: OhYourAWinner
+  nameWithType: Animations.Shrek.OhYourAWinner
+  fullName: ClippyCore.Global.Animations.Shrek.OhYourAWinner
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: OhYourAWinner
+    path: ClippyCore/Global/Animations.cs
+    startLine: 214
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte OhYourAWinner = 42
+    return:
+      type: System.Byte
+    content.vb: Public Const OhYourAWinner As Byte = 42
+- uid: ClippyCore.Global.Animations.Shrek.PrintThisPage
+  commentId: F:ClippyCore.Global.Animations.Shrek.PrintThisPage
+  id: PrintThisPage
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: PrintThisPage
+  nameWithType: Animations.Shrek.PrintThisPage
+  fullName: ClippyCore.Global.Animations.Shrek.PrintThisPage
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: PrintThisPage
+    path: ClippyCore/Global/Animations.cs
+    startLine: 215
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte PrintThisPage = 43
+    return:
+      type: System.Byte
+    content.vb: Public Const PrintThisPage As Byte = 43
+- uid: ClippyCore.Global.Animations.Shrek.ReferAFriend
+  commentId: F:ClippyCore.Global.Animations.Shrek.ReferAFriend
+  id: ReferAFriend
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ReferAFriend
+  nameWithType: Animations.Shrek.ReferAFriend
+  fullName: ClippyCore.Global.Animations.Shrek.ReferAFriend
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ReferAFriend
+    path: ClippyCore/Global/Animations.cs
+    startLine: 216
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ReferAFriend = 44
+    return:
+      type: System.Byte
+    content.vb: Public Const ReferAFriend As Byte = 44
+- uid: ClippyCore.Global.Animations.Shrek.Refresh
+  commentId: F:ClippyCore.Global.Animations.Shrek.Refresh
+  id: Refresh
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Refresh
+  nameWithType: Animations.Shrek.Refresh
+  fullName: ClippyCore.Global.Animations.Shrek.Refresh
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Refresh
+    path: ClippyCore/Global/Animations.cs
+    startLine: 217
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Refresh = 45
+    return:
+      type: System.Byte
+    content.vb: Public Const Refresh As Byte = 45
+- uid: ClippyCore.Global.Animations.Shrek.RememberIAmHereToHelp
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberIAmHereToHelp
+  id: RememberIAmHereToHelp
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberIAmHereToHelp
+  nameWithType: Animations.Shrek.RememberIAmHereToHelp
+  fullName: ClippyCore.Global.Animations.Shrek.RememberIAmHereToHelp
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberIAmHereToHelp
+    path: ClippyCore/Global/Animations.cs
+    startLine: 218
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberIAmHereToHelp = 46
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberIAmHereToHelp As Byte = 46
+- uid: ClippyCore.Global.Animations.Shrek.RememberToBrushYourTeeth
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberToBrushYourTeeth
+  id: RememberToBrushYourTeeth
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberToBrushYourTeeth
+  nameWithType: Animations.Shrek.RememberToBrushYourTeeth
+  fullName: ClippyCore.Global.Animations.Shrek.RememberToBrushYourTeeth
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberToBrushYourTeeth
+    path: ClippyCore/Global/Animations.cs
+    startLine: 219
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberToBrushYourTeeth = 47
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberToBrushYourTeeth As Byte = 47
+- uid: ClippyCore.Global.Animations.Shrek.RememberToGiveDadHug
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberToGiveDadHug
+  id: RememberToGiveDadHug
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberToGiveDadHug
+  nameWithType: Animations.Shrek.RememberToGiveDadHug
+  fullName: ClippyCore.Global.Animations.Shrek.RememberToGiveDadHug
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberToGiveDadHug
+    path: ClippyCore/Global/Animations.cs
+    startLine: 220
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberToGiveDadHug = 48
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberToGiveDadHug As Byte = 48
+- uid: ClippyCore.Global.Animations.Shrek.RememberToGiveMomHug
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberToGiveMomHug
+  id: RememberToGiveMomHug
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberToGiveMomHug
+  nameWithType: Animations.Shrek.RememberToGiveMomHug
+  fullName: ClippyCore.Global.Animations.Shrek.RememberToGiveMomHug
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberToGiveMomHug
+    path: ClippyCore/Global/Animations.cs
+    startLine: 221
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberToGiveMomHug = 49
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberToGiveMomHug As Byte = 49
+- uid: ClippyCore.Global.Animations.Shrek.RememberToPickUpToys
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberToPickUpToys
+  id: RememberToPickUpToys
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberToPickUpToys
+  nameWithType: Animations.Shrek.RememberToPickUpToys
+  fullName: ClippyCore.Global.Animations.Shrek.RememberToPickUpToys
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberToPickUpToys
+    path: ClippyCore/Global/Animations.cs
+    startLine: 222
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberToPickUpToys = 50
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberToPickUpToys As Byte = 50
+- uid: ClippyCore.Global.Animations.Shrek.RememberToShare
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberToShare
+  id: RememberToShare
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberToShare
+  nameWithType: Animations.Shrek.RememberToShare
+  fullName: ClippyCore.Global.Animations.Shrek.RememberToShare
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberToShare
+    path: ClippyCore/Global/Animations.cs
+    startLine: 223
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberToShare = 51
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberToShare As Byte = 51
+- uid: ClippyCore.Global.Animations.Shrek.RememberYourParents
+  commentId: F:ClippyCore.Global.Animations.Shrek.RememberYourParents
+  id: RememberYourParents
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: RememberYourParents
+  nameWithType: Animations.Shrek.RememberYourParents
+  fullName: ClippyCore.Global.Animations.Shrek.RememberYourParents
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: RememberYourParents
+    path: ClippyCore/Global/Animations.cs
+    startLine: 224
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte RememberYourParents = 52
+    return:
+      type: System.Byte
+    content.vb: Public Const RememberYourParents As Byte = 52
+- uid: ClippyCore.Global.Animations.Shrek.Showing
+  commentId: F:ClippyCore.Global.Animations.Shrek.Showing
+  id: Showing
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Showing
+  nameWithType: Animations.Shrek.Showing
+  fullName: ClippyCore.Global.Animations.Shrek.Showing
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Showing
+    path: ClippyCore/Global/Animations.cs
+    startLine: 225
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Showing = 53
+    return:
+      type: System.Byte
+    content.vb: Public Const Showing As Byte = 53
+- uid: ClippyCore.Global.Animations.Shrek.Stop
+  commentId: F:ClippyCore.Global.Animations.Shrek.Stop
+  id: Stop
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: Animations.Shrek.Stop
+  fullName: ClippyCore.Global.Animations.Shrek.Stop
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Stop
+    path: ClippyCore/Global/Animations.cs
+    startLine: 226
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Stop = 54
+    return:
+      type: System.Byte
+    content.vb: Public Const Stop As Byte = 54
+- uid: ClippyCore.Global.Animations.Shrek.ToiletFlush
+  commentId: F:ClippyCore.Global.Animations.Shrek.ToiletFlush
+  id: ToiletFlush
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: ToiletFlush
+  nameWithType: Animations.Shrek.ToiletFlush
+  fullName: ClippyCore.Global.Animations.Shrek.ToiletFlush
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: ToiletFlush
+    path: ClippyCore/Global/Animations.cs
+    startLine: 227
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte ToiletFlush = 55
+    return:
+      type: System.Byte
+    content.vb: Public Const ToiletFlush As Byte = 55
+- uid: ClippyCore.Global.Animations.Shrek.TriviaBathTub
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaBathTub
+  id: TriviaBathTub
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaBathTub
+  nameWithType: Animations.Shrek.TriviaBathTub
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaBathTub
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaBathTub
+    path: ClippyCore/Global/Animations.cs
+    startLine: 228
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaBathTub = 56
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaBathTub As Byte = 56
+- uid: ClippyCore.Global.Animations.Shrek.TriviaFairyTale
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaFairyTale
+  id: TriviaFairyTale
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaFairyTale
+  nameWithType: Animations.Shrek.TriviaFairyTale
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaFairyTale
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaFairyTale
+    path: ClippyCore/Global/Animations.cs
+    startLine: 229
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaFairyTale = 57
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaFairyTale As Byte = 57
+- uid: ClippyCore.Global.Animations.Shrek.TriviaMikeMyers
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaMikeMyers
+  id: TriviaMikeMyers
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaMikeMyers
+  nameWithType: Animations.Shrek.TriviaMikeMyers
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaMikeMyers
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaMikeMyers
+    path: ClippyCore/Global/Animations.cs
+    startLine: 230
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaMikeMyers = 58
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaMikeMyers As Byte = 58
+- uid: ClippyCore.Global.Animations.Shrek.TriviaPeanutButter
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaPeanutButter
+  id: TriviaPeanutButter
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaPeanutButter
+  nameWithType: Animations.Shrek.TriviaPeanutButter
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaPeanutButter
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaPeanutButter
+    path: ClippyCore/Global/Animations.cs
+    startLine: 231
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaPeanutButter = 59
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaPeanutButter As Byte = 59
+- uid: ClippyCore.Global.Animations.Shrek.TriviaShrekManHours
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaShrekManHours
+  id: TriviaShrekManHours
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaShrekManHours
+  nameWithType: Animations.Shrek.TriviaShrekManHours
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaShrekManHours
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaShrekManHours
+    path: ClippyCore/Global/Animations.cs
+    startLine: 232
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaShrekManHours = 60
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaShrekManHours As Byte = 60
+- uid: ClippyCore.Global.Animations.Shrek.TriviaWashHair
+  commentId: F:ClippyCore.Global.Animations.Shrek.TriviaWashHair
+  id: TriviaWashHair
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TriviaWashHair
+  nameWithType: Animations.Shrek.TriviaWashHair
+  fullName: ClippyCore.Global.Animations.Shrek.TriviaWashHair
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TriviaWashHair
+    path: ClippyCore/Global/Animations.cs
+    startLine: 233
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TriviaWashHair = 61
+    return:
+      type: System.Byte
+    content.vb: Public Const TriviaWashHair As Byte = 61
+- uid: ClippyCore.Global.Animations.Shrek.Tuki
+  commentId: F:ClippyCore.Global.Animations.Shrek.Tuki
+  id: Tuki
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: Tuki
+  nameWithType: Animations.Shrek.Tuki
+  fullName: ClippyCore.Global.Animations.Shrek.Tuki
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: Tuki
+    path: ClippyCore/Global/Animations.cs
+    startLine: 234
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte Tuki = 62
+    return:
+      type: System.Byte
+    content.vb: Public Const Tuki As Byte = 62
+- uid: ClippyCore.Global.Animations.Shrek.TukiMoola
+  commentId: F:ClippyCore.Global.Animations.Shrek.TukiMoola
+  id: TukiMoola
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TukiMoola
+  nameWithType: Animations.Shrek.TukiMoola
+  fullName: ClippyCore.Global.Animations.Shrek.TukiMoola
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TukiMoola
+    path: ClippyCore/Global/Animations.cs
+    startLine: 235
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TukiMoola = 63
+    return:
+      type: System.Byte
+    content.vb: Public Const TukiMoola As Byte = 63
+- uid: ClippyCore.Global.Animations.Shrek.TukiTukiTuki
+  commentId: F:ClippyCore.Global.Animations.Shrek.TukiTukiTuki
+  id: TukiTukiTuki
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TukiTukiTuki
+  nameWithType: Animations.Shrek.TukiTukiTuki
+  fullName: ClippyCore.Global.Animations.Shrek.TukiTukiTuki
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TukiTukiTuki
+    path: ClippyCore/Global/Animations.cs
+    startLine: 236
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TukiTukiTuki = 64
+    return:
+      type: System.Byte
+    content.vb: Public Const TukiTukiTuki As Byte = 64
+- uid: ClippyCore.Global.Animations.Shrek.TuuuuKiiii
+  commentId: F:ClippyCore.Global.Animations.Shrek.TuuuuKiiii
+  id: TuuuuKiiii
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: TuuuuKiiii
+  nameWithType: Animations.Shrek.TuuuuKiiii
+  fullName: ClippyCore.Global.Animations.Shrek.TuuuuKiiii
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: TuuuuKiiii
+    path: ClippyCore/Global/Animations.cs
+    startLine: 237
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte TuuuuKiiii = 65
+    return:
+      type: System.Byte
+    content.vb: Public Const TuuuuKiiii As Byte = 65
+- uid: ClippyCore.Global.Animations.Shrek.WhatAWonderfulAfternoon
+  commentId: F:ClippyCore.Global.Animations.Shrek.WhatAWonderfulAfternoon
+  id: WhatAWonderfulAfternoon
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: WhatAWonderfulAfternoon
+  nameWithType: Animations.Shrek.WhatAWonderfulAfternoon
+  fullName: ClippyCore.Global.Animations.Shrek.WhatAWonderfulAfternoon
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WhatAWonderfulAfternoon
+    path: ClippyCore/Global/Animations.cs
+    startLine: 238
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WhatAWonderfulAfternoon = 66
+    return:
+      type: System.Byte
+    content.vb: Public Const WhatAWonderfulAfternoon As Byte = 66
+- uid: ClippyCore.Global.Animations.Shrek.WhatAWonderfulEvening
+  commentId: F:ClippyCore.Global.Animations.Shrek.WhatAWonderfulEvening
+  id: WhatAWonderfulEvening
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: WhatAWonderfulEvening
+  nameWithType: Animations.Shrek.WhatAWonderfulEvening
+  fullName: ClippyCore.Global.Animations.Shrek.WhatAWonderfulEvening
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: WhatAWonderfulEvening
+    path: ClippyCore/Global/Animations.cs
+    startLine: 239
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte WhatAWonderfulEvening = 67
+    return:
+      type: System.Byte
+    content.vb: Public Const WhatAWonderfulEvening As Byte = 67
+- uid: ClippyCore.Global.Animations.Shrek.YourFamilyLovesYou
+  commentId: F:ClippyCore.Global.Animations.Shrek.YourFamilyLovesYou
+  id: YourFamilyLovesYou
+  parent: ClippyCore.Global.Animations.Shrek
+  langs:
+  - csharp
+  - vb
+  name: YourFamilyLovesYou
+  nameWithType: Animations.Shrek.YourFamilyLovesYou
+  fullName: ClippyCore.Global.Animations.Shrek.YourFamilyLovesYou
+  type: Field
+  source:
+    remote:
+      path: ClippyCore/Global/Animations.cs
+      branch: dev
+      repo: https://github.com/lethargiesleeps/ClippyAI.git
+    id: YourFamilyLovesYou
+    path: ClippyCore/Global/Animations.cs
+    startLine: 240
+  assemblies:
+  - ClippyCore
+  namespace: ClippyCore.Global
+  syntax:
+    content: public const byte YourFamilyLovesYou = 68
+    return:
+      type: System.Byte
+    content.vb: Public Const YourFamilyLovesYou As Byte = 68
+references:
+- uid: ClippyCore.Global
+  commentId: N:ClippyCore.Global
+  href: ClippyCore.html
+  name: ClippyCore.Global
+  nameWithType: ClippyCore.Global
+  fullName: ClippyCore.Global
+  spec.csharp:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Global
+    name: Global
+    href: ClippyCore.Global.html
+  spec.vb:
+  - uid: ClippyCore
+    name: ClippyCore
+    href: ClippyCore.html
+  - name: .
+  - uid: ClippyCore.Global
+    name: Global
+    href: ClippyCore.Global.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
