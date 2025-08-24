@@ -420,6 +420,8 @@ FodyWeavers.xsd
 Keys.cs
 
 # DocFX
-api/
 _site/
+api/
 docs/
+docfx.json
+toc.yml
