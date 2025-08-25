@@ -27,12 +27,14 @@ namespace ClippyCore.Agents
         public string AgentName { get; private set; }
         public AgentType AgentType { get; private set; }
         public Dictionary<byte, Animation> Animations { get; private set; } = new Dictionary<byte, Animation>();
-        public bool GlobalHandlersAttached { get; protected set; }
+        public bool IsTtsEnabled { get; protected set; }
         protected string AcsPath { get; private set; }
         public ICommandable Commands { get; private set; }
         internal AxControl Controller { get; private set; }
 
         AxControl IAgentInternal.Controller => Controller;
+
+        
 
         private readonly Dictionary<string, ICoreCommand> _commands = new Dictionary<string, ICoreCommand>();
         private readonly Dictionary<string, Delegate> _eventHandlers = new Dictionary<string, Delegate>();

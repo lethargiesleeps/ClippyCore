@@ -9,7 +9,7 @@ using System.Text;
 namespace ClippyCore.EventManagement
 {
     /// <summary>
-    /// Base implementation of ICoreCommand and IInternalCommand. Has EventType.Generic unless explicityly overridden.
+    /// Base implementation of ICoreCommand and IInternalCommand. Has EventType.NoEvent unless explicityly overridden.
     /// Mostly used internally, can also be used to Trigger generic Commands with no event attached to it (ex: TriggerCommand("my_command", () => doSomething())
     /// Distinction between Command and Event: A Command is a physical interaction. It houses the data for an Event which is what happens when the interaction occurs.
     /// </summary>
@@ -34,7 +34,7 @@ namespace ClippyCore.EventManagement
             Name = name;
             DisplayName = name; //TODO: DisplayName formatting... i.e Name = "READ_TEXT", DisplayName = "Read Text"
             _action = action;
-            EventType = EventType.Generic;
+            EventType = EventType.NoEvent;
 
         }
         /// <summary>

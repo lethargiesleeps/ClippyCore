@@ -19,7 +19,7 @@ namespace ClippyCore.EventManagement
         private string _displayName;
         private string _description;
         private Action _action;
-        private EventType _eventType = EventType.Generic;
+        private EventType _eventType = EventType.NoEvent;
 
         /// <summary>
         /// Required. Gives Command a name
@@ -76,7 +76,7 @@ namespace ClippyCore.EventManagement
 
             switch(_eventType)
             {
-                case EventType.Generic: concreteCommand = new Command(_name, _action); break;
+                case EventType.NoEvent: concreteCommand = new Command(_name, _action); break;
                 case EventType.DoubleClick: concreteCommand = new DoubleClickCommand(_name, _action); break;
                 case EventType.ContextMenu: concreteCommand = new ContextMenuCommand(_name, _action); break;
                 default: throw new InvalidOperationException("Please use correct EventType. Can be set with .WithType()");

@@ -6,12 +6,12 @@ namespace ClippyCore.EventManagement
 {
     /// <summary>
     /// Enum of all possible types of events to listen for.
-    /// 'Generic' represents a generic command, i.e a Command with no event attached to it.
+    /// 'NoEvent' represents a generic command, i.e a Command with no event attached to it.
     /// </summary>
     /// <see cref="Command"/>
     public enum EventType
     {
-        Generic,
+        NoEvent,
         Click,
         DoubleClick,
         ContextMenu

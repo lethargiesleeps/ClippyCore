@@ -25,7 +25,7 @@ namespace ClippyCore.EventManagement
         {
             switch(eventType)
             {
-                case EventType.Generic:
+                case EventType.NoEvent:
                     return new Command(name, action);
                 case EventType.DoubleClick:
                     return new DoubleClickCommand(name, action);
