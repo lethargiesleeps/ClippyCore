@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/your-username/your-repo/issues)
-###### Current Version: v0.1
+###### Current Version: v0.2
 
 
 A library + deployable programs to use multiple Microsoft Agents on modern Windows systems (7 and newer) that keeps some of the old functionality and has AI capabilities. Comes with a .exe WinForms and a Microsoft Word add-in as well. Based on a previous implementation I made of [Bonzi Buddy](https://github.com/lethargiesleeps/BonziBuddy) using the DoubleAgent SDK. Comes with 3 Agents so far with more to be added :)
@@ -52,9 +52,11 @@ MS Agent, and even DoubleAgent, rely on ActiveX to properly function. Because of
 5. If using the repo, ensure all projects have the correct references to the 3 DoubleAgent DLLs, or update the paths based on your machine if necessary.
 6. If building your own project with or without ClippyCore, ensure it has references to the 3 DLLs and `System.Windows.Forms` and that it works with .NET Framework 2.0
 7. (Optional but recommended) Install MASH, it is a tool that lets you load and mess around with your agents. It also generates scripts (in VB) that show some of the functions used by DoubleAgent.AxControl.
+8. Check out GETTING_STARTED.md more code examples. Documentation site coming soon!
 
 ```csharp
 //Some example code to get started
+//See GETTING_STARTED.md for better
 //Similar code can be found @ ClippyDesktop.Forms.Main.cs at HelloWorldDemo()
             
 //With ClippyCore
@@ -86,17 +88,23 @@ As of right now, with ClippyCore you can:
 - Play any of their animations
 - Stop the animations (if looping)
 - Make them say stuff
-
-### Future Development
-**Version 0.2 should include**
-- Implement more from the DoubleAgent SDK (Gesture/Look to position, Agent specific features)
 - Right+Click context menus that can be expanded on
 - Event handling API for the context menus
+- Command API
+
+### Future Development
+**Version 0.3 should include**
+- Implement more from the DoubleAgent SDK (Gesture/Look to position, Agent specific features)
 - Some pre-determined default events for each agent (that can be replaced with custom events)
-- Peristent Settings (changing current Agent, default Agent, amongst other stuff)
 - Sayings for the agents to speak, and a Speech API (like I did in BonziBuddy repo)
 - Get agents to read and speak contents of a text-file, or let developers load in key:value based JSON files and load as Speech
 - Singing if TTS enabled (will probably just copy over the Singing API I made in the BonziBuddy repo)
+
+**Version 0.4 should include**
 - Debug mode (option to log errors and continue execution if off, or throw exceptions if on)
+- Peristent Settings (changing current Agent, default Agent, amongst other stuff)
+- Fully functional Logging and better error handling for all of ClippyCore
+- Documentation up and running
+- Some unit tests?
 
 

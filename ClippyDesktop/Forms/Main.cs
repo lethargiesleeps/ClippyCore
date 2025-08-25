@@ -12,14 +12,14 @@ using ClippyCore.Global;
 using ClippyCore.Agents;
 using ClippyCore.Interfaces;
 using System.Diagnostics;
+using ClippyCore.EventManagement;
 
 namespace ClippyDesktop.Forms
 {
     public partial class Main : Form
     {
-        private int _agentPosX;
-        private int _agentPosY;
-        private IAgent _bonzi;
+
+        private Agent _bonzi;
         private IAgent _shrek;
         private IAgent _clippy;
 
@@ -27,44 +27,65 @@ namespace ClippyDesktop.Forms
         {
             InitializeComponent();
             Hide();
-            _agentPosX = Screen.PrimaryScreen.Bounds.Right - 600;
-            _agentPosY = Screen.PrimaryScreen.Bounds.Bottom - 450;
-            AxControl axControl = new AxControl();
-            axControl.CreateControl();
-            _shrek = AgentManager.CreateAgent(axControl, AgentType.Shrek);
-            _bonzi = AgentManager.CreateAgent(axControl, AgentType.Bonzi);
-            _clippy = AgentManager.CreateAgent(axControl, AgentType.Clippy);
 
-            _bonzi.Show();
-            _bonzi.Play("POOOPOOO");
+            HelloWorldDemo();
+
 
         }
 
+        
+
         public void HelloWorldDemo()
         {
-            //Some example code to get started
-            //Similar code can be found @ ClippyDesktop.Forms.Main.cs at HelloWorldDemo()
-            
-            //With ClippyCore
+            //1. Create new agent
             AxControl axControl = new AxControl();
-            axControl.CreateControl(); //This is what uses the Control class from Windows.System.Forms
-            IAgent clippy = AgentManager.CreateAgent(axControl, AgentType.Clippy);
-            clippy.Show();
-            clippy.Play(Animations.Clippy.Wave);
-            clippy.Speak("Hello World!");
-            clippy.Hide();
+            axControl.CreateControl();
+            IAgent bonzi = AgentManager.CreateAgent(axControl, AgentType.Bonzi);
 
-            //With AxControl directly
-            
-            AxControl axControl2 = new AxControl();
-            string agentName = "BonziVine";
-            axControl2.CreateControl();
-            axControl2.Characters.Load(agentName, "../some/path/to/an/acsfile.acs");
-            axControl2.Characters[agentName].TTSModeID = "{some-tts-id}"; //Required for some agents for Text to speech to work
-            axControl2.Characters[agentName].Show();
-            axControl2.Characters[agentName].Play("Wave");
-            axControl2.Characters[agentName].Speak("Hello World!");
-            axControl2.Characters[agentName].Hide();
+            //2. Move agent and Show
+            int agentPosX = Screen.PrimaryScreen.Bounds.Right - 600;
+            int agentPosY = Screen.PrimaryScreen.Bounds.Bottom - 450;
+            bonzi.MoveTo(agentPosX, agentPosY);
+
+
+            //3. Script your commands
+            //Using CommandFactory (simple)
+            ICoreCommand greetCommand = CommandFactory.CreateContextMenuCommand("Greet", () => bonzi.Speak("I'm here to help you."));
+
+            //Using CommandBuilder (more flexibility)
+            ICoreCommand jokeCommand = new CommandBuilder()
+                .WithEventType(EventType.ContextMenu)
+                .WithName("TellJoke")
+                .WithDisplayName("Tell Joke")
+                .WithDescription("Bonzi tells a joke haha.")
+                .WithAction( () => bonzi.Speak("Why don't scientists trust atoms? Because they make up everything!"))
+                .Build();
+
+
+            // 4. Attach commands
+            bonzi.Commands.AddCommand(greetCommand);
+            bonzi.Commands.AddCommand(jokeCommand);
+
+            //5. Dettach a command
+            bonzi.Commands.RemoveCommand("Greet");
+
+            //6. Update commands with new one
+            ICoreCommand weatherCommand = CommandFactory.CreateContextMenuCommand("Weather", () => bonzi.Speak("Let me check the weather for you..."));
+            bonzi.Commands.AddCommand(weatherCommand);
+
+            //7. Show and do some stuff.
+            bonzi.Show();
+
+            bonzi.Play(Animations.Bonzi.Wave); //Pre programmed animations
+            bonzi.Play("Wink"); //Pass animation name
+            bonzi.GetAnimation("Wink").Play(bonzi); //Alternative way to play animation
+            bonzi.Speak("Hello there! My name is Bonzi Buddy");
+
+            //8. Runs command not associated with an event. Stored internally for later use as well.
+            bonzi.Commands.TriggerCommand("Greet");
+
+
+
 
         }
         public void SpeakPhotographLyrics()

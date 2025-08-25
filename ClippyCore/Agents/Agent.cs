@@ -1,4 +1,5 @@
-﻿using ClippyCore.Global;
+﻿using ClippyCore.EventManagement;
+using ClippyCore.Global;
 using ClippyCore.Helpers;
 using ClippyCore.Interfaces;
 using DoubleAgent.AxControl;
@@ -6,6 +7,7 @@ using DoubleAgent.Control;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
@@ -16,23 +18,40 @@ namespace ClippyCore.Agents
     /// Base implementation of IAgent.
     /// Abstracts the use of AxControl from other clients.
     /// To create and dispose of Agents, use public AgentManager.
+    /// Uses a CommandManager to execute and manage events/
     /// <see cref="AgentManager"/>
+    /// <see cref="CommandManager"/>
     /// </summary>
-    internal class Agent : IAgent
+    public class Agent : IAgent, IAgentInternal
     {
         public string AgentName { get; private set; }
         public AgentType AgentType { get; private set; }
         public Dictionary<byte, Animation> Animations { get; private set; } = new Dictionary<byte, Animation>();
+        public bool GlobalHandlersAttached { get; protected set; }
         protected string AcsPath { get; private set; }
-        protected AxControl Controller { get; private set; }
+        public ICommandable Commands { get; private set; }
+        internal AxControl Controller { get; private set; }
 
-        public Agent(string acsPath, string agentName, AgentType agentType, AxControl axController)
+        AxControl IAgentInternal.Controller => Controller;
+
+        private readonly Dictionary<string, ICoreCommand> _commands = new Dictionary<string, ICoreCommand>();
+        private readonly Dictionary<string, Delegate> _eventHandlers = new Dictionary<string, Delegate>();
+
+        /// <summary>
+        /// Base constructor for an MS Agent.
+        /// </summary>
+        /// <param name="acsPath">Path to the ACS file.</param>
+        /// <param name="agentName">Name of the agent, required for use in AxControl since 1 control can utilize multiple Agents.</param>
+        /// <param name="agentType">Type of the agent. If using your own agent you must pass AgentType.Custom</param>
+        /// <param name="axController">Must pass an AxControl that .CreateControl() was called on.</param>
+        internal Agent(string acsPath, string agentName, AgentType agentType, AxControl axController)
         {
             AcsPath = acsPath;
             AgentName = agentName;
             AgentType = agentType;
             Controller = axController;
             Controller.Characters.Load(AgentName, AcsPath);
+            
 
             //Create animation dictioary
             for(int i = 0; i < Controller.Characters[AgentName].Animations.Length; i++)
@@ -48,7 +67,17 @@ namespace ClippyCore.Agents
                 }
             }
 
+            Commands = new CommandManager(this);
+
         }
+
+        #region AxControlManagement
+        /// <summary>
+        /// Implemented from IAgentInternal.
+        /// Returns AxControl for use within API to attach/dettach event handlers.
+        /// </summary>
+        /// <returns>Current AxControl tied to agent.</returns>
+        internal AxControl GetAxControl() => Controller;
 
         /// <summary>
         /// Hides the agent from the screen, but is still running in background.
@@ -263,6 +292,11 @@ namespace ClippyCore.Agents
             return Animations[key];
         }
 
+        AxControl IAgentInternal.GetAxControl()
+        {
+            return GetAxControl();
+        }
+        #endregion
 
     }
 }
