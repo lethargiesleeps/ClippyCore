@@ -14,6 +14,9 @@ namespace ClippyCore.Interfaces
     /// <see cref="Agent"/>
     public interface IAgent
     {
+        string AgentName { get; }
+        AgentType AgentType { get; }
+        ICommandable Commands { get; }
         void Speak(string phrase);
         void Speak(List<string> phrases);
         void Speak(Dictionary<uint, string> phrases, uint key);

@@ -17,11 +17,11 @@ namespace ClippyCore.Agents
         /// <summary>
         /// Creates and agent. Multiple agents can be created and used at any given time using one axControl.
         /// </summary>
-        /// <param name="axControl">AxControl object the agent will use (should only ever be one at any given time)</param>
+        /// <param name="axControl">AxControl for Agent to use. (should only ever be one at any given time)</param>
         /// <param name="agentType">Enum used to determine what values to set when instantiating a new Agent.</param>
         /// <see cref="AgentType"/>
         /// <returns>A class that implements IAgent, to be used during program execution.</returns>
-        public static IAgent CreateAgent(AxControl axControl, AgentType agentType)
+        public static Agent CreateAgent(AxControl axControl, AgentType agentType)
         {
 
             switch(agentType)
@@ -36,5 +36,19 @@ namespace ClippyCore.Agents
                     return null;
             }
         }
+
+        /// <summary>
+        /// Creates a custom agent (not preimplemented by ClippyCire)
+        /// </summary>
+        /// <param name="axControl">AxControl for Agent to use. Defined at startup.</param>
+        /// <param name="agentName">Name of the Agent.t</param>
+        /// <param name="acsPath">Path to the Agent's ACS file.</param>
+        /// <param name="ttsID">If provided, returns a TTS enabled Agent.</param>
+        /// <returns>The custom Agent.</returns>
+        public static Agent CreateCustomAgent(AxControl axControl, string agentName, string acsPath, string ttsID = null) =>
+            string.IsNullOrEmpty(ttsID)
+            ? new Agent(acsPath, agentName, AgentType.Custom, axControl)
+            : new TtsAgent(acsPath, agentName, AgentType.Custom, axControl, ttsID);
+
     }
 }

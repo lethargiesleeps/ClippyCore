@@ -11,6 +11,7 @@ namespace ClippyCore.Agents
     {
         Clippy,
         Bonzi,
-        Shrek
+        Shrek,
+        Custom
     }
 }

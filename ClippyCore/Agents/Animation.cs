@@ -15,6 +15,11 @@ namespace ClippyCore.Agents
         public string Name { get; }
         public string DisplayName { get; }
 
+        /// <summary>
+        /// Constructor for Animation. Might make public but private for now.
+        /// </summary>
+        /// <param name="name">Name of animation.</param>
+        /// <param name="displayName">Formatted form of Name</param>
         private Animation(string name, string displayName = null)
         {
             Name = name;
