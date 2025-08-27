@@ -14,6 +14,11 @@ namespace ClippyCore.EventManagement
         NoEvent,
         Click,
         DoubleClick,
-        ContextMenu
+        ContextMenu,
+        Hide,
+        Show,
+        Move,
+        DragStart,
+        DragEnd
     }
 }

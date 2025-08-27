@@ -1,4 +1,5 @@
 ﻿using ClippyCore.Agents;
+using ClippyCore.Helpers;
 using ClippyCore.Interfaces;
 using DoubleAgent.AxControl;
 using System;
@@ -22,6 +23,9 @@ namespace ClippyCore.EventManagement
         public string Description { get; set; }
         public EventType EventType { get; protected set; }
         public int TimesFired { get; protected set; }
+
+        protected IEnumerable<ICoreCommand> _commands;
+
         protected Action _action;
 
         /// <summary>
@@ -32,7 +36,7 @@ namespace ClippyCore.EventManagement
         public Command(string name, Action action)
         {
             Name = name;
-            DisplayName = name; //TODO: DisplayName formatting... i.e Name = "READ_TEXT", DisplayName = "Read Text"
+            DisplayName = StringFormatter.FormatDisplayName(Name); //TODO: DisplayName formatting... i.e Name = "READ_TEXT", DisplayName = "Read Text"
             _action = action;
             EventType = EventType.NoEvent;
 
@@ -62,13 +66,14 @@ namespace ClippyCore.EventManagement
             _action?.Invoke();
         }
 
+   
         /// <summary>
         /// Generic Commands do not require attachment as they are not tied with an event, and are Execucuted either via Execute() or CommandManager.TriggerEvent()
         /// </summary>
         /// <param name="agent"></param>
         public virtual void Attach(IAgentInternal agent)
         {
-            //TODO: Default implementation. Log that using is pointless on generic command.
+            _commands = agent.Commands.GetCommands(EventType);
         }
 
         /// <summary>
@@ -91,5 +96,6 @@ namespace ClippyCore.EventManagement
         /// </summary>
         /// <param name="description">Description to set.</param>
         public void SetDescription(string description) => Description = description;
+
     }
 }

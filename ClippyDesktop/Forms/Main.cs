@@ -13,6 +13,8 @@ using ClippyCore.Agents;
 using ClippyCore.Interfaces;
 using System.Diagnostics;
 using ClippyCore.EventManagement;
+using ClippyCore.EventManagement.Commands;
+using ClippyCore.EventManagement.Inputs;
 
 namespace ClippyDesktop.Forms
 {
@@ -47,42 +49,12 @@ namespace ClippyDesktop.Forms
             int agentPosY = Screen.PrimaryScreen.Bounds.Bottom - 450;
             bonzi.MoveTo(agentPosX, agentPosY);
 
-
-            //3. Script your commands
-            //Using CommandFactory (simple)
-            ICoreCommand greetCommand = CommandFactory.CreateContextMenuCommand("Greet", () => bonzi.Speak("I'm here to help you."));
-
-            //Using CommandBuilder (more flexibility)
-            ICoreCommand jokeCommand = new CommandBuilder()
-                .WithEventType(EventType.ContextMenu)
-                .WithName("TellJoke")
-                .WithDisplayName("Tell Joke")
-                .WithDescription("Bonzi tells a joke haha.")
-                .WithAction( () => bonzi.Speak("Why don't scientists trust atoms? Because they make up everything!"))
-                .Build();
-
-
-            // 4. Attach commands
-            bonzi.Commands.AddCommand(greetCommand);
-            bonzi.Commands.AddCommand(jokeCommand);
-
-            //5. Dettach a command
-            bonzi.Commands.RemoveCommand("Greet");
-
-            //6. Update commands with new one
-            ICoreCommand weatherCommand = CommandFactory.CreateContextMenuCommand("Weather", () => bonzi.Speak("Let me check the weather for you..."));
-            bonzi.Commands.AddCommand(weatherCommand);
-
-            //7. Show and do some stuff.
             bonzi.Show();
 
-            bonzi.Play(Animations.Bonzi.Wave); //Pre programmed animations
-            bonzi.Play("Wink"); //Pass animation name
-            bonzi.GetAnimation("Wink").Play(bonzi); //Alternative way to play animation
-            bonzi.Speak("Hello there! My name is Bonzi Buddy");
-
-            //8. Runs command not associated with an event. Stored internally for later use as well.
-            bonzi.Commands.TriggerCommand("Greet");
+            ICoreCommand leftClick = CommandFactory.CreateClickCommand("LeftClick", () => bonzi.Speak("Left"), new ClickFilter(MouseButton.Left));
+            ICoreCommand shiftRight = CommandFactory.CreateClickCommand("ShiftRight", () => bonzi.Speak("Shift Right"), new ClickFilter(MouseButton.Right, ModKeys.Shift));
+   
+            bonzi.Speak(Songs.Shared.BetterOffAlone().ToString());
 
 
 

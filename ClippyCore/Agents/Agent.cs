@@ -31,13 +31,8 @@ namespace ClippyCore.Agents
         protected string AcsPath { get; private set; }
         public ICommandable Commands { get; private set; }
         internal AxControl Controller { get; private set; }
-
         AxControl IAgentInternal.Controller => Controller;
 
-        
-
-        private readonly Dictionary<string, ICoreCommand> _commands = new Dictionary<string, ICoreCommand>();
-        private readonly Dictionary<string, Delegate> _eventHandlers = new Dictionary<string, Delegate>();
 
         /// <summary>
         /// Base constructor for an MS Agent.

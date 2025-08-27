@@ -9,15 +9,16 @@ using System.Text;
 namespace ClippyCore.EventManagement.Commands
 {
     /// <summary>
-    /// Command to be executed when Agent is double clicked.  Uses ClickFilter to determine button+key presses and combos.
+    /// Command to be executed when Agent is clicked. Uses ClickFilter to determine button+key presses and combos.
     /// </summary>
     /// <see cref="Command"/>
     /// <see cref="ClickFilter"/>
-    internal class DoubleClickCommand : Command
+    internal class ClickCommand : Command
     {
-        public CtlDblClickEvent LastEvent { get; private set; }
+        public CtlClickEvent LastEvent { get; private set; }
+
         private readonly ClickFilter _filter;
-        private CtlDblClickEventHandler _handler;
+        public CtlClickEventHandler _handler;
 
         /// <summary>
         /// Constructor.
@@ -25,9 +26,9 @@ namespace ClippyCore.EventManagement.Commands
         /// <param name="name">Name of command.</param>
         /// <param name="action">Event it performs.</param>
         /// <param name="filter">Filter parameters for event.</param>
-        public DoubleClickCommand(string name, Action action, ClickFilter filter = null) : base(name, action)
+        public ClickCommand(string name, Action action, ClickFilter filter = null) : base(name, action)
         {
-            EventType = EventType.DoubleClick;
+            EventType = EventType.Click;
             _filter = filter ?? ClickFilter.AnyClick;
         }
 
@@ -38,8 +39,9 @@ namespace ClippyCore.EventManagement.Commands
         public override void Attach(IAgentInternal agent)
         {
             base.Attach(agent);
-            _handler = new CtlDblClickEventHandler(OnCommand);
-            agent.Controller.CtlDblClick += _handler;
+            _handler = new CtlClickEventHandler(OnCommand);
+            agent.Controller.CtlClick += _handler;
+
         }
 
         /// <summary>
@@ -51,24 +53,25 @@ namespace ClippyCore.EventManagement.Commands
             base.Detach(agent);
             if (_handler != null)
             {
-                agent.Controller.CtlDblClick -= _handler;
+                agent.Controller.CtlClick -= _handler;
                 _handler = null;
                 LastEvent = null;
             }
         }
 
         /// <summary>
-        /// Event Handler.
+        /// Event _handler.
         /// </summary>
         /// <param name="sender">What triggered the event.</param>
         /// <param name="e">Event data.</param>
-        private void OnCommand(object sender, CtlDblClickEvent e)
+        private void OnCommand(object sender, CtlClickEvent e)
         {
             if (ShouldExecuteForEvent(e))
             {
                 LastEvent = e;
                 Execute();
             }
+
         }
 
         /// <summary>
@@ -76,7 +79,7 @@ namespace ClippyCore.EventManagement.Commands
         /// </summary>
         /// <param name="e">Event data.</param>
         /// <returns>Bool whether or not to execute event</returns>
-        private bool ShouldExecuteForEvent(CtlDblClickEvent e)
+        private bool ShouldExecuteForEvent(CtlClickEvent e)
         {
             bool buttonMatches = _filter.MouseButton.HasFlag(EventHelper.GetMousePress(e.Button));
             bool modifierKeyMatches = _filter.ModifierKeys.HasFlag(EventHelper.GetModifierKeyPress(e.Shift));
