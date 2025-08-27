@@ -17,6 +17,7 @@ namespace ClippyCore.Interfaces
         string AgentName { get; }
         AgentType AgentType { get; }
         ICommandable Commands { get; }
+        bool IsTtsEnabled { get; }
         void Speak(string phrase);
         void Speak(List<string> phrases);
         void Speak(Dictionary<uint, string> phrases, uint key);
