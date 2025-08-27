@@ -1,6 +1,11 @@
-# Current Version: 0.2
+# Current Version: 0.3
 ## Current Official Release: none
 ## Current DLL Release: none
+
+### v0.3
+- Added ClickCommand, MoveCommand, Show/HideCommand
+- Added options to trigger events when command meets specific requirement (right-click, left-click, hide cause, etc...)
+- Added SongMaker. Create songs using SongBuilder and predetermine notes. Has 3 prebuilt songs for TTS agents.
 
 ### v0.2
 - Implemented Command system for Agents

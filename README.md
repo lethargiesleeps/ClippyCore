@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/your-username/your-repo/issues)
-###### Current Version: v0.2
+###### Current Version: v0.3
 
 
 A library + deployable programs to use multiple Microsoft Agents on modern Windows systems (7 and newer) that keeps some of the old functionality and has AI capabilities. Comes with a .exe WinForms and a Microsoft Word add-in as well. Based on a previous implementation I made of [Bonzi Buddy](https://github.com/lethargiesleeps/BonziBuddy) using the DoubleAgent SDK. Comes with 3 Agents so far with more to be added :)
