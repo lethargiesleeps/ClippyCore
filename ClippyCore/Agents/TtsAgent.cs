@@ -28,6 +28,7 @@ namespace ClippyCore.Agents
         {
             TtsID = ttsID;
             Controller.Characters[AgentName].TTSModeID = TtsID;
+            IsTtsEnabled = true;
         }
     }
 }

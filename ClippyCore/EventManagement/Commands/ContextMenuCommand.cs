@@ -7,7 +7,7 @@ using System.Text;
 namespace ClippyCore.EventManagement.Commands
 {
     /// <summary>
-    /// Command type representing a clicking on an Agent's Context Menu (right clicking on the agent). This Command type can only be attached to an Agent. Attaching it to other controls is potentially possible but not supported.
+    /// Command to be executed when assigned option is selected on an Agent's Context Menu (right clicking on the agent). This Command type can only be attached to an Agent. Attaching it to other controls is potentially possible but not supported.
     /// </summary>
     /// <see cref="Command"/>
     internal class ContextMenuCommand : Command

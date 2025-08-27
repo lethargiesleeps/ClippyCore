@@ -93,6 +93,17 @@ namespace ClippyCore.EventManagement
         }
 
         /// <summary>
+        /// Trigger, in sequence, all commands of specified type.
+        /// Ignores causes and filters.
+        /// </summary>
+        /// <param name="eventType"></param>
+        public void TriggerCommands(EventType eventType)
+        {
+            IEnumerable<ICoreCommand> commands = _commands.Values.Where((t) => t.EventType == eventType);
+            foreach(ICoreCommand command in commands) command.Execute();
+        }
+
+        /// <summary>
         /// Get all Commands currently stored in memory (added via AddCommand)
         /// </summary>
         /// <returns>Enumerable collection of stored Commands.</returns>

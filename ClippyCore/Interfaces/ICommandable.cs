@@ -18,6 +18,7 @@ namespace ClippyCore.Interfaces
         void TriggerCommand(string commandName);
         void TriggerCommand(ICoreCommand command);
         void TriggerCommand(Action action);
+        void TriggerCommands(EventType eventType);
         IEnumerable<ICoreCommand> GetCommands();
         IEnumerable<ICoreCommand> GetCommands(EventType eventType);
         void RemoveAllCommands();
